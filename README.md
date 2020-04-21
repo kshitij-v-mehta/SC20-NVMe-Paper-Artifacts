@@ -9,10 +9,10 @@ SPECFEM3D code version: git hash 907abeb5a2b89493f5fd73e7c44104a0686ccba4 in bra
 
 The GTC source code is from the closed-source repository from the [research group led by Zhihong Lin at University of California, Irvine](http://phoenix.ps.uci.edu/zlin).
 
-POSIX-WRITE-CAMPAIGNS contains the source code and data for the POSIX write test used to benchmark the NVMe performance for continuous, fast writes vs. streaming writes with a time delay between write calls.
+POSIX-WRITE-BENCHMARK contains the source code and data for the POSIX write test used to benchmark the NVMe performance for fast writes vs. streaming writes with a time delay between write calls.
 
 ## Experiment Campaigns
-The campaign directory follows the format of the [CODAR Cheetah campaign management tool](https://github.com/CODARcode/cheetah/tree/1a33c90b2cda737d844dd8051545874a88da90bf). Please consult the [Cheetah documentation](https://codarcode.github.io/cheetah) to understand the campaign directory structure. We have also provided some instructions to parse the campaign directory below.
+The campaign directory follows the format of the [CODAR Cheetah campaign management tool](https://github.com/CODARcode/cheetah/tree/1a33c90b2cda737d844dd8051545874a88da90bf). Please consult the [Cheetah documentation](https://codarcode.github.io/cheetah) to understand the campaign directory structure. The instructions below describe some of the campaign directory structure.
 
 #### Performance data
 Inside a campaign directory (`SPECFEM3D/cheetah-campaign/` and `GTC/cheetah-campaign/`), we have a `campaign_results.csv` file which provide overall runtime information for all experiments in the campaign. Additional csv files may be found for per-experiment step runtimes.
