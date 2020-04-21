@@ -1,0 +1,1 @@
+LSF:Job <977718> is submitted to default queue <batch>.

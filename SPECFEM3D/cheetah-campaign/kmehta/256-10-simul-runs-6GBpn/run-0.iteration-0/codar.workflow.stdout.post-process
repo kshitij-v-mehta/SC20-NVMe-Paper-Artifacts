@@ -1,0 +1,5517 @@
+.
+|-- DATA
+|   |-- CMTSOLUTION
+|   |-- Par_file
+|   `-- STATIONS
+|-- DATABASES_MPI
+|   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|-- OUTPUT_FILES
+|   |-- addressing.txt
+|   |-- gpu_device_info.txt
+|   |-- gpu_device_mem_usage.txt
+|   |-- output_mesher.txt
+|   `-- values_from_mesher.h
+|-- adios_settings.txt
+|-- codar.cheetah.fob.json
+|-- codar.cheetah.run-params.json
+|-- codar.cheetah.run-params.txt
+|-- codar.cheetah.tau-forward
+|-- codar.workflow.return.forward
+|-- codar.workflow.stderr.forward
+|-- codar.workflow.stderr.post-process
+|-- codar.workflow.stdout.forward
+|-- codar.workflow.stdout.post-process
+|-- codar.workflow.walltime.forward
+|-- forward.erf_input
+|-- run0001
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0002
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0003
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0004
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0005
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0006
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0007
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0008
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0009
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0010
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.128
+|   |   |   |-- data.129
+|   |   |   |-- data.13
+|   |   |   |-- data.130
+|   |   |   |-- data.131
+|   |   |   |-- data.132
+|   |   |   |-- data.133
+|   |   |   |-- data.134
+|   |   |   |-- data.135
+|   |   |   |-- data.136
+|   |   |   |-- data.137
+|   |   |   |-- data.138
+|   |   |   |-- data.139
+|   |   |   |-- data.14
+|   |   |   |-- data.140
+|   |   |   |-- data.141
+|   |   |   |-- data.142
+|   |   |   |-- data.143
+|   |   |   |-- data.144
+|   |   |   |-- data.145
+|   |   |   |-- data.146
+|   |   |   |-- data.147
+|   |   |   |-- data.148
+|   |   |   |-- data.149
+|   |   |   |-- data.15
+|   |   |   |-- data.150
+|   |   |   |-- data.151
+|   |   |   |-- data.152
+|   |   |   |-- data.153
+|   |   |   |-- data.154
+|   |   |   |-- data.155
+|   |   |   |-- data.156
+|   |   |   |-- data.157
+|   |   |   |-- data.158
+|   |   |   |-- data.159
+|   |   |   |-- data.16
+|   |   |   |-- data.160
+|   |   |   |-- data.161
+|   |   |   |-- data.162
+|   |   |   |-- data.163
+|   |   |   |-- data.164
+|   |   |   |-- data.165
+|   |   |   |-- data.166
+|   |   |   |-- data.167
+|   |   |   |-- data.168
+|   |   |   |-- data.169
+|   |   |   |-- data.17
+|   |   |   |-- data.170
+|   |   |   |-- data.171
+|   |   |   |-- data.172
+|   |   |   |-- data.173
+|   |   |   |-- data.174
+|   |   |   |-- data.175
+|   |   |   |-- data.176
+|   |   |   |-- data.177
+|   |   |   |-- data.178
+|   |   |   |-- data.179
+|   |   |   |-- data.18
+|   |   |   |-- data.180
+|   |   |   |-- data.181
+|   |   |   |-- data.182
+|   |   |   |-- data.183
+|   |   |   |-- data.184
+|   |   |   |-- data.185
+|   |   |   |-- data.186
+|   |   |   |-- data.187
+|   |   |   |-- data.188
+|   |   |   |-- data.189
+|   |   |   |-- data.19
+|   |   |   |-- data.190
+|   |   |   |-- data.191
+|   |   |   |-- data.192
+|   |   |   |-- data.193
+|   |   |   |-- data.194
+|   |   |   |-- data.195
+|   |   |   |-- data.196
+|   |   |   |-- data.197
+|   |   |   |-- data.198
+|   |   |   |-- data.199
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.200
+|   |   |   |-- data.201
+|   |   |   |-- data.202
+|   |   |   |-- data.203
+|   |   |   |-- data.204
+|   |   |   |-- data.205
+|   |   |   |-- data.206
+|   |   |   |-- data.207
+|   |   |   |-- data.208
+|   |   |   |-- data.209
+|   |   |   |-- data.21
+|   |   |   |-- data.210
+|   |   |   |-- data.211
+|   |   |   |-- data.212
+|   |   |   |-- data.213
+|   |   |   |-- data.214
+|   |   |   |-- data.215
+|   |   |   |-- data.216
+|   |   |   |-- data.217
+|   |   |   |-- data.218
+|   |   |   |-- data.219
+|   |   |   |-- data.22
+|   |   |   |-- data.220
+|   |   |   |-- data.221
+|   |   |   |-- data.222
+|   |   |   |-- data.223
+|   |   |   |-- data.224
+|   |   |   |-- data.225
+|   |   |   |-- data.226
+|   |   |   |-- data.227
+|   |   |   |-- data.228
+|   |   |   |-- data.229
+|   |   |   |-- data.23
+|   |   |   |-- data.230
+|   |   |   |-- data.231
+|   |   |   |-- data.232
+|   |   |   |-- data.233
+|   |   |   |-- data.234
+|   |   |   |-- data.235
+|   |   |   |-- data.236
+|   |   |   |-- data.237
+|   |   |   |-- data.238
+|   |   |   |-- data.239
+|   |   |   |-- data.24
+|   |   |   |-- data.240
+|   |   |   |-- data.241
+|   |   |   |-- data.242
+|   |   |   |-- data.243
+|   |   |   |-- data.244
+|   |   |   |-- data.245
+|   |   |   |-- data.246
+|   |   |   |-- data.247
+|   |   |   |-- data.248
+|   |   |   |-- data.249
+|   |   |   |-- data.25
+|   |   |   |-- data.250
+|   |   |   |-- data.251
+|   |   |   |-- data.252
+|   |   |   |-- data.253
+|   |   |   |-- data.254
+|   |   |   |-- data.255
+|   |   |   |-- data.256
+|   |   |   |-- data.257
+|   |   |   |-- data.258
+|   |   |   |-- data.259
+|   |   |   |-- data.26
+|   |   |   |-- data.260
+|   |   |   |-- data.261
+|   |   |   |-- data.262
+|   |   |   |-- data.263
+|   |   |   |-- data.264
+|   |   |   |-- data.265
+|   |   |   |-- data.266
+|   |   |   |-- data.267
+|   |   |   |-- data.268
+|   |   |   |-- data.269
+|   |   |   |-- data.27
+|   |   |   |-- data.270
+|   |   |   |-- data.271
+|   |   |   |-- data.272
+|   |   |   |-- data.273
+|   |   |   |-- data.274
+|   |   |   |-- data.275
+|   |   |   |-- data.276
+|   |   |   |-- data.277
+|   |   |   |-- data.278
+|   |   |   |-- data.279
+|   |   |   |-- data.28
+|   |   |   |-- data.280
+|   |   |   |-- data.281
+|   |   |   |-- data.282
+|   |   |   |-- data.283
+|   |   |   |-- data.284
+|   |   |   |-- data.285
+|   |   |   |-- data.286
+|   |   |   |-- data.287
+|   |   |   |-- data.288
+|   |   |   |-- data.289
+|   |   |   |-- data.29
+|   |   |   |-- data.290
+|   |   |   |-- data.291
+|   |   |   |-- data.292
+|   |   |   |-- data.293
+|   |   |   |-- data.294
+|   |   |   |-- data.295
+|   |   |   |-- data.296
+|   |   |   |-- data.297
+|   |   |   |-- data.298
+|   |   |   |-- data.299
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.300
+|   |   |   |-- data.301
+|   |   |   |-- data.302
+|   |   |   |-- data.303
+|   |   |   |-- data.304
+|   |   |   |-- data.305
+|   |   |   |-- data.306
+|   |   |   |-- data.307
+|   |   |   |-- data.308
+|   |   |   |-- data.309
+|   |   |   |-- data.31
+|   |   |   |-- data.310
+|   |   |   |-- data.311
+|   |   |   |-- data.312
+|   |   |   |-- data.313
+|   |   |   |-- data.314
+|   |   |   |-- data.315
+|   |   |   |-- data.316
+|   |   |   |-- data.317
+|   |   |   |-- data.318
+|   |   |   |-- data.319
+|   |   |   |-- data.32
+|   |   |   |-- data.320
+|   |   |   |-- data.321
+|   |   |   |-- data.322
+|   |   |   |-- data.323
+|   |   |   |-- data.324
+|   |   |   |-- data.325
+|   |   |   |-- data.326
+|   |   |   |-- data.327
+|   |   |   |-- data.328
+|   |   |   |-- data.329
+|   |   |   |-- data.33
+|   |   |   |-- data.330
+|   |   |   |-- data.331
+|   |   |   |-- data.332
+|   |   |   |-- data.333
+|   |   |   |-- data.334
+|   |   |   |-- data.335
+|   |   |   |-- data.336
+|   |   |   |-- data.337
+|   |   |   |-- data.338
+|   |   |   |-- data.339
+|   |   |   |-- data.34
+|   |   |   |-- data.340
+|   |   |   |-- data.341
+|   |   |   |-- data.342
+|   |   |   |-- data.343
+|   |   |   |-- data.344
+|   |   |   |-- data.345
+|   |   |   |-- data.346
+|   |   |   |-- data.347
+|   |   |   |-- data.348
+|   |   |   |-- data.349
+|   |   |   |-- data.35
+|   |   |   |-- data.350
+|   |   |   |-- data.351
+|   |   |   |-- data.352
+|   |   |   |-- data.353
+|   |   |   |-- data.354
+|   |   |   |-- data.355
+|   |   |   |-- data.356
+|   |   |   |-- data.357
+|   |   |   |-- data.358
+|   |   |   |-- data.359
+|   |   |   |-- data.36
+|   |   |   |-- data.360
+|   |   |   |-- data.361
+|   |   |   |-- data.362
+|   |   |   |-- data.363
+|   |   |   |-- data.364
+|   |   |   |-- data.365
+|   |   |   |-- data.366
+|   |   |   |-- data.367
+|   |   |   |-- data.368
+|   |   |   |-- data.369
+|   |   |   |-- data.37
+|   |   |   |-- data.370
+|   |   |   |-- data.371
+|   |   |   |-- data.372
+|   |   |   |-- data.373
+|   |   |   |-- data.374
+|   |   |   |-- data.375
+|   |   |   |-- data.376
+|   |   |   |-- data.377
+|   |   |   |-- data.378
+|   |   |   |-- data.379
+|   |   |   |-- data.38
+|   |   |   |-- data.380
+|   |   |   |-- data.381
+|   |   |   |-- data.382
+|   |   |   |-- data.383
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+`-- tau.conf
+
+108 directories, 5401 files
+6.0K	DATABASES_MPI
+6.0K	DATABASES_MPI
+/mnt/bb/kmehta [error opening dir]
+
+0 directories, 0 files

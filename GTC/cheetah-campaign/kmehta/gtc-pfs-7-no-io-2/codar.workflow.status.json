@@ -1,0 +1,44 @@
+{
+  "run-0.iteration-0": {
+    "state": "done",
+    "reason": "succeeded",
+    "return_codes": {
+      "gtc": 0
+    }
+  },
+  "run-0.iteration-1": {
+    "state": "done",
+    "reason": "succeeded",
+    "return_codes": {
+      "gtc": 0
+    }
+  },
+  "run-0.iteration-2": {
+    "state": "done",
+    "reason": "succeeded",
+    "return_codes": {
+      "gtc": 0
+    }
+  },
+  "run-0.iteration-3": {
+    "state": "done",
+    "reason": "succeeded",
+    "return_codes": {
+      "gtc": 0
+    }
+  },
+  "run-0.iteration-4": {
+    "state": "done",
+    "reason": "succeeded",
+    "return_codes": {
+      "gtc": 0
+    }
+  },
+  "run-0.iteration-5": {
+    "state": "done",
+    "reason": "succeeded",
+    "return_codes": {
+      "gtc": 0
+    }
+  }
+}

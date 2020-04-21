@@ -1,0 +1,53 @@
+[
+  {
+    "bb_to_pfs": {
+      "nprocs": 128,
+      "src_file": "/mnt/bb/kmehta/save_forward_arrays_undoatt.bp/data"
+    },
+    "forward": {
+      "nprocs": 3840,
+      "adios_output_dest": "bb",
+      "simulation_type": 1,
+      "save_forward": ".true.",
+      "nchunks": 6,
+      "nproc_xi": 8,
+      "nproc_eta": 8,
+      "memory_pn": "6.d0",
+      "simultaneous_runs": 10
+    }
+  },
+  {
+    "bb_to_pfs": {
+      "nprocs": 128,
+      "src_file": "/mnt/bb/kmehta/save_forward_arrays_undoatt.bp/data"
+    },
+    "forward": {
+      "nprocs": 3840,
+      "adios_output_dest": "bb",
+      "simulation_type": 1,
+      "save_forward": ".true.",
+      "nchunks": 6,
+      "nproc_xi": 8,
+      "nproc_eta": 8,
+      "memory_pn": "6.d0",
+      "simultaneous_runs": 10
+    }
+  },
+  {
+    "bb_to_pfs": {
+      "nprocs": 128,
+      "src_file": "/mnt/bb/kmehta/save_forward_arrays_undoatt.bp/data"
+    },
+    "forward": {
+      "nprocs": 3840,
+      "adios_output_dest": "bb",
+      "simulation_type": 1,
+      "save_forward": ".true.",
+      "nchunks": 6,
+      "nproc_xi": 8,
+      "nproc_eta": 8,
+      "memory_pn": "6.d0",
+      "simultaneous_runs": 10
+    }
+  }
+]

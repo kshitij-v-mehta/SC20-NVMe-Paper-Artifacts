@@ -1,0 +1,10 @@
+{
+  "gtc": {
+    "nprocs": 3072,
+    "dest": "pfs",
+    "openmp": 7,
+    "perform_cr": 0,
+    "mstep": 50,
+    "micell": 130000
+  }
+}

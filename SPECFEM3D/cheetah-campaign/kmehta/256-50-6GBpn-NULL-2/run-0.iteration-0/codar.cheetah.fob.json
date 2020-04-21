@@ -1,0 +1,124 @@
+{
+    "id": "run-0.iteration-0",
+    "kill_on_partial_failure": true,
+    "launch_mode": null,
+    "machine_name": "summit",
+    "node_layout": [
+        {
+            "__info_type__": "NodeConfig",
+            "cpu": [
+                "forward:0",
+                "forward:1",
+                "forward:2",
+                "forward:3",
+                null,
+                null,
+                null,
+                "forward:4",
+                "forward:5",
+                "forward:6",
+                "forward:7",
+                null,
+                null,
+                null,
+                "forward:8",
+                "forward:9",
+                "forward:10",
+                "forward:11",
+                null,
+                null,
+                null,
+                "forward:12",
+                "forward:13",
+                "forward:14",
+                "forward:15",
+                null,
+                null,
+                null,
+                "forward:16",
+                "forward:17",
+                "forward:18",
+                "forward:19",
+                null,
+                null,
+                null,
+                "forward:20",
+                "forward:21",
+                "forward:22",
+                "forward:23",
+                null,
+                null,
+                null
+            ],
+            "gpu": [
+                [
+                    "forward:0",
+                    "forward:1",
+                    "forward:2",
+                    "forward:3"
+                ],
+                [
+                    "forward:4",
+                    "forward:5",
+                    "forward:6",
+                    "forward:7"
+                ],
+                [
+                    "forward:8",
+                    "forward:9",
+                    "forward:10",
+                    "forward:11"
+                ],
+                [
+                    "forward:12",
+                    "forward:13",
+                    "forward:14",
+                    "forward:15"
+                ],
+                [
+                    "forward:16",
+                    "forward:17",
+                    "forward:18",
+                    "forward:19"
+                ],
+                [
+                    "forward:20",
+                    "forward:21",
+                    "forward:22",
+                    "forward:23"
+                ]
+            ]
+        }
+    ],
+    "post_process_args": [
+        "/gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-50-6GBpn-NULL-2/run-0.iteration-0/codar.cheetah.run-params.json"
+    ],
+    "post_process_script": "/autofs/nccs-svm1_proj/csc299/kmehta/specfem3d_globe/specfem3d_globe-devel-01.06.20/cheetah/post-process.sh",
+    "post_process_stop_on_failure": false,
+    "runs": [
+        {
+            "adios_xml_file": null,
+            "after_rc_done": null,
+            "args": [
+                "pfs"
+            ],
+            "env": {
+                "PROFILEDIR": "/gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-50-6GBpn-NULL-2/run-0.iteration-0/codar.cheetah.tau-forward",
+                "TRACEDIR": "/gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-50-6GBpn-NULL-2/run-0.iteration-0/codar.cheetah.tau-forward"
+            },
+            "exe": "/autofs/nccs-svm1_proj/csc299/kmehta/specfem3d_globe/specfem3d_globe-devel-01.06.20/cheetah/bin/xspecfem3D",
+            "hostfile": null,
+            "linked_with_sosflow": false,
+            "name": "forward",
+            "nprocs": 19200,
+            "num_nodes": 800,
+            "runner_override": false,
+            "sched_args": null,
+            "sleep_after": 0,
+            "timeout": 600,
+            "working_dir": "/gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-50-6GBpn-NULL-2/run-0.iteration-0"
+        }
+    ],
+    "total_nodes": 800,
+    "working_dir": "/gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-50-6GBpn-NULL-2/run-0.iteration-0"
+}

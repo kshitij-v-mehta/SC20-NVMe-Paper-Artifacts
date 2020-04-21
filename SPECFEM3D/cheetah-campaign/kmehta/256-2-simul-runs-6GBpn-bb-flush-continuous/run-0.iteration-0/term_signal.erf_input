@@ -1,0 +1,42 @@
+app 0: /usr/bin/touch /mnt/bb/kmehta/DONE.txt
+cpu_index_using: physical
+overlapping_rs: warn
+skip_missing_cpu: warn
+skip_missing_gpu: allow
+skip_missing_mem: allow
+oversubscribe_cpu: error
+oversubscribe_gpu: allow
+oversubscribe_mem: allow
+launch_distribution: packed
+rank: 0: { host: 1; cpu: {168-171} } : app 0
+rank: 1: { host: 2; cpu: {168-171} } : app 0
+rank: 2: { host: 3; cpu: {168-171} } : app 0
+rank: 3: { host: 4; cpu: {168-171} } : app 0
+rank: 4: { host: 5; cpu: {168-171} } : app 0
+rank: 5: { host: 6; cpu: {168-171} } : app 0
+rank: 6: { host: 7; cpu: {168-171} } : app 0
+rank: 7: { host: 8; cpu: {168-171} } : app 0
+rank: 8: { host: 9; cpu: {168-171} } : app 0
+rank: 9: { host: 10; cpu: {168-171} } : app 0
+rank: 10: { host: 11; cpu: {168-171} } : app 0
+rank: 11: { host: 12; cpu: {168-171} } : app 0
+rank: 12: { host: 13; cpu: {168-171} } : app 0
+rank: 13: { host: 14; cpu: {168-171} } : app 0
+rank: 14: { host: 15; cpu: {168-171} } : app 0
+rank: 15: { host: 16; cpu: {168-171} } : app 0
+rank: 16: { host: 17; cpu: {168-171} } : app 0
+rank: 17: { host: 18; cpu: {168-171} } : app 0
+rank: 18: { host: 19; cpu: {168-171} } : app 0
+rank: 19: { host: 20; cpu: {168-171} } : app 0
+rank: 20: { host: 21; cpu: {168-171} } : app 0
+rank: 21: { host: 22; cpu: {168-171} } : app 0
+rank: 22: { host: 23; cpu: {168-171} } : app 0
+rank: 23: { host: 24; cpu: {168-171} } : app 0
+rank: 24: { host: 25; cpu: {168-171} } : app 0
+rank: 25: { host: 26; cpu: {168-171} } : app 0
+rank: 26: { host: 27; cpu: {168-171} } : app 0
+rank: 27: { host: 28; cpu: {168-171} } : app 0
+rank: 28: { host: 29; cpu: {168-171} } : app 0
+rank: 29: { host: 30; cpu: {168-171} } : app 0
+rank: 30: { host: 31; cpu: {168-171} } : app 0
+rank: 31: { host: 32; cpu: {168-171} } : app 0

@@ -1,0 +1,16 @@
+{
+  "bb_to_pfs": {
+    "nprocs": 6400
+  },
+  "forward": {
+    "nprocs": 19200,
+    "adios_output_dest": "bb",
+    "simulation_type": 1,
+    "save_forward": ".true.",
+    "nchunks": 6,
+    "nproc_xi": 8,
+    "nproc_eta": 8,
+    "memory_pn": "6.d0",
+    "simultaneous_runs": 50
+  }
+}

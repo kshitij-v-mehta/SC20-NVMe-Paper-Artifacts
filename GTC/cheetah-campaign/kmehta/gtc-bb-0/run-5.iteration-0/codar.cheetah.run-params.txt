@@ -1,0 +1,2 @@
+/gpfs/alpine/csc143/proj-shared/kmehta/gtc/cheetah/gtc bb
+/gpfs/alpine/csc143/proj-shared/kmehta/gtc/cheetah/bb-to-pfs.py -w 1 -s -1 -a 6

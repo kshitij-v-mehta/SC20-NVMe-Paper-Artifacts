@@ -1,0 +1,1 @@
+/autofs/nccs-svm1_proj/csc299/kmehta/specfem3d_globe/specfem3d_globe-devel-01.06.20/cheetah/bin/xspecfem3D pfs

@@ -1,0 +1,22 @@
+2020-03-15 18:41:57,289:INFO:starting savanna job PID:35682
+2020-03-15 18:41:57,295:DEBUG:adding pipeline run-0.iteration-0 to run queue
+2020-03-15 18:41:57,296:DEBUG:starting pipeline run-0.iteration-0, free nodes 32 -> 0
+2020-03-15 18:41:57,296:DEBUG:pipeline run-0.iteration-0 allocated nodes ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32']
+2020-03-15 18:41:57,297:DEBUG:Pipeline run-0.iteration-0 launching run components
+2020-03-15 18:41:57,307:DEBUG:run-0.iteration-0:forward LD_LIBRARY_PATH=/sw/summit/cuda/9.2.148/lib64:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/hdf5-1.8.18-yj4rsgqodbxtmshbt5e2iakbyuyjxelt/lib:/sw/summit/cuda/9.2.148/lib64:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/spectrum-mpi-10.3.1.2-20200121-p6nrnt6vtvkn356wqg6f74n6jspnpjd2/lib:/sw/summit/xl/16.1.1-5/xlsmp/5.1.1/lib:/sw/summit/xl/16.1.1-5/xlmass/9.1.1/lib:/sw/summit/xl/16.1.1-5/xlC/16.1.1/lib:/sw/summit/xl/16.1.1-5/xlf/16.1.1/lib:/sw/summit/xl/16.1.1-5/lib:/opt/ibm/spectrumcomputing/lsf/10.1.0.9/linux3.10-glibc2.17-ppc64le-csm/lib
+2020-03-15 18:41:57,307:DEBUG:run-0.iteration-0:bb_to_pfs LD_LIBRARY_PATH=/sw/summit/cuda/9.2.148/lib64:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/hdf5-1.8.18-yj4rsgqodbxtmshbt5e2iakbyuyjxelt/lib:/sw/summit/cuda/9.2.148/lib64:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/spectrum-mpi-10.3.1.2-20200121-p6nrnt6vtvkn356wqg6f74n6jspnpjd2/lib:/sw/summit/xl/16.1.1-5/xlsmp/5.1.1/lib:/sw/summit/xl/16.1.1-5/xlmass/9.1.1/lib:/sw/summit/xl/16.1.1-5/xlC/16.1.1/lib:/sw/summit/xl/16.1.1-5/xlf/16.1.1/lib:/sw/summit/xl/16.1.1-5/lib:/opt/ibm/spectrumcomputing/lsf/10.1.0.9/linux3.10-glibc2.17-ppc64le-csm/lib
+2020-03-15 18:41:57,310:INFO:run-0.iteration-0:forward start pid=35688 pgid=35688 args=['jsrun', '--erf_input', '/gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-2-simul-runs-6GBpn-bb-flush-continuous/run-0.iteration-0/forward.erf_input']
+2020-03-15 18:41:57,311:INFO:run-0.iteration-0:bb_to_pfs start pid=35689 pgid=35689 args=['jsrun', '--erf_input', '/gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-2-simul-runs-6GBpn-bb-flush-continuous/run-0.iteration-0/bb_to_pfs.erf_input']
+2020-03-15 18:46:48,385:DEBUG:run-0.iteration-0:forward _pgroup_wait max delay 120
+2020-03-15 18:46:48,386:INFO:run-0.iteration-0:forward done 35688 0
+2020-03-15 18:46:48,390:DEBUG:run-0.iteration-0:forward _run_callbacks
+2020-03-15 18:46:48,392:DEBUG:run-0.iteration-0:term_signal LD_LIBRARY_PATH=/sw/summit/cuda/9.2.148/lib64:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/hdf5-1.8.18-yj4rsgqodbxtmshbt5e2iakbyuyjxelt/lib:/sw/summit/cuda/9.2.148/lib64:/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/spectrum-mpi-10.3.1.2-20200121-p6nrnt6vtvkn356wqg6f74n6jspnpjd2/lib:/sw/summit/xl/16.1.1-5/xlsmp/5.1.1/lib:/sw/summit/xl/16.1.1-5/xlmass/9.1.1/lib:/sw/summit/xl/16.1.1-5/xlC/16.1.1/lib:/sw/summit/xl/16.1.1-5/xlf/16.1.1/lib:/sw/summit/xl/16.1.1-5/lib:/opt/ibm/spectrumcomputing/lsf/10.1.0.9/linux3.10-glibc2.17-ppc64le-csm/lib
+2020-03-15 18:46:48,396:INFO:run-0.iteration-0:term_signal start pid=36238 pgid=36238 args=['jsrun', '--erf_input', '/gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-2-simul-runs-6GBpn-bb-flush-continuous/run-0.iteration-0/term_signal.erf_input']
+2020-03-15 18:46:48,961:DEBUG:run-0.iteration-0:term_signal _pgroup_wait max delay 120
+2020-03-15 18:46:48,961:INFO:run-0.iteration-0:term_signal done 36238 0
+2020-03-15 18:46:48,964:DEBUG:run-0.iteration-0:term_signal _run_callbacks
+2020-03-15 18:47:31,245:DEBUG:run-0.iteration-0:bb_to_pfs _pgroup_wait max delay 120
+2020-03-15 18:47:31,247:INFO:run-0.iteration-0:bb_to_pfs done 35689 0
+2020-03-15 18:47:31,253:DEBUG:run-0.iteration-0:bb_to_pfs _run_callbacks
+2020-03-15 18:47:31,254:DEBUG:run-0.iteration-0 _execute_done_callbacks
+2020-03-15 18:47:34,527:DEBUG:finished pipeline run-0.iteration-0, free nodes 0 -> 32

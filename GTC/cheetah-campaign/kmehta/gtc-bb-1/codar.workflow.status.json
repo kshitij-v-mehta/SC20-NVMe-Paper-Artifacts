@@ -1,0 +1,47 @@
+{
+  "run-0.iteration-0": {
+    "state": "done",
+    "reason": "timeout",
+    "return_codes": {
+      "gtc": -15,
+      "bb_to_pfs": 0
+    }
+  },
+  "run-1.iteration-0": {
+    "state": "running",
+    "reason": null,
+    "return_codes": {}
+  },
+  "run-2.iteration-0": {
+    "state": "done",
+    "reason": "timeout",
+    "return_codes": {
+      "gtc": -15,
+      "bb_to_pfs": 0
+    }
+  },
+  "run-3.iteration-0": {
+    "state": "done",
+    "reason": "timeout",
+    "return_codes": {
+      "gtc": -15,
+      "bb_to_pfs": 0
+    }
+  },
+  "run-4.iteration-0": {
+    "state": "done",
+    "reason": "timeout",
+    "return_codes": {
+      "gtc": -15,
+      "bb_to_pfs": 0
+    }
+  },
+  "run-5.iteration-0": {
+    "state": "done",
+    "reason": "timeout",
+    "return_codes": {
+      "gtc": -15,
+      "bb_to_pfs": 0
+    }
+  }
+}

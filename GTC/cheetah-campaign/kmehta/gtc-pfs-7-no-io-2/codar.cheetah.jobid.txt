@@ -1,0 +1,1 @@
+LSF:Job <603> is submitted to default queue <batch>.

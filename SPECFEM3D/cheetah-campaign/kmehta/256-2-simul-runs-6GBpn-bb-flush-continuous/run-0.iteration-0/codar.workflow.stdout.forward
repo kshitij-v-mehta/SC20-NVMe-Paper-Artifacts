@@ -1,0 +1,548 @@
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ run0002 iteration, start time:  1 0.649999999602357548E-06
+ run0001 iteration, start time:  1 0.161300000023345547E-05
+ run0001 save_forward_arrays time:  0.611294071999999744
+ run0002 save_forward_arrays time:  0.629114881000000459
+ run0002 iteration, start time:  2 2.51058068499999987
+ run0001 iteration, start time:  2 2.56892941699999966
+ run0002 save_forward_arrays time:  0.255747142999999788
+ run0001 save_forward_arrays time:  0.252826015999999321
+ run0002 iteration, start time:  3 4.54210897400000047
+ run0001 iteration, start time:  3 4.60291268300000045
+ run0002 save_forward_arrays time:  0.259410889999999839
+ run0001 save_forward_arrays time:  0.259183280000000238
+ run0001 iteration, start time:  4 6.60932173799999934
+ run0002 iteration, start time:  4 6.70910506299999998
+ run0001 save_forward_arrays time:  0.268979813999999706
+ run0002 save_forward_arrays time:  0.269230113999999077
+ run0001 iteration, start time:  5 8.63950507599999895
+ run0002 iteration, start time:  5 8.76493541700000023
+ run0001 save_forward_arrays time:  0.275284206000000253
+ run0002 save_forward_arrays time:  0.273571841000000759
+ run0001 iteration, start time:  6 10.7260020439999977
+ run0002 iteration, start time:  6 10.7790590520000009
+ run0001 save_forward_arrays time:  0.272513683999999756
+ run0002 save_forward_arrays time:  0.276487245000000215
+ run0001 iteration, start time:  7 12.7535481559999972
+ run0002 iteration, start time:  7 12.8088083649999973
+ run0001 save_forward_arrays time:  0.287440187000001401
+ run0002 save_forward_arrays time:  0.276663939000002301
+ run0001 iteration, start time:  8 14.8277280709999992
+ run0002 iteration, start time:  8 14.8592064899999983
+ run0001 save_forward_arrays time:  0.277923808000000605
+ run0002 save_forward_arrays time:  0.278725355000002395
+ run0001 iteration, start time:  9 16.8380506120000000
+ run0002 iteration, start time:  9 16.8718318119999999
+ run0001 save_forward_arrays time:  0.273830025999998838
+ run0002 save_forward_arrays time:  0.276566405000000515
+ run0001 iteration, start time:  10 18.8630108019999980
+ run0002 iteration, start time:  10 18.9322128429999985
+ run0001 save_forward_arrays time:  0.305548822000002218
+ run0002 save_forward_arrays time:  0.310828417999999829
+ run0001 iteration, start time:  11 20.9177515189999994
+ run0002 iteration, start time:  11 21.0624923899999992
+ run0001 save_forward_arrays time:  0.278461136000000664
+ run0002 save_forward_arrays time:  0.278133916999998121
+ run0001 iteration, start time:  12 22.9781946499999989
+ run0002 iteration, start time:  12 23.0852999140000001
+ run0001 save_forward_arrays time:  0.273491865000000445
+ run0002 save_forward_arrays time:  0.275317395999998382
+ run0001 iteration, start time:  13 25.0114787669999998
+ run0002 iteration, start time:  13 25.1474516679999986
+ run0001 save_forward_arrays time:  0.299893892000000051
+ run0002 save_forward_arrays time:  0.301272973999999749
+ run0001 iteration, start time:  14 27.1319458100000013
+ run0002 iteration, start time:  14 27.2196756630000003
+ run0001 save_forward_arrays time:  0.272975736999995888
+ run0002 save_forward_arrays time:  0.277118865000002046
+ run0001 iteration, start time:  15 29.1452659099999956
+ run0002 iteration, start time:  15 29.2497415479999958
+ run0001 save_forward_arrays time:  0.276688760000006084
+ run0002 save_forward_arrays time:  0.275427157000002865
+ run0001 iteration, start time:  16 31.1822217270000017
+ run0002 iteration, start time:  16 31.2753467409999999
+ run0001 save_forward_arrays time:  0.276462284999993813
+ run0002 save_forward_arrays time:  0.280507473000000118
+ run0001 iteration, start time:  17 33.2043600800000007
+ run0002 iteration, start time:  17 33.3442412089999962
+ run0001 save_forward_arrays time:  0.279440151999999387
+ run0002 save_forward_arrays time:  0.275721754999999291
+ run0001 iteration, start time:  18 35.2219377900000055
+ run0002 iteration, start time:  18 35.3707438080000003
+ run0001 save_forward_arrays time:  0.306261083999999073
+ run0002 save_forward_arrays time:  0.286475158999998314
+ run0001 iteration, start time:  19 37.2681323660000032
+ run0002 iteration, start time:  19 37.4250297520000004
+ run0001 save_forward_arrays time:  0.276291256999996904
+ run0002 save_forward_arrays time:  0.280241498999998839
+ run0001 iteration, start time:  20 39.3123854160000050
+ run0002 iteration, start time:  20 39.4690321610000012
+ run0001 save_forward_arrays time:  0.282124267999996903
+ run0002 save_forward_arrays time:  0.277554924000000369
+ run0001 iteration, start time:  21 41.3957015659999996
+ run0002 iteration, start time:  21 41.4992494349999959
+ run0001 save_forward_arrays time:  0.276412955000004956
+ run0002 save_forward_arrays time:  0.276312730000000784
+ run0001 iteration, start time:  22 43.4009902459999992
+ run0002 iteration, start time:  22 43.5021528289999964
+ run0001 save_forward_arrays time:  0.274232555000004652
+ run0002 save_forward_arrays time:  0.275222820999999840
+ run0001 iteration, start time:  23 45.4029763630000005
+ run0002 iteration, start time:  23 45.5114961489999956
+ run0001 save_forward_arrays time:  0.293720101000005229
+ run0002 save_forward_arrays time:  0.286075066000002209
+ run0001 iteration, start time:  24 47.4388644920000004
+ run0002 iteration, start time:  24 47.5468772870000009
+ run0001 save_forward_arrays time:  0.276148448000000712
+ run0002 save_forward_arrays time:  0.277018735999995158
+ run0001 iteration, start time:  25 49.4447560150000029
+ run0002 iteration, start time:  25 49.5705802419999983
+ run0001 save_forward_arrays time:  0.277027056999997967
+ run0002 save_forward_arrays time:  0.277853522999997438
+ run0001 iteration, start time:  26 51.4521198150000032
+ run0002 iteration, start time:  26 51.6172122209999955
+ run0001 save_forward_arrays time:  0.277325046999997937
+ run0002 save_forward_arrays time:  0.279701673000005258
+ run0001 iteration, start time:  27 53.4678289090000050
+ run0002 iteration, start time:  27 53.6820831369999993
+ run0001 save_forward_arrays time:  0.279792581999998902
+ run0002 save_forward_arrays time:  0.279951234000002103
+ run0001 iteration, start time:  28 55.5217407980000033
+ run0002 iteration, start time:  28 55.7101428639999980
+ run0001 save_forward_arrays time:  0.300705313999998225
+ run0002 save_forward_arrays time:  0.279345218999999645
+ run0001 iteration, start time:  29 57.5847330270000057
+ run0002 iteration, start time:  29 57.7436179500000009
+ run0001 save_forward_arrays time:  0.279637916999995184
+ run0002 save_forward_arrays time:  0.281807006000001081
+ run0001 iteration, start time:  30 59.6373869760000019
+ run0002 iteration, start time:  30 59.7906878800000001
+ run0001 save_forward_arrays time:  0.279914310999998861
+ run0002 save_forward_arrays time:  0.282178861999994979
+ run0001 iteration, start time:  31 61.6639698480000078
+ run0002 iteration, start time:  31 61.8199972570000043
+ run0001 save_forward_arrays time:  0.279286093999999707
+ run0002 save_forward_arrays time:  0.280647255999994627
+ run0001 iteration, start time:  32 63.7311771490000041
+ run0002 iteration, start time:  32 63.8477096720000006
+ run0001 save_forward_arrays time:  0.277668181999999319
+ run0002 save_forward_arrays time:  0.281303894000004107
+ run0001 iteration, start time:  33 65.7523053999999973
+ run0002 iteration, start time:  33 65.8594427080000031
+ run0001 save_forward_arrays time:  0.288307901999999672
+ run0002 save_forward_arrays time:  0.281454138000000853
+ run0001 iteration, start time:  34 67.7845659750000067
+ run0002 iteration, start time:  34 67.8955875050000088
+ run0001 save_forward_arrays time:  0.282723435999997719
+ run0002 save_forward_arrays time:  0.280583089000003838
+ run0001 iteration, start time:  35 69.7929099840000049
+ run0002 iteration, start time:  35 69.9197911310000109
+ run0001 save_forward_arrays time:  0.277936576999991303
+ run0002 save_forward_arrays time:  0.279137909999988665
+ run0001 iteration, start time:  36 71.8049481919999977
+ run0002 iteration, start time:  36 71.9750340610000023
+ run0001 save_forward_arrays time:  0.279437588000007509
+ run0002 save_forward_arrays time:  0.278507224999998471
+ run0001 iteration, start time:  37 73.8238825190000085
+ run0002 iteration, start time:  37 74.0111711380000088
+ run0001 save_forward_arrays time:  0.282340332999993393
+ run0002 save_forward_arrays time:  0.279861852999999883
+ run0001 iteration, start time:  38 75.8566679599999958
+ run0002 iteration, start time:  38 76.0445503580000093
+ run0001 save_forward_arrays time:  0.286487374000003570
+ run0002 save_forward_arrays time:  0.279734406999992302
+ run0001 iteration, start time:  39 77.9035970689999999
+ run0002 iteration, start time:  39 78.0926717480000008
+ run0001 save_forward_arrays time:  0.276752168000001575
+ run0002 save_forward_arrays time:  0.280105829000007134
+ run0001 iteration, start time:  40 79.9661929610000044
+ run0002 iteration, start time:  40 80.1167044790000062
+ run0001 save_forward_arrays time:  0.288943653000004019
+ run0002 save_forward_arrays time:  0.279357352999994646
+ run0001 iteration, start time:  41 81.9827236060000075
+ run0002 iteration, start time:  41 82.1243574170000130
+ run0001 save_forward_arrays time:  0.275963560999997526
+ run0002 save_forward_arrays time:  0.281050096999990728
+ run0001 iteration, start time:  42 83.9970842010000069
+ run0002 iteration, start time:  42 84.1357881990000038
+ run0001 save_forward_arrays time:  0.281658360999998081
+ run0002 save_forward_arrays time:  0.277209132999999497
+ run0001 iteration, start time:  43 86.0153824550000081
+ run0002 iteration, start time:  43 86.1416218530000037
+ run0001 save_forward_arrays time:  0.292901469000000247
+ run0002 save_forward_arrays time:  0.277603897999995297
+ run0001 iteration, start time:  44 88.0402366960000080
+ run0002 iteration, start time:  44 88.1680973140000077
+ run0001 save_forward_arrays time:  0.287937677999991593
+ run0002 save_forward_arrays time:  0.277270104999999489
+ run0001 iteration, start time:  45 90.0506671810000086
+ run0002 iteration, start time:  45 90.1807761980000038
+ run0001 save_forward_arrays time:  0.287721896999997284
+ run0002 save_forward_arrays time:  0.276119287000000213
+ run0001 iteration, start time:  46 92.0626596560000081
+ run0002 iteration, start time:  46 92.1916715850000088
+ run0001 save_forward_arrays time:  0.273630370999995876
+ run0002 save_forward_arrays time:  0.277410532999994075
+ run0001 iteration, start time:  47 94.0646741350000042
+ run0002 iteration, start time:  47 94.2020301600000067
+ run0001 save_forward_arrays time:  0.279245223999993186
+ run0002 save_forward_arrays time:  0.277574850999997125
+ run0001 iteration, start time:  48 96.0735092540000011
+ run0002 iteration, start time:  48 96.2419201330000078
+ run0001 save_forward_arrays time:  0.291147399999999834
+ run0002 save_forward_arrays time:  0.270184020000002079
+ run0001 iteration, start time:  49 98.0916866330000090
+ run0002 iteration, start time:  49 98.2497941140000108
+ run0001 save_forward_arrays time:  0.287923247999998466
+ run0002 save_forward_arrays time:  0.275958922000000939
+ run0001 iteration, start time:  50 100.117655346999996
+ run0002 iteration, start time:  50 100.305233490000006
+ run0001 save_forward_arrays time:  0.292861958000003142
+ run0002 save_forward_arrays time:  0.275813377999995168
+ run0001 iteration, start time:  51 102.193032904999995
+ run0002 iteration, start time:  51 102.332743179000005
+ run0001 save_forward_arrays time:  0.283642847000010079
+ run0002 save_forward_arrays time:  0.272111972000004698
+ run0001 iteration, start time:  52 104.273056460999996
+ run0002 iteration, start time:  52 104.376834095000007
+ run0001 save_forward_arrays time:  0.274169464999999946
+ run0002 save_forward_arrays time:  0.272646714000003954
+ run0001 iteration, start time:  53 106.277498876999999
+ run0002 iteration, start time:  53 106.390150594000005
+ run0001 save_forward_arrays time:  0.271041115000002719
+ run0002 save_forward_arrays time:  0.273024555999995755
+ run0001 iteration, start time:  54 108.307087719000009
+ run0002 iteration, start time:  54 108.404443418000000
+ run0001 save_forward_arrays time:  0.275023728999997275
+ run0002 save_forward_arrays time:  0.270038573000007887
+ run0001 iteration, start time:  55 110.328472626999996
+ run0002 iteration, start time:  55 110.408417553000007
+ run0001 save_forward_arrays time:  0.282151346000006242
+ run0002 save_forward_arrays time:  0.272390947000005212
+ run0001 iteration, start time:  56 112.357741533000009
+ run0002 iteration, start time:  56 112.415520016000002
+ run0001 save_forward_arrays time:  0.279692646999990302
+ run0002 save_forward_arrays time:  0.272028915000007032
+ run0001 iteration, start time:  57 114.364605548000000
+ run0002 iteration, start time:  57 114.416022413000007
+ run0001 save_forward_arrays time:  0.273895019000008233
+ run0002 save_forward_arrays time:  0.271975510000004306
+ run0001 iteration, start time:  58 116.376507001999997
+ run0002 iteration, start time:  58 116.460354400000000
+ run0001 save_forward_arrays time:  0.275441447000005724
+ run0002 save_forward_arrays time:  0.272899587000011934
+ run0001 iteration, start time:  59 118.373039485000007
+ run0002 iteration, start time:  59 118.484003991000009
+ run0001 save_forward_arrays time:  0.272459901999994258
+ run0002 save_forward_arrays time:  0.272606308999996827
+ run0001 iteration, start time:  60 120.368727507000003
+ run0002 iteration, start time:  60 120.496513356000008
+ run0001 save_forward_arrays time:  0.277929646999993452
+ run0002 save_forward_arrays time:  0.270211527000000729
+ run0001 iteration, start time:  61 122.370382270999997
+ run0002 iteration, start time:  61 122.505520329000007
+ run0001 save_forward_arrays time:  0.274608524000001353
+ run0002 save_forward_arrays time:  0.272114571999992449
+ run0001 iteration, start time:  62 124.393580543000013
+ run0002 iteration, start time:  62 124.516450168000006
+ run0001 save_forward_arrays time:  0.272449773999994704
+ run0002 save_forward_arrays time:  0.270716335000003028
+ run0001 iteration, start time:  63 126.408900415999994
+ run0002 iteration, start time:  63 126.568122602000017
+ run0001 save_forward_arrays time:  0.275233213999996451
+ run0002 save_forward_arrays time:  0.270815319999996973
+ run0001 iteration, start time:  64 128.412847292000009
+ run0002 iteration, start time:  64 128.584288452999999
+ run0001 save_forward_arrays time:  0.270884718999980123
+ run0002 save_forward_arrays time:  0.270116266000002270
+ run0001 iteration, start time:  65 130.424189602000013
+ run0002 iteration, start time:  65 130.628883767000019
+ run0001 save_forward_arrays time:  0.289722830999977532
+ run0002 save_forward_arrays time:  0.269867450999981884
+ run0001 iteration, start time:  66 132.497124931000002
+ run0002 iteration, start time:  66 132.645806089000018
+ run0001 save_forward_arrays time:  0.270164155000003348
+ run0002 save_forward_arrays time:  0.270609039999982315
+ run0001 iteration, start time:  67 134.553477840999989
+ run0002 iteration, start time:  67 134.654478697000002
+ run0001 save_forward_arrays time:  0.280606409000000667
+ run0002 save_forward_arrays time:  0.267355608000002576
+ run0001 iteration, start time:  68 136.560288415999992
+ run0002 iteration, start time:  68 136.660401460000003
+ run0001 save_forward_arrays time:  0.279005269000009548
+ run0002 save_forward_arrays time:  0.268976253999994697
+ run0001 iteration, start time:  69 138.575205912000001
+ run0002 iteration, start time:  69 138.658912019000013
+ run0001 save_forward_arrays time:  0.265353524000005336
+ run0002 save_forward_arrays time:  0.267229614999990872
+ run0001 iteration, start time:  70 140.583748337000003
+ run0002 iteration, start time:  70 140.661530326000019
+ run0001 save_forward_arrays time:  0.284292354000001524
+ run0002 save_forward_arrays time:  0.269711709999995719
+ run0001 iteration, start time:  71 142.588946187000005
+ run0002 iteration, start time:  71 142.660022620000007
+ run0001 save_forward_arrays time:  0.267675647999993771
+ run0002 save_forward_arrays time:  0.270630863000008048
+ run0001 iteration, start time:  72 144.578649567000014
+ run0002 iteration, start time:  72 144.657886670000011
+ run0001 save_forward_arrays time:  0.266985041999987516
+ run0002 save_forward_arrays time:  0.268282656999986102
+ run0001 iteration, start time:  73 146.573547453000003
+ run0002 iteration, start time:  73 146.655464745000018
+ run0001 save_forward_arrays time:  0.292062106000003041
+ run0002 save_forward_arrays time:  0.269892487999982222
+ run0001 iteration, start time:  74 148.587449620000001
+ run0002 iteration, start time:  74 148.655471545000012
+ run0001 save_forward_arrays time:  0.292477718000014875
+ run0002 save_forward_arrays time:  0.266367822999995951
+ run0001 iteration, start time:  75 150.602834182000009
+ run0002 iteration, start time:  75 150.657187248000014
+ run0001 save_forward_arrays time:  0.285207286000002114
+ run0002 save_forward_arrays time:  0.282451977999983228
+ run0001 iteration, start time:  76 152.619995511000013
+ run0002 iteration, start time:  76 152.687938972000012
+ run0001 save_forward_arrays time:  0.264388158999992129
+ run0002 save_forward_arrays time:  0.265757719999982100
+ run0001 iteration, start time:  77 154.620680381000000
+ run0002 iteration, start time:  77 154.684400632000006
+ run0001 save_forward_arrays time:  0.265801500999998552
+ run0002 save_forward_arrays time:  0.266378244999998515
+ run0001 iteration, start time:  78 156.628963604000006
+ run0002 iteration, start time:  78 156.696183079000008
+ run0001 save_forward_arrays time:  0.265502859000008584
+ run0002 save_forward_arrays time:  0.264186540999986619
+ run0001 iteration, start time:  79 158.637165110000012
+ run0002 iteration, start time:  79 158.690573423000018
+ run0001 save_forward_arrays time:  0.264186549999976705
+ run0002 save_forward_arrays time:  0.264924157999985255
+ run0001 iteration, start time:  80 160.657005620999996
+ run0002 iteration, start time:  80 160.695038893999993
+ run0001 save_forward_arrays time:  0.292330491000001302
+ run0002 save_forward_arrays time:  0.283545972000013080
+ run0001 iteration, start time:  81 162.686097495000013
+ run0002 iteration, start time:  81 162.735989605000015
+ run0001 save_forward_arrays time:  0.267040678999990178
+ run0002 save_forward_arrays time:  0.263990181999986362
+ run0001 iteration, start time:  82 164.685500595000008
+ run0002 iteration, start time:  82 164.774627839000004
+ run0001 save_forward_arrays time:  0.270421556999991708
+ run0002 save_forward_arrays time:  0.265697609999989481
+ run0001 iteration, start time:  83 166.693002954999997
+ run0002 iteration, start time:  83 166.826167185999992
+ run0001 save_forward_arrays time:  0.272488449999997329
+ run0002 save_forward_arrays time:  0.266824694000007412
+ run0001 iteration, start time:  84 168.746083469000013
+ run0002 iteration, start time:  84 168.845573760999997
+ run0001 save_forward_arrays time:  0.266870426999986421
+ run0002 save_forward_arrays time:  0.266122507999995150
+ run0001 iteration, start time:  85 170.800659330999991
+ run0002 iteration, start time:  85 170.856461974000013
+ run0001 save_forward_arrays time:  0.292274456000001237
+ run0002 save_forward_arrays time:  0.273354939999990165
+ run0001 iteration, start time:  86 172.824465908999997
+ run0002 iteration, start time:  86 172.864579859999992
+ run0001 save_forward_arrays time:  0.265721363000011479
+ run0002 save_forward_arrays time:  0.266987057000022787
+ run0001 iteration, start time:  87 174.827012773999996
+ run0002 iteration, start time:  87 174.866786832000003
+ run0001 save_forward_arrays time:  0.266237375000002885
+ run0002 save_forward_arrays time:  0.280645146000011891
+ run0001 iteration, start time:  88 176.830518060999992
+ run0002 iteration, start time:  88 176.896903870000017
+ run0001 save_forward_arrays time:  0.267623347000011336
+ run0002 save_forward_arrays time:  0.264547245999978031
+ run0001 iteration, start time:  89 178.822090586999991
+ run0002 iteration, start time:  89 178.888099667000006
+ run0001 save_forward_arrays time:  0.263962873000025411
+ run0002 save_forward_arrays time:  0.267511266000013848
+ run0001 iteration, start time:  90 180.808907411000007
+ run0002 iteration, start time:  90 180.882761985000002
+ run0001 save_forward_arrays time:  0.277292827999986002
+ run0002 save_forward_arrays time:  0.281799121999995350
+ run0001 iteration, start time:  91 182.812100753999999
+ run0002 iteration, start time:  91 182.893051807999996
+ run0001 save_forward_arrays time:  0.266126756000005571
+ run0002 save_forward_arrays time:  0.267406053000001975
+ run0001 iteration, start time:  92 184.808592102999995
+ run0002 iteration, start time:  92 184.888353461999998
+ run0001 save_forward_arrays time:  0.267403016000002935
+ run0002 save_forward_arrays time:  0.279632006000014144
+ run0001 iteration, start time:  93 186.796306509000004
+ run0002 iteration, start time:  93 186.897805516999995
+ run0001 save_forward_arrays time:  0.271050956000010501
+ run0002 save_forward_arrays time:  0.266653143000013415
+ run0001 iteration, start time:  94 188.797294329000010
+ run0002 iteration, start time:  94 188.894353085000006
+ run0001 save_forward_arrays time:  0.263724056000000928
+ run0002 save_forward_arrays time:  0.261921174000008250
+ run0001 iteration, start time:  95 190.784146759999999
+ run0002 iteration, start time:  95 190.889531446000007
+ run0001 save_forward_arrays time:  0.282845941000005041
+ run0002 save_forward_arrays time:  0.287294312000000218
+ run0001 iteration, start time:  96 192.789862948000007
+ run0002 iteration, start time:  96 192.906899148999997
+ run0001 save_forward_arrays time:  0.261651645999990023
+ run0002 save_forward_arrays time:  0.261056883999998490
+ run0001 iteration, start time:  97 194.778596757000003
+ run0002 iteration, start time:  97 194.902423612000007
+ run0001 save_forward_arrays time:  0.261330888000003370
+ run0002 save_forward_arrays time:  0.275731704000008904
+ run0001 iteration, start time:  98 196.765896609999999
+ run0002 iteration, start time:  98 196.910668539000000
+ run0001 save_forward_arrays time:  0.264326783000001342
+ run0002 save_forward_arrays time:  0.262373789000008628
+ run0001 iteration, start time:  99 198.757483199000006
+ run0002 iteration, start time:  99 198.902603115999995
+ run0001 save_forward_arrays time:  0.260777719999992996
+ run0002 save_forward_arrays time:  0.262011860000001207
+ run0001 iteration, start time:  100 200.748931765999998
+ run0002 iteration, start time:  100 200.925159567000009
+ run0001 save_forward_arrays time:  0.299286335000005010
+ run0002 save_forward_arrays time:  0.298963343999986364
+ run0001 iteration, start time:  101 202.790938632000007
+ run0002 iteration, start time:  101 202.957070920999996
+ run0001 save_forward_arrays time:  0.259660384000000022
+ run0002 save_forward_arrays time:  0.260920338000005358
+ run0001 iteration, start time:  102 204.787448888000000
+ run0002 iteration, start time:  102 204.949535776000005
+ run0001 save_forward_arrays time:  0.261419140000015204
+ run0002 save_forward_arrays time:  0.279066797000012912
+ run0001 iteration, start time:  103 206.800064917000014
+ run0002 iteration, start time:  103 206.999998717000011
+ run0001 save_forward_arrays time:  0.259961390999990272
+ run0002 save_forward_arrays time:  0.260967491000002383
+ run0001 iteration, start time:  104 208.807650136999996
+ run0002 iteration, start time:  104 209.038870282000005
+ run0001 save_forward_arrays time:  0.260268925000019635
+ run0002 save_forward_arrays time:  0.262184727000004614
+ run0001 iteration, start time:  105 210.824252008000002
+ run0002 iteration, start time:  105 211.042595473000006
+ run0001 save_forward_arrays time:  0.264114871999993284
+ run0002 save_forward_arrays time:  0.283667271000012988
+ run0001 iteration, start time:  106 212.835093043999990
+ run0002 iteration, start time:  106 213.098178081000015
+ run0001 save_forward_arrays time:  0.260784323000024187
+ run0002 save_forward_arrays time:  0.260580111999985320
+ run0001 iteration, start time:  107 214.864929044000007
+ run0002 iteration, start time:  107 215.101910559999993
+ run0001 save_forward_arrays time:  0.270893303999997670
+ run0002 save_forward_arrays time:  0.280948462000026211
+ run0001 iteration, start time:  108 216.863339279000002
+ run0002 iteration, start time:  108 217.113630464000011
+ run0001 save_forward_arrays time:  0.260165988000011339
+ run0002 save_forward_arrays time:  0.264772574999994958
+ run0001 iteration, start time:  109 218.857517687000012
+ run0002 iteration, start time:  109 219.106211808000012
+ run0001 save_forward_arrays time:  0.260312583000001041
+ run0002 save_forward_arrays time:  0.262011677000003829
+ run0001 iteration, start time:  110 220.854716072000002
+ run0002 iteration, start time:  110 221.096626127000008
+ run0001 save_forward_arrays time:  0.264025809000003164
+ run0002 save_forward_arrays time:  0.279008148999992045
+ run0001 iteration, start time:  111 222.848219961000012
+ run0002 iteration, start time:  111 223.107197705000004
+ run0001 save_forward_arrays time:  0.260529973999979347
+ run0002 save_forward_arrays time:  0.260642421000000013
+ run0001 iteration, start time:  112 224.839215370000005
+ run0001 save_forward_arrays time:  0.260463891000000558
+ run0002 iteration, start time:  112 225.115859935999993
+ run0002 save_forward_arrays time:  0.270444261000022834
+ run0001 iteration, start time:  113 226.827947050999995
+ run0001 save_forward_arrays time:  0.256907165000001214
+ run0002 iteration, start time:  113 227.124960911000016
+ run0002 save_forward_arrays time:  0.271147857999977759
+ run0001 iteration, start time:  114 228.806323727999995
+ run0001 save_forward_arrays time:  0.261105430000014849
+ run0002 iteration, start time:  114 229.127123973000010
+ run0002 save_forward_arrays time:  0.259347695999991856
+ run0001 iteration, start time:  115 230.804282443999995
+ run0001 save_forward_arrays time:  0.257242275000010068
+ run0002 iteration, start time:  115 231.120956984000003
+ run0002 save_forward_arrays time:  0.271717636999994738
+ run0001 iteration, start time:  116 232.788295191000003
+ run0001 save_forward_arrays time:  0.261610146000009536
+ run0002 iteration, start time:  116 233.123689702999997
+ run0002 save_forward_arrays time:  0.259943153000023131
+ run0001 iteration, start time:  117 234.770570453000005
+ run0001 save_forward_arrays time:  0.262967172999992727
+ run0002 iteration, start time:  117 235.111436888000014
+ run0002 save_forward_arrays time:  0.277453620999978057
+ run0001 iteration, start time:  118 236.758512760999992
+ run0001 save_forward_arrays time:  0.255586316000005809
+ run0002 iteration, start time:  118 237.136985180000011
+ run0002 save_forward_arrays time:  0.258485127999989572
+ run0001 iteration, start time:  119 238.738754591999992
+ run0001 save_forward_arrays time:  0.255761688999996295
+ run0002 iteration, start time:  119 239.124608022000018
+ run0002 save_forward_arrays time:  0.258937484999989920
+ run0001 iteration, start time:  120 240.717860091999995
+ run0001 save_forward_arrays time:  0.271054412000012235
+ run0002 iteration, start time:  120 241.112856200000010
+ run0002 save_forward_arrays time:  0.261945688999986714
+ run0001 iteration, start time:  121 242.717877309000016
+ run0001 save_forward_arrays time:  0.255313750999988542
+ run0002 iteration, start time:  121 243.105939276000015
+ run0002 save_forward_arrays time:  0.257863337999992837
+ run0001 iteration, start time:  122 244.706571690999994
+ run0001 save_forward_arrays time:  0.256646715000016457
+ run0002 iteration, start time:  122 245.095616038000003
+ run0002 save_forward_arrays time:  0.258147248000000218
+ run0001 iteration, start time:  123 246.691811367000014
+ run0001 save_forward_arrays time:  0.255122371999988218
+ run0002 iteration, start time:  123 247.085241831000019
+ run0002 save_forward_arrays time:  0.260140862999975297
+ run0001 iteration, start time:  124 248.679604955999991
+ run0001 save_forward_arrays time:  0.256744453000010253
+ run0002 iteration, start time:  124 249.094945437000007
+ run0002 save_forward_arrays time:  0.257931826000003639
+ run0001 iteration, start time:  125 250.667023325999992
+ run0001 save_forward_arrays time:  0.274609687999998187
+ run0002 iteration, start time:  125 251.084103055000014
+ run0002 save_forward_arrays time:  0.256018092999966029
+ run0001 iteration, start time:  126 252.675458317999983
+ run0001 save_forward_arrays time:  0.253420583000036004
+ run0002 iteration, start time:  126 253.075965520000011
+ run0002 save_forward_arrays time:  0.254692712999997184
+ run0001 iteration, start time:  127 254.666960465999978
+ run0001 save_forward_arrays time:  0.252756191000003128
+ run0002 iteration, start time:  127 255.112339507000002
+ run0002 save_forward_arrays time:  0.259521129999995992
+ run0001 iteration, start time:  128 256.668888396999989
+ run0001 save_forward_arrays time:  0.260856412000009641
+ run0002 iteration, start time:  128 257.135004074999983
+ run0002 save_forward_arrays time:  0.255226955000011912
+ run0001 iteration, start time:  129 258.672464960000013
+ run0001 save_forward_arrays time:  0.251771498999971755
+ run0002 iteration, start time:  129 259.131213089000028
+ run0002 save_forward_arrays time:  0.255347073999985241
+ run0001 iteration, start time:  130 260.684896971000001
+ run0001 save_forward_arrays time:  0.270584932000019762
+ run0002 iteration, start time:  130 261.162217559999988
+ run0002 save_forward_arrays time:  0.255669323000006443
+ run0001 iteration, start time:  131 262.733133694999992
+ run0001 save_forward_arrays time:  0.255787594000025820
+ run0002 iteration, start time:  131 263.169822161000013
+ run0002 save_forward_arrays time:  0.253657066000016584
+ run0001 iteration, start time:  132 264.720857752000029
+ run0002 iteration, start time:  132 265.153705456000012
+ run0001 save_forward_arrays time:  0.681727866999949583
+ run0002 save_forward_arrays time:  1.62510351299999911
+ run0001 iteration, start time:  133 267.142064721999986
+ run0001 save_forward_arrays time:  0.366657565000025443
+ run0002 iteration, start time:  133 268.508590748000017
+ run0002 save_forward_arrays time:  0.963088851000009072
+ iterations end time:  270.597332902999995
+ iterations end time:  272.438405116000013

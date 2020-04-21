@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<adios-config>
+
+    <io name="eqplot_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="history_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="restart_io">
+        <engine type="BP4">
+            <parameter key='node-local' value='ON' />
+        </engine>
+    </io>
+    
+    <io name="restart_io_read">
+        <engine type="BP4">
+        </engine>
+    </io>
+    
+    <io name="snapshot_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="diag_history_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="hist_restart_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="diag_data1d_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="diag_data1d_restart_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="dataout3d_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="phishot_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="write_tracked_particles_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+    <io name="poincare_io">
+        <engine type="BP4">
+        </engine>
+    </io>
+
+</adios-config>

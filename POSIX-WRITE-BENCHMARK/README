@@ -1,0 +1,2 @@
+This work represents the POSIX write test to benchmark the NVMe performance for continuous, fast writes vs. streaming writes with a time delay between write() calls.
+

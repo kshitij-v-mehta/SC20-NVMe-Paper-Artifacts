@@ -1,0 +1,48 @@
+User defined signal 2
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 979009: <codar.cheetah.SpecFEM3D_Globe-256-2-6GBpn-flush-continous-5sec-1GB-8ppn-sanity> in cluster <summit> Exited
+
+Job <codar.cheetah.SpecFEM3D_Globe-256-2-6GBpn-flush-continous-5sec-1GB-8ppn-sanity> was submitted from host <login1> by user <kmehta> in cluster <summit> at Wed Mar 18 16:46:36 2020
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <kmehta> in cluster <summit> at Wed Mar 18 16:47:27 2020
+                            <42*f08n15>
+                            <42*f08n16>
+                            <42*f08n17>
+                            <42*f08n18>
+                            <42*f09n01>
+                            <42*f09n02>
+                            <42*f09n03>
+                            <42*f09n04>
+                            <42*f09n05>
+                            <42*f09n06>
+                            <42*f09n07>
+                            <42*f09n08>
+                            <42*h09n02>
+                            <42*h09n03>
+                            <42*h09n06>
+                            <42*h09n07>
+                            <42*h13n13>
+                            <42*h13n14>
+                            <42*h13n15>
+                            <42*h13n16>
+                            <42*h14n11>
+                            <42*h15n10>
+                            <42*h15n13>
+                            <42*h15n18>
+                            <42*h16n01>
+                            <42*h16n02>
+                            <42*h16n03>
+                            <42*h16n04>
+                            <42*h16n05>
+                            <42*h16n11>
+                            <42*h16n12>
+                            <42*h16n17>
+</ccs/home/kmehta> was used as the home directory.
+</gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-2-6GBpn-flush-continous-5sec-1GB-8ppn-sanity> was used as the working directory.
+Started at Wed Mar 18 16:47:27 2020
+Terminated at Wed Mar 18 16:57:51 2020
+Results reported at Wed Mar 18 16:57:51 2020
+
+The output (if any) is above this job summary.
+

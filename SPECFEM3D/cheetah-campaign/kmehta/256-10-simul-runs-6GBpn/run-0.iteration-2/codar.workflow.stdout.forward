@@ -1,0 +1,2740 @@
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ 
+ **************
+ **************
+ ADIOS significantly slows down small or medium-size runs, which is the case here, please consider turning it off
+ **************
+ **************
+ 
+ iteration, start time:  1 0.537000000022658242E-06
+ iteration, start time:  1 0.666000000038025064E-06
+ iteration, start time:  1 0.103300000020567495E-05
+ iteration, start time:  1 0.654999999127880983E-06
+ iteration, start time:  1 0.860000000102445483E-06
+ iteration, start time:  1 0.635000000137608822E-06
+ iteration, start time:  1 0.682000000473692580E-06
+ iteration, start time:  1 0.960999999577438757E-06
+ iteration, start time:  1 0.656000000098799774E-06
+ iteration, start time:  1 0.475000000221825758E-06
+ save_forward_arrays time:  0.675569117000000219
+ save_forward_arrays time:  0.955664088999999883
+ save_forward_arrays time:  0.934673102000000533
+ save_forward_arrays time:  0.857643967999999646
+ save_forward_arrays time:  0.914847106999999937
+ save_forward_arrays time:  0.937086196000000093
+ save_forward_arrays time:  1.12333472999999984
+ save_forward_arrays time:  1.06334720999999988
+ save_forward_arrays time:  1.19887000700000002
+ save_forward_arrays time:  1.43809298500000082
+ iteration, start time:  2 2.66324259200000046
+ iteration, start time:  2 2.83307963699999998
+ save_forward_arrays time:  0.203290332999999990
+ iteration, start time:  2 2.96636170999999926
+ iteration, start time:  2 2.93582308399999992
+ iteration, start time:  2 2.85075937900000032
+ iteration, start time:  2 2.87406314200000068
+ iteration, start time:  2 2.99260704599999983
+ iteration, start time:  2 3.08382801100000048
+ iteration, start time:  2 3.14629783600000046
+ save_forward_arrays time:  0.194488290999999869
+ save_forward_arrays time:  0.201431670000000729
+ save_forward_arrays time:  0.214976657999999432
+ save_forward_arrays time:  0.195394684000000929
+ save_forward_arrays time:  0.199183300999999702
+ save_forward_arrays time:  0.200044151000001058
+ save_forward_arrays time:  0.196157651000000044
+ save_forward_arrays time:  0.380078762000000125
+ iteration, start time:  2 3.33105049199999925
+ save_forward_arrays time:  0.206274441000001474
+ iteration, start time:  3 4.59713785999999924
+ iteration, start time:  3 4.73738589500000096
+ save_forward_arrays time:  0.194698087000000797
+ iteration, start time:  3 4.87908902499999897
+ iteration, start time:  3 4.92035553199999942
+ iteration, start time:  3 4.75629655600000056
+ iteration, start time:  3 4.99512151299999996
+ iteration, start time:  3 4.92053935399999975
+ save_forward_arrays time:  0.201273374999999533
+ iteration, start time:  3 5.07202280799999983
+ save_forward_arrays time:  0.190210098999999744
+ save_forward_arrays time:  0.192359739000000474
+ save_forward_arrays time:  0.197293208000001385
+ iteration, start time:  3 4.96523526900000078
+ save_forward_arrays time:  0.202518446000000907
+ save_forward_arrays time:  0.203071166000000858
+ save_forward_arrays time:  0.199546204999998977
+ save_forward_arrays time:  0.316689493000000155
+ iteration, start time:  3 5.25249991499999958
+ save_forward_arrays time:  0.196187403999999788
+ iteration, start time:  4 6.52976927900000081
+ iteration, start time:  4 6.67831746999999964
+ iteration, start time:  4 6.85181613599999917
+ iteration, start time:  4 6.68616796400000091
+ iteration, start time:  4 6.81816561099999952
+ iteration, start time:  4 6.93838286200000010
+ save_forward_arrays time:  0.359599091999999843
+ iteration, start time:  4 6.86654765200000039
+ save_forward_arrays time:  0.205268508999999710
+ save_forward_arrays time:  0.192481150000000767
+ save_forward_arrays time:  0.193266032000000365
+ iteration, start time:  4 6.89798836299999962
+ iteration, start time:  4 7.13309877400000047
+ save_forward_arrays time:  0.201468278000000112
+ save_forward_arrays time:  0.206794942000000148
+ save_forward_arrays time:  0.204544224000001051
+ save_forward_arrays time:  0.445480599999999782
+ save_forward_arrays time:  0.196572744999999216
+ iteration, start time:  4 7.18461830100000043
+ save_forward_arrays time:  0.603114689999999953
+ iteration, start time:  5 8.60262960000000021
+ iteration, start time:  5 8.59158898199999932
+ iteration, start time:  5 8.59133208899999978
+ iteration, start time:  5 8.75917335999999835
+ iteration, start time:  5 8.85135987499999999
+ save_forward_arrays time:  0.209384556000001609
+ iteration, start time:  5 8.78659521699999857
+ save_forward_arrays time:  0.211468235999999976
+ save_forward_arrays time:  0.204860553000001389
+ iteration, start time:  5 8.80990287000000016
+ iteration, start time:  5 8.97299728499999993
+ iteration, start time:  5 9.05005414599999902
+ save_forward_arrays time:  0.212271517999999659
+ save_forward_arrays time:  0.220529545000001548
+ save_forward_arrays time:  0.207598616000000291
+ save_forward_arrays time:  0.221856421000000026
+ save_forward_arrays time:  0.494512499000000716
+ save_forward_arrays time:  0.204316994000000918
+ iteration, start time:  5 9.50258164699999952
+ save_forward_arrays time:  0.209459543000001247
+ iteration, start time:  6 10.5295173539999993
+ iteration, start time:  6 10.5147893779999997
+ iteration, start time:  6 10.5078325000000010
+ iteration, start time:  6 10.7836690729999987
+ save_forward_arrays time:  0.208276749999999566
+ iteration, start time:  6 10.7248053769999991
+ save_forward_arrays time:  0.212690498000000616
+ save_forward_arrays time:  0.222548269999998993
+ iteration, start time:  6 10.7386353960000012
+ iteration, start time:  6 10.9181272079999996
+ iteration, start time:  6 10.9727460850000007
+ iteration, start time:  6 10.9808901619999979
+ save_forward_arrays time:  0.201394949000000878
+ save_forward_arrays time:  0.214487794000000065
+ save_forward_arrays time:  0.212497144000000304
+ save_forward_arrays time:  0.213270832999999271
+ save_forward_arrays time:  0.215006773000000706
+ save_forward_arrays time:  0.236661659000001023
+ iteration, start time:  6 11.5493810669999988
+ save_forward_arrays time:  0.208949708000002232
+ iteration, start time:  7 12.5785947789999994
+ iteration, start time:  7 12.5618514439999984
+ iteration, start time:  7 12.5718356149999995
+ iteration, start time:  7 12.8169501190000013
+ iteration, start time:  7 12.7612023380000004
+ iteration, start time:  7 12.7659196300000009
+ iteration, start time:  7 12.9676358219999983
+ iteration, start time:  7 13.0146780419999981
+ save_forward_arrays time:  0.354178400000002114
+ iteration, start time:  7 13.0488651480000009
+ save_forward_arrays time:  0.388549711999999658
+ save_forward_arrays time:  0.441739528000002935
+ save_forward_arrays time:  0.404358243999997313
+ save_forward_arrays time:  0.395270336999999472
+ save_forward_arrays time:  0.339950982000001289
+ save_forward_arrays time:  0.501103470000000328
+ save_forward_arrays time:  0.399592677000001117
+ save_forward_arrays time:  0.375771631999999300
+ iteration, start time:  7 13.5000221879999991
+ save_forward_arrays time:  0.382270176000002238
+ iteration, start time:  8 14.6651394689999997
+ iteration, start time:  8 14.6842225979999998
+ iteration, start time:  8 14.7216887089999986
+ iteration, start time:  8 14.9377914179999998
+ save_forward_arrays time:  0.216043402000000384
+ iteration, start time:  8 14.8788059710000002
+ save_forward_arrays time:  0.212103728000002434
+ iteration, start time:  8 15.0274794639999989
+ save_forward_arrays time:  0.230353214000000861
+ iteration, start time:  8 14.9941490440000003
+ iteration, start time:  8 15.1484206280000002
+ iteration, start time:  8 15.1519096250000000
+ save_forward_arrays time:  0.213648998000000034
+ save_forward_arrays time:  0.218657498999998978
+ save_forward_arrays time:  0.212695506999999395
+ save_forward_arrays time:  0.218899315000001593
+ save_forward_arrays time:  0.218468073000000373
+ save_forward_arrays time:  0.221656666000001223
+ iteration, start time:  8 15.5961370469999991
+ save_forward_arrays time:  0.215654308000001294
+ iteration, start time:  9 16.5929596500000009
+ iteration, start time:  9 16.6432955840000005
+ iteration, start time:  9 16.6225604979999986
+ iteration, start time:  9 16.8631101779999995
+ save_forward_arrays time:  0.265116960000000290
+ iteration, start time:  9 16.8074428620000020
+ save_forward_arrays time:  0.215113375000001383
+ iteration, start time:  9 16.9499446690000006
+ save_forward_arrays time:  0.215725880000000814
+ iteration, start time:  9 16.9301928060000009
+ iteration, start time:  9 17.0830604239999992
+ iteration, start time:  9 17.0942634040000030
+ save_forward_arrays time:  0.220733985999999049
+ save_forward_arrays time:  0.216632725000000192
+ save_forward_arrays time:  0.219363743999998917
+ save_forward_arrays time:  0.218843092000000183
+ save_forward_arrays time:  0.216315343000001548
+ save_forward_arrays time:  0.213430329999997781
+ iteration, start time:  9 17.5374397960000010
+ save_forward_arrays time:  0.217050168000000099
+ iteration, start time:  10 18.5808322060000002
+ iteration, start time:  10 18.5810293970000018
+ iteration, start time:  10 18.5603656429999972
+ iteration, start time:  10 18.8040027929999987
+ save_forward_arrays time:  0.222768554000001728
+ iteration, start time:  10 18.7429562789999977
+ save_forward_arrays time:  0.215242007999997043
+ iteration, start time:  10 18.8914489110000012
+ save_forward_arrays time:  0.216139049000002359
+ iteration, start time:  10 18.8701620779999999
+ iteration, start time:  10 19.0241295920000013
+ iteration, start time:  10 19.0372965390000033
+ save_forward_arrays time:  0.225059320999999812
+ save_forward_arrays time:  0.218147228999999498
+ save_forward_arrays time:  0.217967602999998178
+ save_forward_arrays time:  0.230933068000002351
+ save_forward_arrays time:  0.215653794999997928
+ save_forward_arrays time:  0.213602968000000004
+ iteration, start time:  10 19.4677456860000007
+ save_forward_arrays time:  0.216002205999998864
+ iteration, start time:  11 20.5179573200000007
+ iteration, start time:  11 20.5042672249999995
+ iteration, start time:  11 20.4854964550000034
+ iteration, start time:  11 20.7408156300000002
+ save_forward_arrays time:  0.216092994000000260
+ iteration, start time:  11 20.6741005949999987
+ save_forward_arrays time:  0.215985010000000699
+ iteration, start time:  11 20.8212725220000010
+ save_forward_arrays time:  0.230450766000000584
+ iteration, start time:  11 20.8165931410000020
+ iteration, start time:  11 20.9558355770000020
+ iteration, start time:  11 20.9693347799999970
+ save_forward_arrays time:  0.219846151999998796
+ save_forward_arrays time:  0.218920330999999635
+ save_forward_arrays time:  0.230397503999999032
+ save_forward_arrays time:  0.220741695999997489
+ save_forward_arrays time:  0.219903642999998539
+ save_forward_arrays time:  0.225098094999999887
+ iteration, start time:  11 21.3975978560000009
+ save_forward_arrays time:  0.227001130999997969
+ iteration, start time:  12 22.4606723280000011
+ iteration, start time:  12 22.4432604530000006
+ iteration, start time:  12 22.4300577850000025
+ iteration, start time:  12 22.7051341680000007
+ save_forward_arrays time:  0.220377848999998349
+ iteration, start time:  12 22.6303690060000022
+ iteration, start time:  12 22.7962108350000001
+ iteration, start time:  12 22.7948787120000027
+ iteration, start time:  12 22.9206453250000024
+ iteration, start time:  12 22.9321878430000012
+ save_forward_arrays time:  0.337615308000000169
+ save_forward_arrays time:  0.220991163999997298
+ save_forward_arrays time:  0.219051574999998167
+ save_forward_arrays time:  0.228522029000000515
+ save_forward_arrays time:  0.226878350999999867
+ save_forward_arrays time:  0.224839882999997798
+ save_forward_arrays time:  0.320992620999998479
+ save_forward_arrays time:  0.680998085999998892
+ iteration, start time:  12 23.4762990729999999
+ save_forward_arrays time:  0.229362777999998713
+ iteration, start time:  13 24.5397607959999995
+ iteration, start time:  13 24.6095878969999973
+ iteration, start time:  13 24.7784753209999984
+ iteration, start time:  13 24.6847056909999978
+ save_forward_arrays time:  0.221943736000000058
+ iteration, start time:  13 24.8650045350000006
+ iteration, start time:  13 24.8615697800000000
+ save_forward_arrays time:  0.223211649999999651
+ iteration, start time:  13 25.0186078730000006
+ save_forward_arrays time:  0.229092852000000846
+ save_forward_arrays time:  0.220487354999999496
+ iteration, start time:  13 24.9421220710000000
+ iteration, start time:  13 25.0988527510000026
+ save_forward_arrays time:  0.229566901999998407
+ save_forward_arrays time:  0.232395248999999637
+ save_forward_arrays time:  0.217918197999999563
+ save_forward_arrays time:  0.375952029000000465
+ save_forward_arrays time:  0.335959062000000586
+ iteration, start time:  13 25.4396346820000012
+ save_forward_arrays time:  0.218099074999997811
+ iteration, start time:  14 26.4869272100000011
+ iteration, start time:  14 26.5493375389999997
+ iteration, start time:  14 26.7283321329999985
+ iteration, start time:  14 26.6291173340000000
+ iteration, start time:  14 26.8154681639999986
+ save_forward_arrays time:  0.349827453999999705
+ iteration, start time:  14 26.9801598889999994
+ iteration, start time:  14 26.8703295659999988
+ save_forward_arrays time:  0.365704642999997276
+ iteration, start time:  14 26.9631087080000000
+ save_forward_arrays time:  0.395314167000002215
+ iteration, start time:  14 27.1590080470000004
+ save_forward_arrays time:  0.377178765000000027
+ save_forward_arrays time:  0.435393393999998324
+ save_forward_arrays time:  0.376291144000003186
+ save_forward_arrays time:  0.426562439999997878
+ save_forward_arrays time:  0.366565422000004304
+ save_forward_arrays time:  0.354360890000002371
+ iteration, start time:  14 27.3781445810000008
+ save_forward_arrays time:  0.378029824000002179
+ iteration, start time:  15 28.5523293789999997
+ iteration, start time:  15 28.6262922499999988
+ iteration, start time:  15 28.8352298919999974
+ iteration, start time:  15 28.7260533110000011
+ save_forward_arrays time:  0.255468841999999086
+ iteration, start time:  15 28.9683933959999962
+ save_forward_arrays time:  0.236183325000006050
+ iteration, start time:  15 28.9603954080000037
+ save_forward_arrays time:  0.227257057000002760
+ save_forward_arrays time:  0.226609942999999703
+ iteration, start time:  15 29.1311280680000024
+ iteration, start time:  15 29.0515670600000000
+ iteration, start time:  15 29.2270388600000004
+ save_forward_arrays time:  0.228888490000002776
+ save_forward_arrays time:  0.222941767999998319
+ save_forward_arrays time:  0.230428419999995526
+ save_forward_arrays time:  0.231490174999997578
+ save_forward_arrays time:  0.221720677000000421
+ iteration, start time:  15 29.4718036129999987
+ save_forward_arrays time:  0.229189130000001740
+ iteration, start time:  16 30.5367107440000041
+ iteration, start time:  16 30.5933790449999989
+ iteration, start time:  16 30.7846282629999983
+ iteration, start time:  16 30.6737881769999987
+ save_forward_arrays time:  0.234468507999999076
+ iteration, start time:  16 30.9217075689999987
+ save_forward_arrays time:  0.217840329000004829
+ iteration, start time:  16 30.9126365990000025
+ save_forward_arrays time:  0.224508137000000829
+ iteration, start time:  16 31.0920771919999979
+ iteration, start time:  16 31.0105178469999991
+ iteration, start time:  16 31.1798071079999985
+ save_forward_arrays time:  0.228326059000004022
+ save_forward_arrays time:  0.221077641000000824
+ save_forward_arrays time:  0.475667006000001891
+ save_forward_arrays time:  0.221480623000005039
+ save_forward_arrays time:  0.226536926000001415
+ save_forward_arrays time:  0.226762440000001675
+ iteration, start time:  16 31.4277386150000027
+ save_forward_arrays time:  0.247551586000000157
+ iteration, start time:  17 32.4857915460000015
+ iteration, start time:  17 32.5184237970000041
+ iteration, start time:  17 32.7179848990000011
+ save_forward_arrays time:  0.217785804999998334
+ iteration, start time:  17 32.8571965280000029
+ save_forward_arrays time:  0.220083713999997599
+ iteration, start time:  17 32.8400228759999990
+ save_forward_arrays time:  0.222745123999999350
+ iteration, start time:  17 32.8634538390000017
+ iteration, start time:  17 33.0325160590000024
+ iteration, start time:  17 32.9466079679999950
+ save_forward_arrays time:  0.221839050999996346
+ iteration, start time:  17 33.1195066710000035
+ save_forward_arrays time:  0.221245473000003301
+ save_forward_arrays time:  0.224262238000001446
+ save_forward_arrays time:  0.220362852999997472
+ save_forward_arrays time:  0.247996055000001547
+ save_forward_arrays time:  0.215641964999996105
+ iteration, start time:  17 33.3875677799999977
+ save_forward_arrays time:  0.235526247000002797
+ iteration, start time:  18 34.4164596829999994
+ iteration, start time:  18 34.4447683429999998
+ iteration, start time:  18 34.6513363690000062
+ save_forward_arrays time:  0.229578574000001367
+ iteration, start time:  18 34.7878661640000004
+ save_forward_arrays time:  0.221137138000003119
+ iteration, start time:  18 34.7691686739999994
+ save_forward_arrays time:  0.228413413999994930
+ iteration, start time:  18 34.7954149680000029
+ iteration, start time:  18 34.9705459999999988
+ iteration, start time:  18 34.9074884769999940
+ save_forward_arrays time:  0.228104783999995675
+ iteration, start time:  18 35.0549448519999984
+ save_forward_arrays time:  0.230309114999997178
+ save_forward_arrays time:  0.221483116000001701
+ save_forward_arrays time:  0.226125248999998973
+ save_forward_arrays time:  0.227467272000005494
+ save_forward_arrays time:  0.218922798000001251
+ iteration, start time:  18 35.3354297650000007
+ save_forward_arrays time:  0.254112610999996491
+ iteration, start time:  19 36.3558453180000001
+ iteration, start time:  19 36.3730370370000031
+ iteration, start time:  19 36.5880643410000062
+ save_forward_arrays time:  0.227127086000002976
+ iteration, start time:  19 36.7239059110000028
+ save_forward_arrays time:  0.232302863000001025
+ iteration, start time:  19 36.7052937010000022
+ save_forward_arrays time:  0.236373838999995201
+ iteration, start time:  19 36.7286237400000033
+ iteration, start time:  19 36.9096234229999993
+ iteration, start time:  19 36.8437944060000007
+ save_forward_arrays time:  0.221916750999994861
+ iteration, start time:  19 36.9867172169999989
+ save_forward_arrays time:  0.222820162999994409
+ save_forward_arrays time:  0.221088887000000511
+ save_forward_arrays time:  0.223522391000003040
+ save_forward_arrays time:  0.223374549999995509
+ save_forward_arrays time:  0.224372823000003052
+ iteration, start time:  19 37.3182870609999995
+ save_forward_arrays time:  0.288778724000003706
+ iteration, start time:  20 38.4269846500000014
+ iteration, start time:  20 38.4560072360000049
+ iteration, start time:  20 38.6565845110000055
+ iteration, start time:  20 38.8066138639999991
+ iteration, start time:  20 38.7900886030000009
+ save_forward_arrays time:  0.407814426999998147
+ iteration, start time:  20 38.8045028149999993
+ save_forward_arrays time:  0.354139832999997850
+ iteration, start time:  20 38.9965788640000000
+ iteration, start time:  20 38.9338525649999951
+ save_forward_arrays time:  0.378876441999999258
+ iteration, start time:  20 39.0799965380000032
+ save_forward_arrays time:  0.402682351999999355
+ save_forward_arrays time:  0.366698266999996747
+ save_forward_arrays time:  0.358771992999997735
+ save_forward_arrays time:  0.460671044000001473
+ save_forward_arrays time:  0.366086473999999384
+ save_forward_arrays time:  0.460235689000001003
+ iteration, start time:  20 39.4410179939999992
+ save_forward_arrays time:  0.387475266999999235
+ iteration, start time:  21 40.5531106580000014
+ iteration, start time:  21 40.5211948440000000
+ iteration, start time:  21 40.7506147940000005
+ save_forward_arrays time:  0.233198541999996678
+ save_forward_arrays time:  0.223616847000002394
+ iteration, start time:  21 40.9212011420000010
+ iteration, start time:  21 40.8658598089999998
+ save_forward_arrays time:  0.222133407000001171
+ iteration, start time:  21 41.0766301889999994
+ iteration, start time:  21 40.9772156380000041
+ iteration, start time:  21 41.1680535779999985
+ save_forward_arrays time:  0.222782394999995859
+ save_forward_arrays time:  0.218258372999997619
+ iteration, start time:  21 41.1110509389999947
+ save_forward_arrays time:  0.220745839999999305
+ save_forward_arrays time:  0.228365001000000234
+ save_forward_arrays time:  0.220045603000002643
+ save_forward_arrays time:  0.227974638000006280
+ iteration, start time:  21 41.5394064520000015
+ save_forward_arrays time:  0.220904349999997862
+ iteration, start time:  22 42.4989364030000019
+ iteration, start time:  22 42.4527929899999990
+ iteration, start time:  22 42.6884482880000036
+ save_forward_arrays time:  0.217771552999998619
+ save_forward_arrays time:  0.222739078000003587
+ iteration, start time:  22 42.8558393909999964
+ iteration, start time:  22 42.7905938310000025
+ save_forward_arrays time:  0.221118371999999397
+ iteration, start time:  22 43.0159278389999997
+ iteration, start time:  22 42.9185079400000049
+ iteration, start time:  22 43.1092299140000037
+ save_forward_arrays time:  0.227344772000002138
+ save_forward_arrays time:  0.218003359000000785
+ iteration, start time:  22 43.0534012999999973
+ save_forward_arrays time:  0.224444455000003984
+ save_forward_arrays time:  0.225446123999994086
+ save_forward_arrays time:  0.223543757999998149
+ save_forward_arrays time:  0.218067873000002521
+ iteration, start time:  22 43.4685920430000010
+ save_forward_arrays time:  0.217499920999998153
+ iteration, start time:  23 44.4279914080000040
+ iteration, start time:  23 44.3803127330000038
+ iteration, start time:  23 44.6225215500000019
+ save_forward_arrays time:  0.221779096999995318
+ save_forward_arrays time:  0.217337690000000805
+ iteration, start time:  23 44.7901465830000021
+ iteration, start time:  23 44.7152012279999980
+ save_forward_arrays time:  0.234712669000003871
+ iteration, start time:  23 44.9546286269999982
+ iteration, start time:  23 44.8509332320000027
+ save_forward_arrays time:  0.223629529999996635
+ iteration, start time:  23 45.0477096350000039
+ save_forward_arrays time:  0.221107368000005522
+ iteration, start time:  23 44.9809441139999961
+ save_forward_arrays time:  0.225112424000002420
+ save_forward_arrays time:  0.229163163999999142
+ save_forward_arrays time:  0.218631349999995450
+ save_forward_arrays time:  0.229501460000001600
+ iteration, start time:  23 45.3984105270000029
+ save_forward_arrays time:  0.270295133999994164
+ iteration, start time:  24 46.3693389560000000
+ iteration, start time:  24 46.3072563650000006
+ iteration, start time:  24 46.5731858460000012
+ save_forward_arrays time:  0.216342307000005007
+ save_forward_arrays time:  0.227492009999998857
+ iteration, start time:  24 46.7331565949999970
+ iteration, start time:  24 46.6586129169999992
+ save_forward_arrays time:  0.223214783000003081
+ iteration, start time:  24 46.9072687009999996
+ iteration, start time:  24 46.8045259960000024
+ save_forward_arrays time:  0.230589738000006150
+ iteration, start time:  24 47.0006013380000027
+ iteration, start time:  24 46.9396731349999996
+ save_forward_arrays time:  0.285150006999998595
+ save_forward_arrays time:  0.225492516999999282
+ save_forward_arrays time:  0.222338712999999188
+ save_forward_arrays time:  0.217985984000002020
+ save_forward_arrays time:  0.224040969999997230
+ iteration, start time:  24 47.3953704629999990
+ save_forward_arrays time:  0.222928750999997760
+ iteration, start time:  25 48.2378169290000045
+ iteration, start time:  25 48.3146322910000023
+ iteration, start time:  25 48.5143464550000019
+ save_forward_arrays time:  0.217725952999998640
+ save_forward_arrays time:  0.222436715999997148
+ iteration, start time:  25 48.6734044889999993
+ iteration, start time:  25 48.6503626969999985
+ save_forward_arrays time:  0.231135688999998479
+ iteration, start time:  25 48.8474612810000011
+ iteration, start time:  25 48.7405349810000033
+ iteration, start time:  25 48.9320495449999981
+ save_forward_arrays time:  0.234559048000001269
+ save_forward_arrays time:  0.218992321999998296
+ iteration, start time:  25 48.8737900889999963
+ save_forward_arrays time:  0.221244587999997577
+ save_forward_arrays time:  0.221888657000000933
+ save_forward_arrays time:  0.224841689999998096
+ save_forward_arrays time:  0.477515623999998695
+ iteration, start time:  25 49.3276396609999992
+ save_forward_arrays time:  0.223764492999997344
+ iteration, start time:  26 50.1642810290000014
+ iteration, start time:  26 50.2508545789999985
+ iteration, start time:  26 50.4585498300000026
+ save_forward_arrays time:  0.222013504000003081
+ save_forward_arrays time:  0.230069124999999985
+ iteration, start time:  26 50.6236323919999975
+ iteration, start time:  26 50.5822419900000000
+ save_forward_arrays time:  0.236403486999996915
+ iteration, start time:  26 50.7871059699999989
+ iteration, start time:  26 50.8683210069999987
+ save_forward_arrays time:  0.235346429000003354
+ save_forward_arrays time:  0.221220950000002858
+ iteration, start time:  26 50.8138268439999976
+ save_forward_arrays time:  0.235875532000001442
+ iteration, start time:  26 50.9419290740000008
+ save_forward_arrays time:  0.231233195999998031
+ save_forward_arrays time:  0.230657601000004320
+ iteration, start time:  26 51.2693774919999967
+ save_forward_arrays time:  0.589274037000002693
+ save_forward_arrays time:  0.225777752000006160
+ iteration, start time:  27 52.1038151320000011
+ iteration, start time:  27 52.2003936270000040
+ iteration, start time:  27 52.4132899539999997
+ iteration, start time:  27 52.5744806610000026
+ iteration, start time:  27 52.5104970750000035
+ save_forward_arrays time:  0.406309259000003919
+ save_forward_arrays time:  0.390127705999994134
+ iteration, start time:  27 52.7451178640000009
+ save_forward_arrays time:  0.375382245000004389
+ iteration, start time:  27 52.7593695049999951
+ save_forward_arrays time:  0.390031393999997533
+ iteration, start time:  27 52.8852043480000020
+ save_forward_arrays time:  0.437539138999994748
+ save_forward_arrays time:  0.389972987999996690
+ iteration, start time:  27 53.1706942130000044
+ save_forward_arrays time:  0.402579157000005239
+ iteration, start time:  27 53.1976675089999986
+ save_forward_arrays time:  0.411335477999998034
+ save_forward_arrays time:  0.406741033999999502
+ save_forward_arrays time:  0.396582227000003229
+ iteration, start time:  28 54.2186728880000004
+ iteration, start time:  28 54.3015763340000035
+ iteration, start time:  28 54.5006203220000032
+ save_forward_arrays time:  0.213909153999999546
+ save_forward_arrays time:  0.221472047999995425
+ iteration, start time:  28 54.6061962879999996
+ iteration, start time:  28 54.7196082070000003
+ iteration, start time:  28 54.8488467950000000
+ save_forward_arrays time:  0.398780064000000323
+ save_forward_arrays time:  0.225102196999998228
+ iteration, start time:  28 54.8712187739999990
+ save_forward_arrays time:  0.244432466999995768
+ save_forward_arrays time:  0.216782164000001387
+ iteration, start time:  28 55.0061519200000006
+ save_forward_arrays time:  0.224764520000000800
+ iteration, start time:  28 55.2999898560000034
+ save_forward_arrays time:  0.228391338999998084
+ iteration, start time:  28 55.3216546780000016
+ save_forward_arrays time:  0.222028819999998461
+ save_forward_arrays time:  0.220300269999995635
+ iteration, start time:  29 56.2502465809999990
+ iteration, start time:  29 56.3426729350000031
+ save_forward_arrays time:  0.219490555000000143
+ save_forward_arrays time:  0.221984794999997348
+ iteration, start time:  29 56.7167788520000045
+ iteration, start time:  29 56.6581777760000023
+ iteration, start time:  29 56.7860269749999986
+ iteration, start time:  29 56.9117160739999974
+ save_forward_arrays time:  0.227321740999997246
+ iteration, start time:  29 56.9402513579999976
+ save_forward_arrays time:  0.250978821000003904
+ save_forward_arrays time:  0.295495191000000546
+ save_forward_arrays time:  0.239832974000002253
+ iteration, start time:  29 57.0540055020000025
+ save_forward_arrays time:  0.229135603000003130
+ iteration, start time:  29 57.3628973490000007
+ save_forward_arrays time:  0.228635767000000101
+ iteration, start time:  29 57.3353072159999968
+ save_forward_arrays time:  0.229844513999999833
+ save_forward_arrays time:  0.230066540000002817
+ iteration, start time:  30 58.1833951370000051
+ iteration, start time:  30 58.2780528680000032
+ save_forward_arrays time:  0.225051882999999009
+ save_forward_arrays time:  0.229523550999999770
+ iteration, start time:  30 58.6581620220000062
+ iteration, start time:  30 58.7537719749999994
+ iteration, start time:  30 58.6790158350000013
+ iteration, start time:  30 58.8833167599999996
+ save_forward_arrays time:  0.222315123999997866
+ save_forward_arrays time:  0.219623687000002121
+ save_forward_arrays time:  0.223594808000001422
+ iteration, start time:  30 58.9217727079999989
+ save_forward_arrays time:  0.248234689000000230
+ iteration, start time:  30 59.0445283910000001
+ save_forward_arrays time:  0.226253034999999159
+ iteration, start time:  30 59.3419469999999976
+ save_forward_arrays time:  0.221678441000008775
+ iteration, start time:  30 59.3525953270000031
+ save_forward_arrays time:  0.222095893000002320
+ save_forward_arrays time:  0.313989727999995694
+ iteration, start time:  31 60.1980493310000071
+ iteration, start time:  31 60.2992739869999994
+ save_forward_arrays time:  0.218621830999992994
+ iteration, start time:  31 60.6525567850000016
+ iteration, start time:  31 60.7409050400000012
+ iteration, start time:  31 60.6535683810000066
+ iteration, start time:  31 60.9071024989999970
+ save_forward_arrays time:  0.230957337000006646
+ save_forward_arrays time:  0.546017724999998677
+ save_forward_arrays time:  0.219745379999991997
+ save_forward_arrays time:  0.217355329999989522
+ iteration, start time:  31 60.8929042720000027
+ save_forward_arrays time:  0.223503923999999188
+ iteration, start time:  31 60.9977264830000081
+ save_forward_arrays time:  0.225077317999989646
+ iteration, start time:  31 61.2967675290000003
+ save_forward_arrays time:  0.228061569999994163
+ save_forward_arrays time:  0.220141170999994529
+ iteration, start time:  31 61.3780314979999986
+ save_forward_arrays time:  0.220691334000008510
+ iteration, start time:  32 62.1208840839999965
+ save_forward_arrays time:  0.216827558000005638
+ iteration, start time:  32 62.5955578239999966
+ iteration, start time:  32 62.5570689830000006
+ iteration, start time:  32 62.5761766519999938
+ iteration, start time:  32 62.6682983040000039
+ iteration, start time:  32 62.8517947730000017
+ save_forward_arrays time:  0.226379636000004325
+ save_forward_arrays time:  0.230383019000001354
+ save_forward_arrays time:  0.224104024000013169
+ iteration, start time:  32 62.8288379679999949
+ save_forward_arrays time:  0.220090314999993097
+ iteration, start time:  32 62.9352431829999972
+ save_forward_arrays time:  0.425411374999995928
+ save_forward_arrays time:  0.229820197000009330
+ iteration, start time:  32 63.2341667730000054
+ save_forward_arrays time:  0.231617058000011866
+ iteration, start time:  32 63.3121261219999951
+ save_forward_arrays time:  0.237852185999997801
+ save_forward_arrays time:  0.224794383000002540
+ iteration, start time:  33 64.0580965360000079
+ iteration, start time:  33 64.5410731430000055
+ save_forward_arrays time:  0.375607188999993014
+ iteration, start time:  33 64.5117609269999974
+ iteration, start time:  33 64.5148129879999885
+ iteration, start time:  33 64.7968515269999870
+ iteration, start time:  33 64.8177580640000031
+ iteration, start time:  33 64.7835084740000013
+ save_forward_arrays time:  0.428222969000003673
+ save_forward_arrays time:  0.396996372999993241
+ save_forward_arrays time:  0.373783846999998559
+ iteration, start time:  33 64.8897762520000043
+ save_forward_arrays time:  0.353408279000007042
+ iteration, start time:  33 65.1871643589999934
+ save_forward_arrays time:  0.357121066999994241
+ save_forward_arrays time:  0.359067187000007948
+ iteration, start time:  33 65.2525330830000030
+ save_forward_arrays time:  0.393948766999997702
+ save_forward_arrays time:  0.444227741000005949
+ save_forward_arrays time:  0.361213927999997964
+ iteration, start time:  34 66.1538730130000090
+ save_forward_arrays time:  0.232670366999997213
+ iteration, start time:  34 66.6934476850000095
+ iteration, start time:  34 66.6332805389999976
+ iteration, start time:  34 66.6105070940000132
+ iteration, start time:  34 66.8799124339999906
+ iteration, start time:  34 66.8975855959999990
+ save_forward_arrays time:  0.221292395999995506
+ save_forward_arrays time:  0.233561433999994961
+ save_forward_arrays time:  0.226030637999997452
+ iteration, start time:  34 66.8723578900000035
+ save_forward_arrays time:  0.224316821000002165
+ iteration, start time:  34 67.0055335290000045
+ save_forward_arrays time:  0.232467366999998148
+ save_forward_arrays time:  0.223143270999997867
+ iteration, start time:  34 67.3638771249999877
+ save_forward_arrays time:  0.228622962999992296
+ iteration, start time:  34 67.3323141500000020
+ save_forward_arrays time:  0.231760334000000512
+ iteration, start time:  35 68.0946073620000050
+ save_forward_arrays time:  0.221184296000004110
+ save_forward_arrays time:  1.12913214200000311
+ iteration, start time:  35 68.5667142719999987
+ iteration, start time:  35 68.5424151269999982
+ iteration, start time:  35 68.6361040790000061
+ iteration, start time:  35 68.8195880719999877
+ iteration, start time:  35 68.8370480469999961
+ save_forward_arrays time:  0.218809068999988199
+ save_forward_arrays time:  0.220668220999996834
+ save_forward_arrays time:  0.229293197999993481
+ iteration, start time:  35 68.8078316540000117
+ save_forward_arrays time:  0.231642378000003646
+ save_forward_arrays time:  0.225662042000010388
+ iteration, start time:  35 68.9415769710000035
+ save_forward_arrays time:  0.229873779999991257
+ iteration, start time:  35 69.3153762629999903
+ save_forward_arrays time:  0.225530968000001053
+ save_forward_arrays time:  0.220686161000003267
+ iteration, start time:  36 70.0201600270000029
+ iteration, start time:  35 70.1729473980000051
+ save_forward_arrays time:  0.219611018999998464
+ save_forward_arrays time:  0.231690045999997096
+ iteration, start time:  36 70.4989351849999935
+ iteration, start time:  36 70.5665328719999962
+ iteration, start time:  36 70.4777491860000112
+ iteration, start time:  36 70.7651510749999915
+ iteration, start time:  36 70.7704876789999986
+ save_forward_arrays time:  0.226111103999997454
+ save_forward_arrays time:  0.219573103999991304
+ save_forward_arrays time:  0.224473341000006599
+ iteration, start time:  36 70.7489832370000045
+ save_forward_arrays time:  0.220927110000005200
+ iteration, start time:  36 70.8755491910000046
+ save_forward_arrays time:  0.230996869999998466
+ save_forward_arrays time:  0.225890587999998615
+ save_forward_arrays time:  0.221114451999994799
+ iteration, start time:  36 71.2562892959999914
+ save_forward_arrays time:  0.221214693999996825
+ iteration, start time:  37 71.9494938320000017
+ iteration, start time:  36 72.1144624789999966
+ save_forward_arrays time:  0.219626957000002676
+ save_forward_arrays time:  0.224239753000006203
+ iteration, start time:  37 72.4052831269999899
+ iteration, start time:  37 72.4377454049999869
+ iteration, start time:  37 72.5034582070000084
+ iteration, start time:  37 72.7052041009999925
+ iteration, start time:  37 72.7109977589999943
+ save_forward_arrays time:  0.223626973000008888
+ save_forward_arrays time:  0.224891217000006804
+ save_forward_arrays time:  0.249577296999987652
+ iteration, start time:  37 72.6894157610000065
+ iteration, start time:  37 72.8102884090000089
+ save_forward_arrays time:  0.224451153000003956
+ save_forward_arrays time:  0.260039339999991626
+ save_forward_arrays time:  0.426607684000003928
+ iteration, start time:  37 73.1910228670000009
+ save_forward_arrays time:  0.386391834999997741
+ save_forward_arrays time:  0.223914181999987250
+ iteration, start time:  38 73.8773712459999956
+ iteration, start time:  37 74.0496874039999966
+ save_forward_arrays time:  0.227058530000007863
+ iteration, start time:  38 74.3376181829999894
+ iteration, start time:  38 74.3769211909999939
+ save_forward_arrays time:  0.448815531000008150
+ iteration, start time:  38 74.4619223880000050
+ iteration, start time:  38 74.6440888959999995
+ save_forward_arrays time:  0.224115816000008294
+ save_forward_arrays time:  0.222463578000002826
+ save_forward_arrays time:  0.226609964999994418
+ iteration, start time:  38 74.6637936560000099
+ iteration, start time:  38 74.8462270679999904
+ save_forward_arrays time:  0.223114034000005290
+ save_forward_arrays time:  0.231194626999993602
+ save_forward_arrays time:  0.227045345999997039
+ iteration, start time:  38 74.9109692279999990
+ iteration, start time:  38 75.1379366660000017
+ save_forward_arrays time:  0.223367437000007385
+ save_forward_arrays time:  0.224897806999990735
+ iteration, start time:  38 75.9861677180000044
+ iteration, start time:  39 76.0335003140000083
+ save_forward_arrays time:  0.225763635999996382
+ iteration, start time:  39 76.2725617259999922
+ iteration, start time:  39 76.3151025829999980
+ iteration, start time:  39 76.3982849989999977
+ save_forward_arrays time:  0.277796964999993179
+ iteration, start time:  39 76.5923743400000063
+ save_forward_arrays time:  0.222286828000008541
+ iteration, start time:  39 76.6539331250000089
+ iteration, start time:  39 76.8262879319999996
+ save_forward_arrays time:  0.422529338999993342
+ save_forward_arrays time:  0.221373973999988038
+ save_forward_arrays time:  0.227454788999992275
+ save_forward_arrays time:  0.225247951999989482
+ iteration, start time:  39 76.9012895820000040
+ iteration, start time:  39 77.1419351159999991
+ save_forward_arrays time:  0.225901835999991363
+ save_forward_arrays time:  0.226123023999988959
+ save_forward_arrays time:  0.989271048999995628
+ iteration, start time:  39 78.0518452879999955
+ iteration, start time:  40 78.1358750699999973
+ save_forward_arrays time:  0.221720793000002914
+ iteration, start time:  40 78.4289359250000047
+ iteration, start time:  40 78.5353221859999877
+ iteration, start time:  40 78.6163605550000000
+ save_forward_arrays time:  0.388461020000008261
+ iteration, start time:  40 78.6528877690000030
+ iteration, start time:  40 78.8444416499999932
+ save_forward_arrays time:  0.417181181999993100
+ save_forward_arrays time:  0.401589696000002050
+ iteration, start time:  40 78.8863985210000038
+ save_forward_arrays time:  0.413876517000005606
+ iteration, start time:  40 79.0019925640000054
+ iteration, start time:  40 79.1439934519999895
+ save_forward_arrays time:  0.380313491999999087
+ save_forward_arrays time:  0.381561446999995724
+ save_forward_arrays time:  0.385649825000001556
+ save_forward_arrays time:  0.401073736000000736
+ save_forward_arrays time:  0.385404407000009996
+ iteration, start time:  40 79.9977382879999936
+ iteration, start time:  41 80.2370544289999970
+ save_forward_arrays time:  0.401851943000011147
+ iteration, start time:  41 80.5614659310000008
+ save_forward_arrays time:  0.229052022000004740
+ iteration, start time:  41 80.6495368499999898
+ iteration, start time:  41 80.7415699390000015
+ save_forward_arrays time:  0.222294456000000196
+ iteration, start time:  41 80.7446979460000023
+ iteration, start time:  41 80.9435348469999951
+ save_forward_arrays time:  0.227358390000006239
+ save_forward_arrays time:  0.230033437000003005
+ save_forward_arrays time:  0.229952937000007296
+ iteration, start time:  41 80.9828100440000043
+ save_forward_arrays time:  0.222616473999991626
+ iteration, start time:  41 81.1089622750000103
+ iteration, start time:  41 81.2477219169999927
+ save_forward_arrays time:  0.227119109000000208
+ save_forward_arrays time:  0.231580620000002568
+ save_forward_arrays time:  0.223926418000004901
+ iteration, start time:  41 82.1117362130000004
+ iteration, start time:  42 82.1711706899999967
+ save_forward_arrays time:  0.220111914000000297
+ iteration, start time:  42 82.4926367050000096
+ save_forward_arrays time:  0.216408005000005232
+ iteration, start time:  42 82.5882258099999973
+ iteration, start time:  42 82.6800343480000066
+ save_forward_arrays time:  0.226657016999993743
+ iteration, start time:  42 82.6852244040000102
+ iteration, start time:  42 82.8832674169999990
+ save_forward_arrays time:  0.221285617999996020
+ save_forward_arrays time:  0.221706744999991656
+ save_forward_arrays time:  0.225045343999994429
+ iteration, start time:  42 82.9190513009999961
+ save_forward_arrays time:  0.230935182999999711
+ iteration, start time:  42 83.0532211000000018
+ iteration, start time:  42 83.1871256599999924
+ save_forward_arrays time:  0.231535273000005759
+ save_forward_arrays time:  0.232296662000010201
+ save_forward_arrays time:  0.279076201999998830
+ iteration, start time:  42 84.0477596869999957
+ iteration, start time:  43 84.1059302040000034
+ save_forward_arrays time:  0.219509490000007190
+ iteration, start time:  43 84.4402057540000044
+ save_forward_arrays time:  0.226990212000004021
+ iteration, start time:  43 84.5275593429999930
+ iteration, start time:  43 84.6198525519999976
+ save_forward_arrays time:  0.255852805999992938
+ iteration, start time:  43 84.6317116250000083
+ iteration, start time:  43 84.8417525689999934
+ save_forward_arrays time:  0.228575379999995221
+ save_forward_arrays time:  0.223117341000005354
+ save_forward_arrays time:  0.229881309999996120
+ iteration, start time:  43 84.8673561479999989
+ save_forward_arrays time:  0.231371009000000072
+ iteration, start time:  43 84.9954776890000119
+ iteration, start time:  43 85.1889344869999974
+ save_forward_arrays time:  0.229238133999999150
+ save_forward_arrays time:  0.222833932000000345
+ save_forward_arrays time:  0.363154636999993841
+ iteration, start time:  43 85.9795603609999972
+ iteration, start time:  44 86.0430222570000041
+ save_forward_arrays time:  0.230077852000007965
+ save_forward_arrays time:  0.226470078999994939
+ iteration, start time:  44 86.4064296990000003
+ iteration, start time:  44 86.4689162469999957
+ iteration, start time:  44 86.5514914209999944
+ save_forward_arrays time:  0.219740057999999294
+ iteration, start time:  44 86.5749649859999977
+ iteration, start time:  44 86.7888848239999930
+ save_forward_arrays time:  0.221491271000004986
+ save_forward_arrays time:  0.226127079000008280
+ save_forward_arrays time:  0.235157814000004350
+ iteration, start time:  44 86.8083711259999973
+ save_forward_arrays time:  0.228531012999994232
+ iteration, start time:  44 86.9244161919999954
+ save_forward_arrays time:  0.238541519999998286
+ iteration, start time:  44 87.2663552319999951
+ save_forward_arrays time:  0.218881281999998123
+ save_forward_arrays time:  0.229312049000000684
+ iteration, start time:  44 87.9218133149999943
+ iteration, start time:  45 87.9764607759999961
+ save_forward_arrays time:  0.217807157999999390
+ iteration, start time:  45 88.3354654990000085
+ iteration, start time:  45 88.3995944099999917
+ save_forward_arrays time:  0.378461945000012179
+ iteration, start time:  45 88.4857325480000014
+ save_forward_arrays time:  0.233329228999991756
+ iteration, start time:  45 88.5238060230000059
+ save_forward_arrays time:  0.232488793000001692
+ iteration, start time:  45 88.7387400519999971
+ save_forward_arrays time:  0.230690615000000321
+ save_forward_arrays time:  0.229833111000004919
+ iteration, start time:  45 88.7640398240000081
+ save_forward_arrays time:  0.239548841999990714
+ iteration, start time:  45 88.8638682860000131
+ iteration, start time:  45 89.2237672750000002
+ save_forward_arrays time:  0.304367231000000515
+ save_forward_arrays time:  0.245489283999987151
+ save_forward_arrays time:  0.229088059999995153
+ iteration, start time:  45 89.8615656610000002
+ iteration, start time:  46 90.0825567950000021
+ save_forward_arrays time:  0.226707684999993830
+ iteration, start time:  46 90.3010120940000007
+ iteration, start time:  46 90.3572293629999876
+ iteration, start time:  46 90.4441788230000014
+ iteration, start time:  46 90.4759234360000022
+ save_forward_arrays time:  0.386079410999997208
+ iteration, start time:  46 90.7119824239999986
+ save_forward_arrays time:  0.401417064000000323
+ save_forward_arrays time:  0.369045178000007468
+ save_forward_arrays time:  0.399989591999997174
+ iteration, start time:  46 90.7926835210000007
+ iteration, start time:  46 90.8308723920000034
+ save_forward_arrays time:  0.481823976000001153
+ iteration, start time:  46 91.1727457759999993
+ save_forward_arrays time:  0.468453728999989494
+ save_forward_arrays time:  0.398661142000008795
+ save_forward_arrays time:  0.420361850000006143
+ save_forward_arrays time:  0.375121206999992296
+ iteration, start time:  46 91.8096601689999972
+ iteration, start time:  47 92.1796635990000084
+ save_forward_arrays time:  0.382469430000000443
+ iteration, start time:  47 92.4173603930000098
+ iteration, start time:  47 92.4380682379999996
+ save_forward_arrays time:  0.218167865999987498
+ iteration, start time:  47 92.5543690330000004
+ save_forward_arrays time:  0.229411412999994013
+ save_forward_arrays time:  0.228623207999987699
+ iteration, start time:  47 92.6688074879999988
+ save_forward_arrays time:  0.218891337000002295
+ iteration, start time:  47 92.8958358489999938
+ save_forward_arrays time:  0.225663301000011529
+ iteration, start time:  47 92.9356492850000109
+ iteration, start time:  47 92.9219250729999970
+ save_forward_arrays time:  0.230575164000001109
+ iteration, start time:  47 93.2629002869999937
+ save_forward_arrays time:  0.229796309999997561
+ save_forward_arrays time:  0.222351952000011011
+ save_forward_arrays time:  0.223266567999999666
+ iteration, start time:  47 93.9052770379999941
+ iteration, start time:  48 94.1023251600000066
+ save_forward_arrays time:  0.221988387000010334
+ iteration, start time:  48 94.3555521380000073
+ iteration, start time:  48 94.3785322299999905
+ save_forward_arrays time:  0.233224093999993443
+ iteration, start time:  48 94.4809883460000037
+ save_forward_arrays time:  0.233602924999999573
+ save_forward_arrays time:  0.221403920000000198
+ iteration, start time:  48 94.6049850269999979
+ save_forward_arrays time:  0.283641797999990786
+ iteration, start time:  48 94.8415008779999908
+ save_forward_arrays time:  0.231230012000011698
+ iteration, start time:  48 94.8710403279999923
+ iteration, start time:  48 94.8550353189999953
+ save_forward_arrays time:  0.291895311000004654
+ iteration, start time:  48 95.2007912939999983
+ save_forward_arrays time:  0.231341628999999216
+ save_forward_arrays time:  0.294038355000012075
+ save_forward_arrays time:  0.220051974000000428
+ iteration, start time:  48 95.8409398229999994
+ iteration, start time:  49 96.0453833079999981
+ save_forward_arrays time:  0.227300729999996065
+ iteration, start time:  49 96.3001537000000098
+ iteration, start time:  49 96.3107992479999950
+ save_forward_arrays time:  0.219831153000001223
+ iteration, start time:  49 96.4730844700000034
+ save_forward_arrays time:  0.236691841999999042
+ save_forward_arrays time:  0.225229151999997157
+ iteration, start time:  49 96.5486125680000100
+ save_forward_arrays time:  0.230079623999998262
+ iteration, start time:  49 96.8516524759999982
+ save_forward_arrays time:  0.233193541999995091
+ iteration, start time:  49 96.8082675679999909
+ iteration, start time:  49 96.8582669670000058
+ save_forward_arrays time:  0.226505114999994817
+ iteration, start time:  49 97.1389382819999980
+ save_forward_arrays time:  0.228271223000007240
+ save_forward_arrays time:  0.233019182999996133
+ save_forward_arrays time:  0.224562491999989788
+ iteration, start time:  49 97.7825253150000009
+ iteration, start time:  50 97.9707752350000050
+ save_forward_arrays time:  0.217559037000000899
+ iteration, start time:  50 98.2459332939999967
+ iteration, start time:  50 98.2496982769999931
+ save_forward_arrays time:  0.237687043999997627
+ iteration, start time:  50 98.4126915180000026
+ save_forward_arrays time:  0.231176876000006359
+ save_forward_arrays time:  0.226626476000006960
+ iteration, start time:  50 98.4923751420000002
+ save_forward_arrays time:  0.223670011999999474
+ iteration, start time:  50 98.7931438099999895
+ save_forward_arrays time:  0.219301768000008224
+ iteration, start time:  50 98.7438390659999925
+ iteration, start time:  50 98.8001763759999960
+ save_forward_arrays time:  0.217332978000001731
+ iteration, start time:  50 99.0783922399999994
+ save_forward_arrays time:  0.229325255000006223
+ save_forward_arrays time:  0.224220383000002244
+ save_forward_arrays time:  0.217218290999994679
+ iteration, start time:  50 99.7122663490000036
+ iteration, start time:  51 99.9168683160000057
+ save_forward_arrays time:  0.216949201999995012
+ iteration, start time:  51 100.186627178000009
+ iteration, start time:  51 100.188478894999989
+ save_forward_arrays time:  0.218415677999999502
+ iteration, start time:  51 100.344838856999999
+ save_forward_arrays time:  0.228256397999999194
+ iteration, start time:  51 100.421428615000011
+ save_forward_arrays time:  0.359180703999996354
+ save_forward_arrays time:  0.246277324999994107
+ iteration, start time:  51 100.725452153999996
+ save_forward_arrays time:  0.226902202999994529
+ iteration, start time:  51 100.679914848000010
+ iteration, start time:  51 100.733387016000009
+ save_forward_arrays time:  0.222821236999990901
+ iteration, start time:  51 101.010859304999997
+ save_forward_arrays time:  0.288281046999998125
+ save_forward_arrays time:  0.221124118999995289
+ save_forward_arrays time:  0.246331914999998958
+ iteration, start time:  51 101.656455679000004
+ save_forward_arrays time:  0.224738713999997231
+ iteration, start time:  52 101.882289134000004
+ save_forward_arrays time:  0.248557804000000715
+ iteration, start time:  52 102.219944749999996
+ iteration, start time:  52 102.334832896999998
+ iteration, start time:  52 102.392971433000000
+ save_forward_arrays time:  0.220162786000003052
+ iteration, start time:  52 102.468757990000000
+ save_forward_arrays time:  0.226588994000010757
+ save_forward_arrays time:  0.228492895000002250
+ iteration, start time:  52 102.787365482999988
+ save_forward_arrays time:  0.242603682000009258
+ iteration, start time:  52 102.792710907000014
+ iteration, start time:  52 102.762441897000002
+ save_forward_arrays time:  0.218519187000012494
+ iteration, start time:  52 103.101973560999994
+ save_forward_arrays time:  0.218516615999988062
+ save_forward_arrays time:  0.216742682000003128
+ save_forward_arrays time:  0.216000726000004306
+ iteration, start time:  52 103.666408211000004
+ iteration, start time:  53 103.870162421000003
+ save_forward_arrays time:  0.312841305999995711
+ iteration, start time:  53 104.157255132999992
+ iteration, start time:  53 104.281615367000001
+ iteration, start time:  53 104.344627746000000
+ save_forward_arrays time:  0.351907120999996437
+ iteration, start time:  53 104.431579851000009
+ save_forward_arrays time:  0.386898874999999975
+ save_forward_arrays time:  0.371669132000008062
+ iteration, start time:  53 104.731600944999997
+ save_forward_arrays time:  0.370583507999995732
+ iteration, start time:  53 104.719798958000013
+ iteration, start time:  53 104.690382990000003
+ save_forward_arrays time:  0.372236385999997310
+ iteration, start time:  53 105.039361377999995
+ save_forward_arrays time:  0.366677236000001017
+ save_forward_arrays time:  0.365304336999997759
+ save_forward_arrays time:  0.367083562999994228
+ save_forward_arrays time:  0.362853369999996289
+ iteration, start time:  53 105.691336148999994
+ iteration, start time:  54 105.930319683000008
+ save_forward_arrays time:  0.342269135000009328
+ save_forward_arrays time:  0.216209371999994460
+ iteration, start time:  54 106.254633894999998
+ iteration, start time:  54 106.367003722999996
+ iteration, start time:  54 106.423968501999994
+ save_forward_arrays time:  0.214587199999996869
+ save_forward_arrays time:  0.218213878000000250
+ iteration, start time:  54 106.518021152000003
+ save_forward_arrays time:  0.222607541000002129
+ iteration, start time:  54 106.814683422999991
+ save_forward_arrays time:  0.226565253000003963
+ iteration, start time:  54 106.800346539999993
+ iteration, start time:  54 106.768730868999995
+ save_forward_arrays time:  0.219128525000002128
+ iteration, start time:  54 107.118272590999993
+ save_forward_arrays time:  0.226300092000002451
+ save_forward_arrays time:  0.299543076000006181
+ save_forward_arrays time:  0.216346439000005830
+ iteration, start time:  54 107.836140286000003
+ iteration, start time:  55 107.932803821999997
+ save_forward_arrays time:  0.215619473000003836
+ save_forward_arrays time:  0.214637866000003896
+ iteration, start time:  55 108.256934736999995
+ iteration, start time:  55 108.390347521000010
+ iteration, start time:  55 108.437116540000005
+ save_forward_arrays time:  0.219531313000004502
+ save_forward_arrays time:  0.219551376999987724
+ iteration, start time:  55 108.539656006000001
+ save_forward_arrays time:  0.226090186999996945
+ iteration, start time:  55 108.842459710000000
+ save_forward_arrays time:  0.221381563000008441
+ iteration, start time:  55 108.788458423000009
+ iteration, start time:  55 108.844192456000002
+ save_forward_arrays time:  0.224103906999999936
+ save_forward_arrays time:  0.214563882999996736
+ iteration, start time:  55 109.137900641999991
+ save_forward_arrays time:  0.215183065000005058
+ save_forward_arrays time:  0.221459099000000492
+ iteration, start time:  55 109.763897459999995
+ iteration, start time:  56 109.856721667000002
+ save_forward_arrays time:  0.213207338000003688
+ save_forward_arrays time:  0.222355485999997882
+ iteration, start time:  56 110.188380248999991
+ iteration, start time:  56 110.321216245000002
+ iteration, start time:  56 110.371593707000002
+ save_forward_arrays time:  0.223876118999996265
+ save_forward_arrays time:  0.223812191999996912
+ iteration, start time:  56 110.471868966000002
+ save_forward_arrays time:  0.230854628999992428
+ iteration, start time:  56 110.784229556000000
+ save_forward_arrays time:  0.229683000000008519
+ iteration, start time:  56 110.709021452999991
+ iteration, start time:  56 110.768506129000002
+ save_forward_arrays time:  0.240630220999989319
+ save_forward_arrays time:  0.219712060999995629
+ iteration, start time:  56 111.074193537999989
+ save_forward_arrays time:  0.219793452999994088
+ save_forward_arrays time:  0.222388309999999478
+ iteration, start time:  56 111.689349816000004
+ iteration, start time:  57 111.788269069999998
+ save_forward_arrays time:  0.214439439999992487
+ save_forward_arrays time:  0.217775373999998578
+ iteration, start time:  57 112.122668024999996
+ iteration, start time:  57 112.254646119000000
+ iteration, start time:  57 112.311040563000006
+ save_forward_arrays time:  0.219338669999999070
+ save_forward_arrays time:  0.216642046000004029
+ iteration, start time:  57 112.414512139000010
+ save_forward_arrays time:  0.220305013999990251
+ iteration, start time:  57 112.741470108999991
+ iteration, start time:  57 112.634893491000014
+ save_forward_arrays time:  0.224548583999990115
+ iteration, start time:  57 112.697689457999999
+ save_forward_arrays time:  0.217844986000002905
+ save_forward_arrays time:  0.220479473999986908
+ iteration, start time:  57 113.014105040999993
+ save_forward_arrays time:  0.222863033999999516
+ save_forward_arrays time:  0.209921909000001961
+ iteration, start time:  57 113.613834608999994
+ iteration, start time:  58 113.715319993999998
+ save_forward_arrays time:  0.216247401000003947
+ save_forward_arrays time:  0.215271440999998731
+ iteration, start time:  58 114.051570989999988
+ iteration, start time:  58 114.180477194000005
+ iteration, start time:  58 114.239640936000001
+ save_forward_arrays time:  0.251260978000004798
+ save_forward_arrays time:  0.224827832000002559
+ iteration, start time:  58 114.350000311000002
+ save_forward_arrays time:  0.226673701999999366
+ iteration, start time:  58 114.675640098999992
+ iteration, start time:  58 114.561531414000001
+ save_forward_arrays time:  0.219639561999997568
+ iteration, start time:  58 114.631377037000007
+ save_forward_arrays time:  0.213154332000002000
+ save_forward_arrays time:  0.212518225000010830
+ iteration, start time:  58 114.939761400999998
+ save_forward_arrays time:  0.237742842999992376
+ save_forward_arrays time:  0.214313060999998584
+ iteration, start time:  58 115.541677616000001
+ iteration, start time:  59 115.640645426999995
+ save_forward_arrays time:  0.214902676999997766
+ iteration, start time:  59 116.016763028999989
+ iteration, start time:  59 116.118197580000000
+ save_forward_arrays time:  0.372670177000003378
+ iteration, start time:  59 116.178657130999994
+ iteration, start time:  59 116.286668164000005
+ save_forward_arrays time:  0.393709262000001559
+ save_forward_arrays time:  0.426410074000003192
+ iteration, start time:  59 116.611052466999993
+ save_forward_arrays time:  0.395539011000010987
+ iteration, start time:  59 116.493936684999994
+ iteration, start time:  59 116.586994230000002
+ save_forward_arrays time:  0.397122014999993667
+ iteration, start time:  59 116.881030468999995
+ save_forward_arrays time:  0.381247969000000353
+ save_forward_arrays time:  0.400780199999999809
+ save_forward_arrays time:  0.395111478000004013
+ save_forward_arrays time:  0.383171705999998835
+ iteration, start time:  59 117.477679002000002
+ iteration, start time:  60 117.736412368000003
+ save_forward_arrays time:  0.382590344999997001
+ save_forward_arrays time:  0.215898159999994732
+ iteration, start time:  60 118.125914990999988
+ iteration, start time:  60 118.262595773000001
+ iteration, start time:  60 118.289865321999997
+ save_forward_arrays time:  0.218296746000007147
+ save_forward_arrays time:  0.214312890000002199
+ iteration, start time:  60 118.399046741000006
+ save_forward_arrays time:  0.227031330000002640
+ iteration, start time:  60 118.582563515999993
+ iteration, start time:  60 118.730611397999994
+ save_forward_arrays time:  0.244273479000000293
+ iteration, start time:  60 118.694601939999998
+ save_forward_arrays time:  0.235671202000006019
+ save_forward_arrays time:  0.221115634000000227
+ iteration, start time:  60 118.979145379999991
+ save_forward_arrays time:  0.220538568999998574
+ save_forward_arrays time:  0.213092145000004507
+ iteration, start time:  60 119.570710117000004
+ iteration, start time:  61 119.659036854000007
+ save_forward_arrays time:  0.225785422000001290
+ save_forward_arrays time:  0.214316916000001356
+ iteration, start time:  61 120.052183935999992
+ iteration, start time:  61 120.187508412000000
+ iteration, start time:  61 120.226230982000004
+ save_forward_arrays time:  0.214770178000009082
+ save_forward_arrays time:  0.222615533999999116
+ save_forward_arrays time:  0.214432226999988984
+ iteration, start time:  61 120.358119365000007
+ iteration, start time:  61 120.523814592999997
+ iteration, start time:  61 120.668420588999993
+ save_forward_arrays time:  0.219833047999998143
+ iteration, start time:  61 120.627811633999997
+ save_forward_arrays time:  0.215508477000000198
+ save_forward_arrays time:  0.220556647999998745
+ iteration, start time:  61 120.905276754999988
+ save_forward_arrays time:  0.226474215000010304
+ save_forward_arrays time:  0.250541023000010910
+ iteration, start time:  61 121.508397686999999
+ iteration, start time:  62 121.579305454000007
+ save_forward_arrays time:  0.209776183000002447
+ save_forward_arrays time:  0.216375438000000031
+ iteration, start time:  62 121.988198510999993
+ iteration, start time:  62 122.121388969000009
+ iteration, start time:  62 122.157948266000005
+ save_forward_arrays time:  0.224138539999998443
+ save_forward_arrays time:  0.219426353999992330
+ iteration, start time:  62 122.301486698000005
+ save_forward_arrays time:  0.289052310999991846
+ iteration, start time:  62 122.454234151000009
+ iteration, start time:  62 122.609795842999986
+ save_forward_arrays time:  0.266898566999998366
+ iteration, start time:  62 122.570828325000008
+ save_forward_arrays time:  0.229888844000001313
+ iteration, start time:  62 122.875104950999997
+ save_forward_arrays time:  0.318770878999998786
+ save_forward_arrays time:  0.234940190999992637
+ save_forward_arrays time:  0.212987046999984386
+ iteration, start time:  62 123.435136468000010
+ iteration, start time:  63 123.513338581000014
+ save_forward_arrays time:  0.211037194999988742
+ save_forward_arrays time:  0.211941868999986127
+ iteration, start time:  63 123.929957236000007
+ iteration, start time:  63 124.052732201000012
+ iteration, start time:  63 124.159308521000000
+ save_forward_arrays time:  0.213298965999996426
+ save_forward_arrays time:  0.225171617000000879
+ iteration, start time:  63 124.280743958000002
+ save_forward_arrays time:  0.224657906000004459
+ iteration, start time:  63 124.556220638999989
+ iteration, start time:  63 124.479933824999989
+ save_forward_arrays time:  0.219190896000014845
+ iteration, start time:  63 124.519767400999996
+ save_forward_arrays time:  0.255259912000013856
+ iteration, start time:  63 124.806224039000000
+ save_forward_arrays time:  0.218972317000009298
+ save_forward_arrays time:  0.222147892999998930
+ save_forward_arrays time:  0.214692080999981272
+ iteration, start time:  63 125.358400505000006
+ iteration, start time:  64 125.434896243000011
+ save_forward_arrays time:  0.217519936000002190
+ save_forward_arrays time:  0.208291992999988906
+ iteration, start time:  64 125.853531802999981
+ iteration, start time:  64 125.988390391000010
+ iteration, start time:  64 126.091865679999998
+ save_forward_arrays time:  0.217854436000010310
+ save_forward_arrays time:  0.219921621999986883
+ iteration, start time:  64 126.210285231000015
+ save_forward_arrays time:  0.343188349000001836
+ iteration, start time:  64 126.529702188000002
+ iteration, start time:  64 126.415714734999995
+ save_forward_arrays time:  0.220296524999980647
+ iteration, start time:  64 126.467614950000012
+ save_forward_arrays time:  0.213555296999999200
+ iteration, start time:  64 126.739936326999981
+ save_forward_arrays time:  0.221278578999999809
+ save_forward_arrays time:  0.220372681999975839
+ save_forward_arrays time:  0.216661786000003076
+ iteration, start time:  64 127.303317879000005
+ iteration, start time:  65 127.367199242000012
+ save_forward_arrays time:  0.211415747999978976
+ save_forward_arrays time:  0.287802349000003233
+ iteration, start time:  65 127.813931548999989
+ iteration, start time:  65 127.925313884000005
+ save_forward_arrays time:  0.211451538000005712
+ save_forward_arrays time:  0.217766197000003103
+ iteration, start time:  65 128.168864761999998
+ iteration, start time:  65 128.163607706999983
+ save_forward_arrays time:  0.219966094999989537
+ iteration, start time:  65 128.468904632000005
+ iteration, start time:  65 128.348544347999990
+ save_forward_arrays time:  0.230909386999996968
+ iteration, start time:  65 128.406298429000003
+ save_forward_arrays time:  0.213146316000006664
+ iteration, start time:  65 128.695339080999986
+ save_forward_arrays time:  0.214835432000000992
+ save_forward_arrays time:  0.205765967000019145
+ save_forward_arrays time:  0.476529031000012537
+ iteration, start time:  66 129.285018652999980
+ iteration, start time:  65 129.299975851999989
+ save_forward_arrays time:  0.211700751999984504
+ save_forward_arrays time:  0.368110431000019389
+ iteration, start time:  66 129.733307163000006
+ iteration, start time:  66 129.854629459999984
+ iteration, start time:  66 130.097141329000010
+ save_forward_arrays time:  0.362142888999983370
+ iteration, start time:  66 130.105119336000001
+ save_forward_arrays time:  0.350418957000016462
+ iteration, start time:  66 130.268527917000000
+ iteration, start time:  66 130.330853915999995
+ save_forward_arrays time:  0.361169173000007504
+ save_forward_arrays time:  0.343479252999998153
+ iteration, start time:  66 130.617006189999984
+ iteration, start time:  66 130.662067362000016
+ save_forward_arrays time:  0.354608157000001256
+ save_forward_arrays time:  0.377421315000020741
+ save_forward_arrays time:  0.375158147999997027
+ save_forward_arrays time:  0.351601978999980247
+ iteration, start time:  66 131.225751491999972
+ iteration, start time:  67 131.363394521999993
+ save_forward_arrays time:  0.211238138999988223
+ save_forward_arrays time:  0.358804735000006758
+ iteration, start time:  67 131.815790706000001
+ iteration, start time:  67 131.922428040999989
+ save_forward_arrays time:  0.215263888999999153
+ save_forward_arrays time:  0.218940750000001572
+ iteration, start time:  67 132.192192837999983
+ iteration, start time:  67 132.200111682999989
+ save_forward_arrays time:  0.224343503000000055
+ iteration, start time:  67 132.410099345999981
+ save_forward_arrays time:  0.215763291000001800
+ iteration, start time:  67 132.487157206000006
+ save_forward_arrays time:  0.217296246000017845
+ iteration, start time:  67 132.782521553999999
+ iteration, start time:  67 132.830126341000010
+ save_forward_arrays time:  0.218439918999990823
+ save_forward_arrays time:  0.205273648000002140
+ save_forward_arrays time:  0.210217788999983668
+ iteration, start time:  68 133.402447612999993
+ iteration, start time:  67 133.411545030000013
+ save_forward_arrays time:  0.205378203000009307
+ save_forward_arrays time:  0.211753229999999348
+ iteration, start time:  68 133.845651707999991
+ iteration, start time:  68 133.954717671999987
+ save_forward_arrays time:  0.215901720999994495
+ save_forward_arrays time:  0.217146804999998722
+ iteration, start time:  68 134.199793004000014
+ iteration, start time:  68 134.177190859999996
+ save_forward_arrays time:  0.234862480000003870
+ iteration, start time:  68 134.353311700999996
+ save_forward_arrays time:  0.242223202999980458
+ iteration, start time:  68 134.449173840000014
+ save_forward_arrays time:  0.207942408000008072
+ iteration, start time:  68 134.730471586999982
+ iteration, start time:  68 134.767679692000002
+ save_forward_arrays time:  0.230772938000001204
+ save_forward_arrays time:  0.210959128000013152
+ save_forward_arrays time:  0.220283378999994284
+ iteration, start time:  69 135.322946586000000
+ iteration, start time:  68 135.326604334000024
+ save_forward_arrays time:  0.206652023000003737
+ save_forward_arrays time:  0.207617438999989190
+ iteration, start time:  69 135.776006776999992
+ iteration, start time:  69 135.887559992999996
+ save_forward_arrays time:  0.208297391999991532
+ save_forward_arrays time:  0.209876735999984021
+ iteration, start time:  69 136.143882292000001
+ iteration, start time:  69 136.142952517999987
+ iteration, start time:  69 136.268018528999988
+ save_forward_arrays time:  0.217076881000025423
+ save_forward_arrays time:  0.213349569000001793
+ iteration, start time:  69 136.391360509000009
+ iteration, start time:  69 136.660421431000003
+ iteration, start time:  69 136.708148159000018
+ save_forward_arrays time:  0.213866626999987375
+ save_forward_arrays time:  0.211486831000001985
+ save_forward_arrays time:  0.211956696999976657
+ save_forward_arrays time:  0.535153301000008241
+ iteration, start time:  70 137.240074077999992
+ iteration, start time:  69 137.245172813000011
+ save_forward_arrays time:  0.203102472000011858
+ save_forward_arrays time:  0.212852682000004734
+ iteration, start time:  70 137.695938213000005
+ iteration, start time:  70 137.809377240999993
+ save_forward_arrays time:  0.252718396999995321
+ save_forward_arrays time:  0.217688116999994463
+ iteration, start time:  70 138.069420035000007
+ iteration, start time:  70 138.066893582999995
+ save_forward_arrays time:  0.222359360000012884
+ save_forward_arrays time:  0.226689959999987423
+ iteration, start time:  70 138.314967491999994
+ iteration, start time:  70 138.589802916999986
+ iteration, start time:  70 138.638857325000004
+ iteration, start time:  70 138.518594984000003
+ save_forward_arrays time:  0.222220253000017465
+ save_forward_arrays time:  0.208753443000006200
+ save_forward_arrays time:  0.220816162000005534
+ save_forward_arrays time:  0.213833175999980085
+ iteration, start time:  70 139.173656418000007
+ iteration, start time:  71 139.173157146999984
+ save_forward_arrays time:  0.218330932000014855
+ save_forward_arrays time:  0.227932530000003908
+ iteration, start time:  71 139.668163467999989
+ iteration, start time:  71 139.755343877000001
+ save_forward_arrays time:  0.232819019999993770
+ save_forward_arrays time:  0.256515974999985019
+ iteration, start time:  71 140.013924421000013
+ iteration, start time:  71 140.021484647999984
+ save_forward_arrays time:  0.228820597999998654
+ save_forward_arrays time:  0.225991620000002058
+ iteration, start time:  71 140.262840355999998
+ iteration, start time:  71 140.516011332999994
+ iteration, start time:  71 140.442004980999997
+ iteration, start time:  71 140.592152139000007
+ save_forward_arrays time:  0.214708696999991844
+ save_forward_arrays time:  0.228724443999993809
+ save_forward_arrays time:  0.218748207000004413
+ save_forward_arrays time:  0.211345200000010891
+ iteration, start time:  71 141.103359223999973
+ iteration, start time:  72 141.108804049999975
+ save_forward_arrays time:  0.224710032000018600
+ save_forward_arrays time:  0.363892221000014615
+ iteration, start time:  72 141.610085866999981
+ iteration, start time:  72 141.722543659999985
+ iteration, start time:  72 141.951189297999974
+ iteration, start time:  72 141.959983538999978
+ save_forward_arrays time:  0.628014917000001560
+ iteration, start time:  72 142.190474111000015
+ save_forward_arrays time:  0.596569989000016676
+ iteration, start time:  72 142.462328190999983
+ iteration, start time:  72 142.367836834000002
+ iteration, start time:  72 142.521127405000016
+ save_forward_arrays time:  0.586311385000016116
+ save_forward_arrays time:  0.494997568000002275
+ save_forward_arrays time:  0.353102769999992461
+ save_forward_arrays time:  0.334214776999999685
+ save_forward_arrays time:  0.322842871999995396
+ save_forward_arrays time:  0.366883579999978338
+ iteration, start time:  72 143.039481954999985
+ iteration, start time:  73 143.181769867999975
+ save_forward_arrays time:  0.207871908000015537
+ save_forward_arrays time:  0.362266777999991518
+ iteration, start time:  73 143.951150955000003
+ iteration, start time:  73 144.030123320999991
+ save_forward_arrays time:  0.209714665999996441
+ iteration, start time:  73 144.247234123999988
+ iteration, start time:  73 144.166668498999996
+ iteration, start time:  73 144.254064512000014
+ save_forward_arrays time:  0.368485859000003302
+ save_forward_arrays time:  0.222519849000008207
+ iteration, start time:  73 144.512546885999996
+ save_forward_arrays time:  0.231205775000006497
+ iteration, start time:  73 144.398586907999999
+ iteration, start time:  73 144.606270684999998
+ save_forward_arrays time:  0.213163780000002134
+ save_forward_arrays time:  0.206979811999985941
+ save_forward_arrays time:  0.215048848999998654
+ save_forward_arrays time:  0.231757586000014726
+ iteration, start time:  74 145.096735656999982
+ iteration, start time:  73 145.115445691999980
+ save_forward_arrays time:  0.208753086000001531
+ save_forward_arrays time:  0.436046359000016537
+ iteration, start time:  74 145.953613136000001
+ iteration, start time:  74 146.032763883000001
+ save_forward_arrays time:  0.211194542999976420
+ iteration, start time:  74 146.179100966000021
+ iteration, start time:  74 146.111300820999986
+ save_forward_arrays time:  0.206598702999997386
+ iteration, start time:  74 146.177361167000015
+ iteration, start time:  74 146.436817235000007
+ iteration, start time:  74 146.320308119999993
+ save_forward_arrays time:  0.217516824000000497
+ save_forward_arrays time:  0.259647311999998465
+ iteration, start time:  74 146.554863565000005
+ save_forward_arrays time:  0.250447596999975985
+ save_forward_arrays time:  0.205345410999996147
+ save_forward_arrays time:  0.227508461000013540
+ save_forward_arrays time:  0.222017944000015177
+ iteration, start time:  74 147.033380874999978
+ iteration, start time:  75 147.241894525999982
+ save_forward_arrays time:  0.265966356000006954
+ save_forward_arrays time:  0.254730703000006997
+ iteration, start time:  75 147.875715919999976
+ iteration, start time:  75 147.950191195999992
+ save_forward_arrays time:  0.217144571000005726
+ iteration, start time:  75 148.040986039999979
+ iteration, start time:  75 148.145727116999979
+ save_forward_arrays time:  0.207069060000009131
+ iteration, start time:  75 148.138011075000009
+ iteration, start time:  75 148.357990540000003
+ iteration, start time:  75 148.254258313999998
+ save_forward_arrays time:  0.229872168000014199
+ save_forward_arrays time:  0.237036567000018294
+ iteration, start time:  75 148.492924597000012
+ save_forward_arrays time:  0.203998977999987119
+ save_forward_arrays time:  0.212496055000002571
+ save_forward_arrays time:  0.471048497999987603
+ save_forward_arrays time:  0.410798059000001103
+ iteration, start time:  75 149.008818696999981
+ iteration, start time:  76 149.204729668999988
+ save_forward_arrays time:  0.204017217000000528
+ save_forward_arrays time:  0.217043420999999626
+ iteration, start time:  76 149.812372812999996
+ iteration, start time:  76 149.879330455000002
+ save_forward_arrays time:  0.217815272999985154
+ iteration, start time:  76 149.995647434999995
+ iteration, start time:  76 150.104813759000024
+ save_forward_arrays time:  0.209946108999986336
+ iteration, start time:  76 150.293088165999990
+ iteration, start time:  76 150.193447058999993
+ iteration, start time:  76 150.330871132999988
+ save_forward_arrays time:  0.354632510999977058
+ save_forward_arrays time:  0.206082111000000623
+ save_forward_arrays time:  0.215845744000006334
+ save_forward_arrays time:  0.450984764999986965
+ iteration, start time:  76 150.632163273000003
+ save_forward_arrays time:  0.216148422000003393
+ save_forward_arrays time:  0.212050752000010334
+ iteration, start time:  76 150.938082828000006
+ iteration, start time:  77 151.148701568999996
+ save_forward_arrays time:  0.243774857999994765
+ save_forward_arrays time:  0.213075055999979668
+ iteration, start time:  77 151.751532886999996
+ iteration, start time:  77 151.810274754999995
+ save_forward_arrays time:  0.208381799999983741
+ save_forward_arrays time:  0.206114670999994587
+ iteration, start time:  77 152.174444026999993
+ iteration, start time:  77 152.220163396000004
+ iteration, start time:  77 152.123119681999981
+ iteration, start time:  77 152.162474009999983
+ iteration, start time:  77 152.259596608000010
+ save_forward_arrays time:  0.211487728999998126
+ save_forward_arrays time:  0.205364757000012332
+ save_forward_arrays time:  0.279035916999987421
+ save_forward_arrays time:  0.218188256000019010
+ iteration, start time:  77 152.562824790000008
+ save_forward_arrays time:  0.210122966999989558
+ save_forward_arrays time:  0.218732041999999183
+ iteration, start time:  77 152.894799542999976
+ iteration, start time:  78 153.069323939999975
+ save_forward_arrays time:  0.206412058000012166
+ save_forward_arrays time:  0.205764311000024236
+ iteration, start time:  78 153.671033522999977
+ iteration, start time:  78 153.725507407999999
+ save_forward_arrays time:  0.211711889000014253
+ save_forward_arrays time:  0.207622141999991072
+ iteration, start time:  78 154.149306171000006
+ iteration, start time:  78 154.034497924999982
+ iteration, start time:  78 154.162200086999974
+ iteration, start time:  78 154.092811955000002
+ iteration, start time:  78 154.180757072999995
+ save_forward_arrays time:  0.217523444999983440
+ save_forward_arrays time:  0.209968070000002172
+ save_forward_arrays time:  0.231690902000025289
+ save_forward_arrays time:  0.218585488000002215
+ iteration, start time:  78 154.498456206000014
+ save_forward_arrays time:  0.213127657000001136
+ save_forward_arrays time:  0.211762016999983871
+ iteration, start time:  78 154.808469962999993
+ iteration, start time:  79 154.985465581000000
+ save_forward_arrays time:  0.207135913999991317
+ save_forward_arrays time:  0.372442817999996123
+ iteration, start time:  79 155.629072918999981
+ iteration, start time:  79 155.701476767000003
+ save_forward_arrays time:  0.404941607000012027
+ iteration, start time:  79 156.016398538999994
+ iteration, start time:  79 156.144723099999993
+ save_forward_arrays time:  0.366040409999982330
+ iteration, start time:  79 156.165915397999981
+ iteration, start time:  79 156.089947108999979
+ iteration, start time:  79 156.157357998000009
+ iteration, start time:  79 156.502395798999999
+ save_forward_arrays time:  0.409265269000002263
+ save_forward_arrays time:  0.424450323000002072
+ save_forward_arrays time:  0.406828576999998859
+ save_forward_arrays time:  0.398991807000015797
+ save_forward_arrays time:  0.397562063999998827
+ save_forward_arrays time:  0.403236718000016481
+ iteration, start time:  79 156.797788823000019
+ iteration, start time:  80 157.107724659999974
+ save_forward_arrays time:  0.367228745999994999
+ save_forward_arrays time:  0.208072738000026902
+ iteration, start time:  80 157.751565205999981
+ iteration, start time:  80 157.777832837000005
+ save_forward_arrays time:  0.210428890000002866
+ save_forward_arrays time:  0.212330105999996022
+ iteration, start time:  80 158.132611091000001
+ iteration, start time:  80 158.287356012000004
+ iteration, start time:  80 158.281731609000019
+ iteration, start time:  80 158.200794492999989
+ iteration, start time:  80 158.265654111999993
+ save_forward_arrays time:  0.205703844999987950
+ save_forward_arrays time:  0.200579838999999538
+ save_forward_arrays time:  0.224578062999995609
+ save_forward_arrays time:  0.244542583999987073
+ iteration, start time:  80 158.621055097999999
+ save_forward_arrays time:  0.210678039000015360
+ save_forward_arrays time:  0.205660733000001983
+ iteration, start time:  80 158.873361454000019
+ iteration, start time:  81 159.023634005999980
+ save_forward_arrays time:  0.206986131000007845
+ save_forward_arrays time:  0.212482073000018090
+ iteration, start time:  81 159.674065364000000
+ iteration, start time:  81 159.704864525999994
+ save_forward_arrays time:  0.213394256999976051
+ iteration, start time:  81 160.044488330000007
+ iteration, start time:  81 160.203930662000005
+ iteration, start time:  81 160.215690391999999
+ save_forward_arrays time:  0.471523821000005228
+ iteration, start time:  81 160.157899213999997
+ iteration, start time:  81 160.187265388000014
+ save_forward_arrays time:  0.215348553999973547
+ save_forward_arrays time:  0.202233391999982359
+ save_forward_arrays time:  0.227153626999978542
+ iteration, start time:  81 160.543658141999998
+ save_forward_arrays time:  0.317334536999993588
+ save_forward_arrays time:  0.260195860999999695
+ save_forward_arrays time:  0.213722766000017828
+ iteration, start time:  81 160.792044987999986
+ iteration, start time:  82 160.943394441999999
+ save_forward_arrays time:  0.211214108000007172
+ save_forward_arrays time:  0.210933668999985002
+ iteration, start time:  82 161.598100948999985
+ save_forward_arrays time:  0.209518975999998247
+ iteration, start time:  82 161.885659288999989
+ iteration, start time:  82 161.966129209999991
+ iteration, start time:  82 162.125370435999997
+ iteration, start time:  82 162.151511866000021
+ save_forward_arrays time:  0.260373307999998360
+ save_forward_arrays time:  0.208976344000006975
+ iteration, start time:  82 162.186670300000003
+ iteration, start time:  82 162.158612981999994
+ save_forward_arrays time:  0.198998649000003525
+ save_forward_arrays time:  0.215757043999985854
+ iteration, start time:  82 162.475094839999997
+ save_forward_arrays time:  0.222533458999976119
+ save_forward_arrays time:  0.247786120000000665
+ save_forward_arrays time:  0.226400120000022298
+ iteration, start time:  82 162.716545667999981
+ iteration, start time:  83 162.862283523999992
+ save_forward_arrays time:  0.205029083999988870
+ save_forward_arrays time:  0.423622929000003978
+ iteration, start time:  83 163.519176985000001
+ save_forward_arrays time:  0.207020817000000079
+ iteration, start time:  83 163.857044572999996
+ iteration, start time:  83 163.882679117999999
+ iteration, start time:  83 164.041512565999994
+ iteration, start time:  83 164.077296823999973
+ save_forward_arrays time:  0.212812431999992668
+ save_forward_arrays time:  0.207452170999999908
+ iteration, start time:  83 164.122558139999995
+ save_forward_arrays time:  0.207044679999995651
+ iteration, start time:  83 164.120083977000007
+ save_forward_arrays time:  0.218897805000011658
+ iteration, start time:  83 164.420423458000016
+ save_forward_arrays time:  0.216556193999991820
+ save_forward_arrays time:  0.221684562999996615
+ save_forward_arrays time:  0.229859994999998207
+ iteration, start time:  84 164.775522892999987
+ iteration, start time:  83 164.851719721999984
+ save_forward_arrays time:  0.203450201000009656
+ save_forward_arrays time:  0.215909621000008656
+ iteration, start time:  84 165.437954518999987
+ save_forward_arrays time:  0.210805786999998190
+ iteration, start time:  84 165.782054921999986
+ iteration, start time:  84 165.795689614999986
+ iteration, start time:  84 165.968085742000000
+ iteration, start time:  84 166.005642917999978
+ save_forward_arrays time:  0.207887604999996256
+ save_forward_arrays time:  0.212393198000000893
+ iteration, start time:  84 166.051010300000002
+ save_forward_arrays time:  0.207048458000002711
+ iteration, start time:  84 166.053199233000015
+ save_forward_arrays time:  0.227050883000003978
+ iteration, start time:  84 166.366321017000018
+ save_forward_arrays time:  0.216802723000000697
+ save_forward_arrays time:  0.215050389999987601
+ save_forward_arrays time:  0.214378705000001446
+ iteration, start time:  85 166.689064428999984
+ iteration, start time:  84 166.779877215999988
+ save_forward_arrays time:  0.207229100000006383
+ save_forward_arrays time:  0.438483788000013419
+ iteration, start time:  85 167.362664338999991
+ save_forward_arrays time:  0.390822810000003074
+ iteration, start time:  85 167.717881597999991
+ iteration, start time:  85 167.731580683000004
+ iteration, start time:  85 167.891884266999995
+ iteration, start time:  85 167.951700986999981
+ iteration, start time:  85 167.993184941999999
+ iteration, start time:  85 167.994566066999994
+ save_forward_arrays time:  0.367104068999992705
+ save_forward_arrays time:  0.376881351000008635
+ iteration, start time:  85 168.312340338000013
+ save_forward_arrays time:  0.356124824000005447
+ save_forward_arrays time:  0.375311462000013307
+ save_forward_arrays time:  0.402077719000004663
+ save_forward_arrays time:  0.703185994999984132
+ iteration, start time:  85 168.806969406000007
+ iteration, start time:  86 168.947029254999990
+ save_forward_arrays time:  1.42066372699997601
+ save_forward_arrays time:  0.209693619000006493
+ save_forward_arrays time:  0.373670078000003514
+ iteration, start time:  86 169.565614236999977
+ save_forward_arrays time:  0.198849809000023470
+ iteration, start time:  86 169.916646873999980
+ iteration, start time:  86 170.100775556999992
+ iteration, start time:  86 170.134067942999991
+ save_forward_arrays time:  0.204707777000010083
+ save_forward_arrays time:  0.204811675999991394
+ iteration, start time:  86 170.178748294000002
+ save_forward_arrays time:  0.215211810999988984
+ iteration, start time:  86 170.524143320000007
+ iteration, start time:  86 170.487088508999989
+ save_forward_arrays time:  0.347712916999995514
+ save_forward_arrays time:  0.201416967000000113
+ save_forward_arrays time:  0.208300468000004457
+ iteration, start time:  86 170.869713206999990
+ iteration, start time:  87 170.873554385999995
+ iteration, start time:  86 170.900896993999993
+ save_forward_arrays time:  0.204807428000009395
+ save_forward_arrays time:  0.201296063000000913
+ save_forward_arrays time:  0.453125463999981548
+ iteration, start time:  87 171.480707135999978
+ save_forward_arrays time:  0.207471359000010125
+ iteration, start time:  87 171.847902318999985
+ iteration, start time:  87 172.028295348999990
+ iteration, start time:  87 172.069074188999991
+ save_forward_arrays time:  0.211073080999995000
+ save_forward_arrays time:  0.204276154000012866
+ save_forward_arrays time:  0.210737332000007882
+ iteration, start time:  87 172.242390284000010
+ iteration, start time:  87 172.442386935000002
+ iteration, start time:  87 172.420033561999986
+ save_forward_arrays time:  0.222887891999988597
+ save_forward_arrays time:  0.209972722999992811
+ save_forward_arrays time:  0.216511948000004395
+ iteration, start time:  87 172.780330641999996
+ iteration, start time:  88 172.784965352999990
+ save_forward_arrays time:  0.206732401000010668
+ iteration, start time:  87 173.066129640999975
+ save_forward_arrays time:  0.285551029000004064
+ save_forward_arrays time:  0.199005147000008265
+ iteration, start time:  88 173.407714226999985
+ save_forward_arrays time:  0.204882705000017040
+ iteration, start time:  88 173.768854497000007
+ iteration, start time:  88 173.949209359999998
+ iteration, start time:  88 173.988845261999984
+ save_forward_arrays time:  0.197302618000009033
+ save_forward_arrays time:  0.220298554000009972
+ iteration, start time:  88 174.180306953000013
+ iteration, start time:  88 174.369177135000001
+ iteration, start time:  88 174.348911655999984
+ save_forward_arrays time:  0.206675835999988067
+ save_forward_arrays time:  0.204370495000006258
+ save_forward_arrays time:  0.233763405000019020
+ iteration, start time:  88 174.703536897999982
+ iteration, start time:  89 174.788722940999975
+ save_forward_arrays time:  0.207952249000015854
+ iteration, start time:  88 174.985419040000011
+ save_forward_arrays time:  0.332396939000005887
+ save_forward_arrays time:  0.209727398000012499
+ iteration, start time:  89 175.332428450999998
+ save_forward_arrays time:  1.66351132099998722
+ save_forward_arrays time:  0.203789172000000463
+ iteration, start time:  89 175.892296302000005
+ iteration, start time:  89 175.949708261000012
+ save_forward_arrays time:  0.212548486999992292
+ save_forward_arrays time:  0.215236637000003839
+ iteration, start time:  89 176.122006153000001
+ iteration, start time:  89 176.304168230000016
+ iteration, start time:  89 176.317427608000003
+ save_forward_arrays time:  0.216849341999989065
+ save_forward_arrays time:  0.214465204999982006
+ save_forward_arrays time:  0.219482353999978841
+ iteration, start time:  89 176.619470479999990
+ iteration, start time:  90 176.830634463999985
+ save_forward_arrays time:  0.261434712000010450
+ iteration, start time:  89 176.913929804000020
+ save_forward_arrays time:  0.206673483000002989
+ iteration, start time:  89 177.142180096999994
+ iteration, start time:  90 177.247917275999981
+ save_forward_arrays time:  0.212488481999997703
+ save_forward_arrays time:  0.219936485000005177
+ save_forward_arrays time:  0.239139023999996425
+ iteration, start time:  90 177.822380034999981
+ iteration, start time:  90 177.874157691999983
+ save_forward_arrays time:  0.200713372000024037
+ iteration, start time:  90 178.050509671000015
+ iteration, start time:  90 178.236644045000020
+ save_forward_arrays time:  0.400815028000010898
+ iteration, start time:  90 178.250971945000003
+ save_forward_arrays time:  0.216958726000001434
+ save_forward_arrays time:  0.201528029999991531
+ save_forward_arrays time:  0.220502828999997291
+ iteration, start time:  90 178.588182790999980
+ iteration, start time:  91 178.745829773999986
+ save_forward_arrays time:  0.203945220000008476
+ iteration, start time:  90 178.839602361999994
+ save_forward_arrays time:  0.203675306999997474
+ iteration, start time:  90 179.072198600999997
+ save_forward_arrays time:  0.211875332999994725
+ iteration, start time:  91 179.197965442999987
+ save_forward_arrays time:  0.203211019000008264
+ save_forward_arrays time:  0.207318289999989247
+ iteration, start time:  91 179.740526754000001
+ save_forward_arrays time:  0.203106023999993113
+ iteration, start time:  91 179.987231597999994
+ iteration, start time:  91 179.984282627999988
+ iteration, start time:  91 180.160419661000020
+ save_forward_arrays time:  0.209095991999987518
+ iteration, start time:  91 180.192325213999993
+ save_forward_arrays time:  0.209087026000020160
+ save_forward_arrays time:  0.206014854999978070
+ save_forward_arrays time:  0.214594416000011279
+ iteration, start time:  91 180.501732248999986
+ iteration, start time:  92 180.663388080999994
+ save_forward_arrays time:  0.200758172999996987
+ iteration, start time:  91 180.764134458000001
+ iteration, start time:  91 180.991130960999982
+ save_forward_arrays time:  0.201549722999999403
+ iteration, start time:  92 181.122342613999990
+ save_forward_arrays time:  0.367382655999989538
+ save_forward_arrays time:  0.206519509000003154
+ save_forward_arrays time:  0.354586044999990690
+ iteration, start time:  92 181.665284741999983
+ iteration, start time:  92 181.904911457000026
+ save_forward_arrays time:  0.361986729000022933
+ iteration, start time:  92 181.905726645000016
+ iteration, start time:  92 182.083528870999999
+ iteration, start time:  92 182.119954875999980
+ save_forward_arrays time:  0.390377579999977797
+ save_forward_arrays time:  0.439351633000001129
+ iteration, start time:  92 182.410710082999998
+ save_forward_arrays time:  0.489899563999983911
+ save_forward_arrays time:  0.377665722000017468
+ iteration, start time:  92 182.676089407000006
+ iteration, start time:  93 182.745290310999991
+ save_forward_arrays time:  0.411012729999981730
+ iteration, start time:  92 182.912065791999993
+ save_forward_arrays time:  0.207558110999997325
+ save_forward_arrays time:  0.379154407000015681
+ iteration, start time:  93 183.185152421999987
+ save_forward_arrays time:  0.398407139999989113
+ save_forward_arrays time:  0.200569472000012183
+ iteration, start time:  93 183.745108608999999
+ save_forward_arrays time:  0.211977227999994966
+ iteration, start time:  93 184.006854434999980
+ iteration, start time:  93 184.241328792000019
+ iteration, start time:  93 184.107693463999993
+ save_forward_arrays time:  0.269446444999999812
+ iteration, start time:  93 184.212087386999997
+ save_forward_arrays time:  0.224496766999976671
+ save_forward_arrays time:  0.217683133000008411
+ save_forward_arrays time:  0.213364982000001646
+ iteration, start time:  93 184.528267561999996
+ iteration, start time:  94 184.661187334999994
+ save_forward_arrays time:  0.205653750000010405
+ iteration, start time:  93 184.765625133000015
+ save_forward_arrays time:  0.208339907999999241
+ iteration, start time:  93 185.020476307999985
+ save_forward_arrays time:  0.204519664999992301
+ iteration, start time:  94 185.098086024999986
+ save_forward_arrays time:  0.205534114000016643
+ save_forward_arrays time:  0.205940996000009591
+ iteration, start time:  94 185.674456268000000
+ iteration, start time:  94 185.984910390999971
+ save_forward_arrays time:  0.383510691999987330
+ iteration, start time:  94 186.183311080999999
+ iteration, start time:  94 186.037208241999991
+ save_forward_arrays time:  0.212215548000017407
+ iteration, start time:  94 186.138810734000003
+ save_forward_arrays time:  0.208140623000019787
+ save_forward_arrays time:  0.206425782000025038
+ save_forward_arrays time:  0.212820532999984380
+ iteration, start time:  94 186.442985053999990
+ iteration, start time:  95 186.578711588999994
+ save_forward_arrays time:  0.215671122000003379
+ iteration, start time:  94 186.684754853000015
+ save_forward_arrays time:  0.215246047999983148
+ iteration, start time:  94 186.944663494999986
+ save_forward_arrays time:  0.198832143999993605
+ iteration, start time:  95 187.020123365999979
+ save_forward_arrays time:  0.201793341000012560
+ save_forward_arrays time:  0.211536348999999291
+ iteration, start time:  95 187.786145118999997
+ iteration, start time:  95 187.918470463999995
+ save_forward_arrays time:  0.210318838999995705
+ iteration, start time:  95 188.125874154000002
+ iteration, start time:  95 187.970717218000004
+ iteration, start time:  95 188.078076699999997
+ save_forward_arrays time:  0.355622089999997115
+ save_forward_arrays time:  0.213012358000014501
+ save_forward_arrays time:  0.210821489000011297
+ save_forward_arrays time:  0.213260434000005716
+ iteration, start time:  95 188.377178942999990
+ iteration, start time:  96 188.512026863999978
+ save_forward_arrays time:  0.208947662000014134
+ iteration, start time:  95 188.604127032000008
+ save_forward_arrays time:  0.208204550000004929
+ iteration, start time:  95 188.859100785999999
+ save_forward_arrays time:  0.204267059000017071
+ iteration, start time:  96 188.947144447999989
+ save_forward_arrays time:  0.215579163999990442
+ save_forward_arrays time:  0.201889580999988993
+ iteration, start time:  96 189.719564665000007
+ save_forward_arrays time:  0.199785629999979619
+ iteration, start time:  96 189.995924361999982
+ iteration, start time:  96 189.900780016999988
+ iteration, start time:  96 190.067234307999996
+ iteration, start time:  96 190.015703680999991
+ save_forward_arrays time:  0.207086420000024418
+ save_forward_arrays time:  0.215611095000014075
+ save_forward_arrays time:  0.281032631000016409
+ save_forward_arrays time:  0.219592331000001195
+ iteration, start time:  96 190.311520834999982
+ iteration, start time:  97 190.445997669999997
+ save_forward_arrays time:  0.208204012999999577
+ iteration, start time:  96 190.533157651000010
+ save_forward_arrays time:  0.207698253999978988
+ iteration, start time:  96 190.797334250000006
+ save_forward_arrays time:  0.204383771000010483
+ iteration, start time:  97 190.870239454000000
+ save_forward_arrays time:  0.209749672999976156
+ save_forward_arrays time:  0.205468125999999529
+ iteration, start time:  97 191.645488083000004
+ save_forward_arrays time:  0.202608322000003227
+ iteration, start time:  97 191.830619301000013
+ iteration, start time:  97 191.995356232000006
+ iteration, start time:  97 191.986667738999984
+ iteration, start time:  97 191.949912624999996
+ save_forward_arrays time:  0.206807459000003746
+ save_forward_arrays time:  0.215247304000001805
+ save_forward_arrays time:  0.214153272000004335
+ save_forward_arrays time:  0.206103713999993943
+ iteration, start time:  97 192.230756843999984
+ iteration, start time:  98 192.364386021000001
+ save_forward_arrays time:  0.204351674999998068
+ iteration, start time:  97 192.451766213999974
+ save_forward_arrays time:  0.203023763000004465
+ iteration, start time:  97 192.718526828999984
+ iteration, start time:  98 192.790671533999983
+ save_forward_arrays time:  0.364962279999986094
+ save_forward_arrays time:  0.207493459000005487
+ save_forward_arrays time:  0.384775511000015058
+ iteration, start time:  98 193.567847643999983
+ iteration, start time:  98 193.758050526999995
+ iteration, start time:  98 193.921610181999995
+ save_forward_arrays time:  0.370461358000000018
+ iteration, start time:  98 193.912872880000009
+ iteration, start time:  98 193.870253430999981
+ iteration, start time:  98 194.141820268000004
+ save_forward_arrays time:  0.365391227999992907
+ save_forward_arrays time:  0.429380880000024945
+ save_forward_arrays time:  0.376250308000010136
+ save_forward_arrays time:  0.471052613000011888
+ iteration, start time:  98 194.367184095000027
+ iteration, start time:  99 194.438046056999980
+ save_forward_arrays time:  0.389117490999979054
+ iteration, start time:  98 194.636935854000001
+ save_forward_arrays time:  0.206994891000022108
+ iteration, start time:  99 194.888010113999997
+ save_forward_arrays time:  0.404077476999987084
+ save_forward_arrays time:  0.388206894999996166
+ save_forward_arrays time:  0.209561648999994077
+ iteration, start time:  99 195.655234847999992
+ save_forward_arrays time:  0.201922480000007454
+ iteration, start time:  99 195.988942484999995
+ iteration, start time:  99 196.068653594000011
+ iteration, start time:  99 195.958983445999991
+ iteration, start time:  99 195.940550016000003
+ save_forward_arrays time:  0.212226178999998183
+ save_forward_arrays time:  0.203377592999999024
+ save_forward_arrays time:  0.216167861000002404
+ save_forward_arrays time:  0.267631657999999106
+ iteration, start time:  99 196.237567152999986
+ iteration, start time:  100 196.353901017999988
+ save_forward_arrays time:  0.202288413000019318
+ iteration, start time:  99 196.481271919999983
+ save_forward_arrays time:  0.299773318000006839
+ iteration, start time:  99 196.736378460999987
+ save_forward_arrays time:  0.200772077000010540
+ iteration, start time:  100 196.808977972999998
+ save_forward_arrays time:  0.201747882999995909
+ save_forward_arrays time:  0.232156879999990906
+ iteration, start time:  100 197.575085924999996
+ save_forward_arrays time:  0.197664338000009820
+ iteration, start time:  100 197.909979779000025
+ iteration, start time:  100 197.875818767999988
+ iteration, start time:  100 197.869228483000001
+ iteration, start time:  100 198.053957343999997
+ save_forward_arrays time:  0.227054742999996506
+ save_forward_arrays time:  0.215726855000013984
+ save_forward_arrays time:  0.217976227000008294
+ save_forward_arrays time:  0.207497988000000078
+ iteration, start time:  100 198.146249179999984
+ save_forward_arrays time:  0.223450382000009995
+ iteration, start time:  101 198.364224991999976
+ iteration, start time:  100 198.393134001000021
+ save_forward_arrays time:  0.197332876000018587
+ iteration, start time:  100 198.650500332999997
+ save_forward_arrays time:  0.205193084999990560
+ iteration, start time:  101 198.753451784999982
+ save_forward_arrays time:  0.200750284999998030
+ save_forward_arrays time:  0.206290206999995007
+ iteration, start time:  101 199.496275312999984
+ save_forward_arrays time:  0.245983423000012635
+ iteration, start time:  101 199.853096144999995
+ iteration, start time:  101 199.809603285999998
+ iteration, start time:  101 199.803677859000004
+ iteration, start time:  101 199.979729767000009
+ save_forward_arrays time:  0.219337555999999267
+ save_forward_arrays time:  0.218046595999993542
+ save_forward_arrays time:  0.201042349000005061
+ save_forward_arrays time:  0.218796102999988307
+ iteration, start time:  101 200.085592692999995
+ save_forward_arrays time:  0.201247563000009677
+ iteration, start time:  102 200.280904547999995
+ iteration, start time:  101 200.315036744999986
+ save_forward_arrays time:  0.202923906999984638
+ iteration, start time:  101 200.565726794000000
+ save_forward_arrays time:  0.207891291999999339
+ iteration, start time:  102 200.677766174999988
+ save_forward_arrays time:  0.208413629000006040
+ save_forward_arrays time:  0.253250178000001824
+ iteration, start time:  102 201.461397562000002
+ save_forward_arrays time:  0.198437624999996842
+ iteration, start time:  102 201.781976991000022
+ iteration, start time:  102 201.740895059999986
+ iteration, start time:  102 201.735218738000015
+ iteration, start time:  102 201.902102826000004
+ save_forward_arrays time:  0.209353764000013598
+ save_forward_arrays time:  0.198814533000017946
+ save_forward_arrays time:  0.207810633999997663
+ iteration, start time:  102 201.992947268999984
+ save_forward_arrays time:  0.428801362000001518
+ save_forward_arrays time:  0.198152184999997871
+ iteration, start time:  103 202.192525015000001
+ iteration, start time:  102 202.233912884000006
+ save_forward_arrays time:  0.224880625999986705
+ iteration, start time:  102 202.485431122999984
+ save_forward_arrays time:  0.198504528000000846
+ iteration, start time:  103 202.642467197000002
+ save_forward_arrays time:  0.197072124000015947
+ save_forward_arrays time:  0.212797954999984995
+ iteration, start time:  103 203.377108794999998
+ save_forward_arrays time:  0.426372055999991062
+ iteration, start time:  103 203.683810234999982
+ iteration, start time:  103 203.669541180000010
+ iteration, start time:  103 203.834410286000008
+ iteration, start time:  103 203.944431832000021
+ save_forward_arrays time:  0.202190518999998403
+ save_forward_arrays time:  0.226817310000001271
+ save_forward_arrays time:  0.229687407999989546
+ iteration, start time:  103 203.944660498999980
+ save_forward_arrays time:  0.264464331999988644
+ save_forward_arrays time:  0.200514012000013508
+ iteration, start time:  104 204.185236116999988
+ iteration, start time:  103 204.194516715000020
+ iteration, start time:  103 204.436797888999990
+ save_forward_arrays time:  0.197632910000010042
+ save_forward_arrays time:  0.216505312999998978
+ iteration, start time:  104 204.625016442999993
+ save_forward_arrays time:  0.204686162000001559
+ iteration, start time:  104 205.589322310999989
+ save_forward_arrays time:  1.17363220600000773
+ iteration, start time:  104 205.653624145999999
+ save_forward_arrays time:  0.196346650000009504
+ iteration, start time:  104 205.793470232000004
+ iteration, start time:  104 205.634413698999992
+ iteration, start time:  104 205.940380564999998
+ iteration, start time:  104 205.855333780999985
+ save_forward_arrays time:  0.206916885999987699
+ save_forward_arrays time:  0.226438117000014927
+ save_forward_arrays time:  0.230618355000018482
+ save_forward_arrays time:  0.213300092999986646
+ iteration, start time:  105 206.094440417999976
+ iteration, start time:  104 206.126539019999996
+ save_forward_arrays time:  0.347607392000014670
+ save_forward_arrays time:  0.204930986999983134
+ iteration, start time:  105 206.541762739999996
+ save_forward_arrays time:  0.359562413000020342
+ save_forward_arrays time:  0.356322963999986086
+ iteration, start time:  104 207.322863759999990
+ iteration, start time:  105 207.502934549999992
+ save_forward_arrays time:  0.197160658000001376
+ iteration, start time:  105 207.573975453999992
+ iteration, start time:  105 207.736735589000006
+ iteration, start time:  105 207.577789225999993
+ save_forward_arrays time:  0.345124048999991828
+ iteration, start time:  105 207.864090335000014
+ iteration, start time:  105 207.908911913999987
+ save_forward_arrays time:  0.361347515999995039
+ save_forward_arrays time:  0.357874938999998449
+ save_forward_arrays time:  0.368366204000011521
+ iteration, start time:  105 208.042504672999996
+ save_forward_arrays time:  0.333129393000007212
+ iteration, start time:  106 208.162047256999983
+ save_forward_arrays time:  0.345053723000006585
+ save_forward_arrays time:  0.207738101000018105
+ save_forward_arrays time:  0.349347384999987298
+ iteration, start time:  106 208.610620509000000
+ save_forward_arrays time:  0.225791233999984797
+ iteration, start time:  105 209.230774190000005
+ iteration, start time:  106 209.566161631000000
+ save_forward_arrays time:  0.373389931999980718
+ save_forward_arrays time:  0.197098641999986057
+ iteration, start time:  106 209.649655695999996
+ iteration, start time:  106 209.647942008000001
+ iteration, start time:  106 209.823706583000018
+ iteration, start time:  106 209.907138857999996
+ save_forward_arrays time:  0.205109838999987915
+ save_forward_arrays time:  0.225440163000001803
+ iteration, start time:  106 209.960502692999995
+ save_forward_arrays time:  0.222685615999978381
+ save_forward_arrays time:  0.368247616999980210
+ iteration, start time:  107 210.078837707999980
+ iteration, start time:  106 210.102385927999990
+ save_forward_arrays time:  0.213059912000005625
+ save_forward_arrays time:  0.221675855000000865
+ save_forward_arrays time:  0.203502410999988115
+ iteration, start time:  107 210.548839723999976
+ save_forward_arrays time:  0.207370148000023846
+ iteration, start time:  106 211.320613804999994
+ iteration, start time:  107 211.484216500999992
+ save_forward_arrays time:  0.251664096000013160
+ iteration, start time:  107 211.581191319999988
+ iteration, start time:  107 211.598442776000013
+ save_forward_arrays time:  0.342081218999993553
+ iteration, start time:  107 211.874578082000028
+ save_forward_arrays time:  0.213277691999991248
+ iteration, start time:  107 211.932577521000013
+ save_forward_arrays time:  0.252785480999989431
+ iteration, start time:  107 211.946865420999984
+ save_forward_arrays time:  0.210537761999972872
+ save_forward_arrays time:  0.205444368999991411
+ iteration, start time:  108 212.099774206999996
+ iteration, start time:  107 212.107826347000014
+ save_forward_arrays time:  0.198169792000015832
+ save_forward_arrays time:  0.204802833000002238
+ save_forward_arrays time:  0.201652732000013657
+ iteration, start time:  108 212.570732736999986
+ save_forward_arrays time:  0.211048037000011846
+ iteration, start time:  107 213.371904267999980
+ iteration, start time:  108 213.658395104999983
+ save_forward_arrays time:  0.198514989000017295
+ iteration, start time:  108 213.594831901999981
+ iteration, start time:  108 213.642878663000005
+ save_forward_arrays time:  0.199497884000010117
+ iteration, start time:  108 213.867418595999993
+ iteration, start time:  108 213.931858859000016
+ save_forward_arrays time:  0.211976420000013377
+ iteration, start time:  108 213.879067239999983
+ save_forward_arrays time:  0.224907549999983303
+ save_forward_arrays time:  0.218272033000005194
+ save_forward_arrays time:  0.202286539999988690
+ iteration, start time:  109 214.022389581999988
+ iteration, start time:  108 214.039844942000002
+ save_forward_arrays time:  0.244673222000017176
+ save_forward_arrays time:  0.199112472000024354
+ save_forward_arrays time:  0.214355460999996694
+ iteration, start time:  109 214.493042573999986
+ save_forward_arrays time:  0.204963837999997622
+ iteration, start time:  108 215.287635727999998
+ iteration, start time:  109 215.577192795000002
+ save_forward_arrays time:  0.211747986999995419
+ iteration, start time:  109 215.525967420999990
+ iteration, start time:  109 215.581556572000011
+ save_forward_arrays time:  0.212187928999981068
+ iteration, start time:  109 215.801980309999976
+ save_forward_arrays time:  0.203743757000012238
+ iteration, start time:  109 215.864250017000018
+ save_forward_arrays time:  0.207565585999986979
+ iteration, start time:  109 215.851877336000001
+ save_forward_arrays time:  0.206158459999983279
+ save_forward_arrays time:  0.254909683000022369
+ iteration, start time:  109 215.974786294000012
+ iteration, start time:  110 215.972705183999977
+ save_forward_arrays time:  0.200750049999982139
+ save_forward_arrays time:  0.199190520000001925
+ save_forward_arrays time:  0.202861769000008962
+ iteration, start time:  110 216.433475879999975
+ save_forward_arrays time:  0.204797197000004871
+ iteration, start time:  109 217.232507312999985
+ iteration, start time:  110 217.530932919999998
+ save_forward_arrays time:  0.255252951000016992
+ iteration, start time:  110 217.461685411999980
+ iteration, start time:  110 217.523238458999998
+ save_forward_arrays time:  0.200587657999989233
+ iteration, start time:  110 217.806582718000016
+ iteration, start time:  110 217.777285996999979
+ save_forward_arrays time:  0.228348900000014510
+ save_forward_arrays time:  0.202972283000008247
+ iteration, start time:  110 217.764033578999999
+ save_forward_arrays time:  0.208409989999978507
+ save_forward_arrays time:  0.210238856000017904
+ iteration, start time:  110 217.889130770000008
+ iteration, start time:  111 217.886412033999989
+ save_forward_arrays time:  0.196322040000012521
+ iteration, start time:  111 218.353724358999983
+ save_forward_arrays time:  0.501365478999986180
+ save_forward_arrays time:  0.424722414000001436
+ save_forward_arrays time:  0.377083636000008937
+ iteration, start time:  110 219.212363633999985
+ iteration, start time:  111 219.451760505999999
+ save_forward_arrays time:  0.199006693000001178
+ iteration, start time:  111 219.415363960999997
+ iteration, start time:  111 219.446107363000010
+ iteration, start time:  111 219.737755380999999
+ iteration, start time:  111 219.703925270000013
+ save_forward_arrays time:  0.414609515999984524
+ save_forward_arrays time:  0.390848985999980414
+ iteration, start time:  111 219.802486115000022
+ save_forward_arrays time:  0.388328438999991477
+ save_forward_arrays time:  0.352505573000001959
+ iteration, start time:  111 219.974438190000001
+ save_forward_arrays time:  0.371887168000000656
+ iteration, start time:  112 220.020852628000000
+ save_forward_arrays time:  0.372590669999993906
+ save_forward_arrays time:  0.212690214999980753
+ save_forward_arrays time:  0.367418960999998490
+ iteration, start time:  112 220.446080598999998
+ save_forward_arrays time:  0.203156616000001122
+ iteration, start time:  111 221.123096785000001
+ iteration, start time:  112 221.583855392999993
+ save_forward_arrays time:  0.376426146000000017
+ iteration, start time:  112 221.519292667999991
+ iteration, start time:  112 221.548251856000007
+ save_forward_arrays time:  0.205217212999997400
+ iteration, start time:  112 221.809251003000014
+ iteration, start time:  112 221.785763565000025
+ save_forward_arrays time:  0.212230395999995380
+ save_forward_arrays time:  0.210767357999998239
+ save_forward_arrays time:  0.203003953999996156
+ save_forward_arrays time:  0.215860160999994832
+ iteration, start time:  112 221.886541686999976
+ iteration, start time:  113 221.942896069999989
+ iteration, start time:  112 222.049163120000003
+ save_forward_arrays time:  0.216223450000001094
+ save_forward_arrays time:  0.211050927000002275
+ save_forward_arrays time:  0.199233732999999802
+ iteration, start time:  113 222.363415892999996
+ save_forward_arrays time:  0.208372265999997808
+ iteration, start time:  112 223.221353926999996
+ iteration, start time:  113 223.516351216999993
+ save_forward_arrays time:  0.210399786000010636
+ iteration, start time:  113 223.456798303999989
+ iteration, start time:  113 223.488834032999989
+ save_forward_arrays time:  0.201486015999989831
+ iteration, start time:  113 223.739975509000004
+ iteration, start time:  113 223.727623092999977
+ save_forward_arrays time:  0.211634452999987843
+ save_forward_arrays time:  0.217079099000017095
+ save_forward_arrays time:  0.203945900999997320
+ save_forward_arrays time:  0.210605045000022528
+ iteration, start time:  113 223.821091032000027
+ iteration, start time:  114 223.875143264000002
+ iteration, start time:  113 223.972338632000003
+ save_forward_arrays time:  0.213272376999981361
+ save_forward_arrays time:  0.199420866999986401
+ save_forward_arrays time:  0.192966104999982235
+ iteration, start time:  114 224.293177292999985
+ save_forward_arrays time:  0.196697056000004977
+ iteration, start time:  113 225.146245348999997
+ iteration, start time:  114 225.441411843999987
+ iteration, start time:  114 225.383624951999991
+ iteration, start time:  114 225.418730732000000
+ save_forward_arrays time:  0.372703964000010046
+ save_forward_arrays time:  0.207696264000020392
+ iteration, start time:  114 225.663689852000005
+ iteration, start time:  114 225.649232880000000
+ save_forward_arrays time:  0.206794059999992896
+ save_forward_arrays time:  0.211159602999998697
+ save_forward_arrays time:  0.206267983000003596
+ iteration, start time:  114 225.746019445000002
+ save_forward_arrays time:  0.233850062999977126
+ iteration, start time:  115 225.784305295999985
+ iteration, start time:  114 225.872327767000002
+ save_forward_arrays time:  0.205685348999992357
+ save_forward_arrays time:  0.207256551000000400
+ iteration, start time:  115 226.204318000000001
+ save_forward_arrays time:  0.440444479000007050
+ save_forward_arrays time:  0.214748880000001918
+ iteration, start time:  114 227.230688757999985
+ iteration, start time:  115 227.369312928999989
+ iteration, start time:  115 227.304740595999988
+ iteration, start time:  115 227.343429336000014
+ save_forward_arrays time:  0.209434479999998757
+ save_forward_arrays time:  0.207193719999992254
+ iteration, start time:  115 227.588774583000003
+ iteration, start time:  115 227.593608299999971
+ save_forward_arrays time:  0.208129634000016495
+ save_forward_arrays time:  0.253530348999987609
+ save_forward_arrays time:  0.203220498000007410
+ save_forward_arrays time:  0.227304766000003156
+ iteration, start time:  116 227.704492783999996
+ iteration, start time:  115 227.791429640999979
+ iteration, start time:  115 227.905113713999981
+ save_forward_arrays time:  0.205009458000006362
+ save_forward_arrays time:  0.197417670000021417
+ iteration, start time:  116 228.141248615999984
+ save_forward_arrays time:  0.205068346000018664
+ save_forward_arrays time:  0.241003425999991805
+ iteration, start time:  115 229.164007317999989
+ iteration, start time:  116 229.301502862000007
+ iteration, start time:  116 229.233722365999995
+ iteration, start time:  116 229.317586561000013
+ save_forward_arrays time:  0.198164535999978852
+ iteration, start time:  116 229.521647948000009
+ save_forward_arrays time:  0.202963291999992634
+ iteration, start time:  116 229.538728484999979
+ save_forward_arrays time:  0.344147566000003735
+ save_forward_arrays time:  0.204750434999994013
+ iteration, start time:  117 229.623843012999998
+ save_forward_arrays time:  0.313397947999987991
+ save_forward_arrays time:  0.229484836000011683
+ iteration, start time:  116 229.696339804999980
+ iteration, start time:  116 229.822370039000020
+ save_forward_arrays time:  0.200766604999984111
+ save_forward_arrays time:  0.196010779000005186
+ iteration, start time:  117 230.096489786999996
+ save_forward_arrays time:  0.201683538999986922
+ save_forward_arrays time:  0.210357255999980453
+ iteration, start time:  117 231.217777045999981
+ iteration, start time:  117 231.150178593999982
+ iteration, start time:  116 231.223099094999981
+ save_forward_arrays time:  0.197645077000004221
+ iteration, start time:  117 231.444270495000012
+ save_forward_arrays time:  0.208175000000011323
+ iteration, start time:  117 231.345622843999990
+ save_forward_arrays time:  0.197391430000010359
+ iteration, start time:  117 231.483783553000023
+ save_forward_arrays time:  0.202946612000005189
+ iteration, start time:  118 231.536156710999990
+ save_forward_arrays time:  0.214754572000003918
+ iteration, start time:  117 231.602686294999984
+ save_forward_arrays time:  0.251132001000001992
+ iteration, start time:  117 231.736513979999984
+ save_forward_arrays time:  0.213931744999996454
+ iteration, start time:  118 232.019303265999980
+ save_forward_arrays time:  0.387978291999985458
+ save_forward_arrays time:  0.191637009000004355
+ save_forward_arrays time:  0.386500732000001790
+ iteration, start time:  118 233.133782695000008
+ iteration, start time:  118 233.074926481999995
+ iteration, start time:  117 233.130812501999998
+ iteration, start time:  118 233.364959321000015
+ save_forward_arrays time:  0.206436131999993222
+ iteration, start time:  118 233.273498589000013
+ iteration, start time:  118 233.444560652999996
+ save_forward_arrays time:  0.369895594999974264
+ save_forward_arrays time:  0.400741477999986273
+ iteration, start time:  118 233.523779410000003
+ save_forward_arrays time:  0.365108663000000888
+ iteration, start time:  119 233.633763209999984
+ iteration, start time:  118 233.640468613999985
+ save_forward_arrays time:  0.378987855999980638
+ save_forward_arrays time:  0.379799664999978859
+ save_forward_arrays time:  0.201903240999996569
+ save_forward_arrays time:  0.370719665999985182
+ iteration, start time:  119 234.119015683999976
+ save_forward_arrays time:  0.363884721000005129
+ save_forward_arrays time:  0.205053251000009595
+ iteration, start time:  118 235.054478990999996
+ iteration, start time:  119 235.222310469000007
+ iteration, start time:  119 235.194555006000002
+ save_forward_arrays time:  0.199064714999991565
+ iteration, start time:  119 235.459264848000004
+ save_forward_arrays time:  0.211229793999990534
+ iteration, start time:  119 235.377988939999994
+ iteration, start time:  119 235.546024000999978
+ save_forward_arrays time:  0.467353287000008777
+ save_forward_arrays time:  0.198190056000015602
+ iteration, start time:  120 235.554530571999976
+ iteration, start time:  119 235.615342042999998
+ save_forward_arrays time:  0.225108700000021145
+ save_forward_arrays time:  0.215485983000007764
+ iteration, start time:  119 235.735528940999984
+ save_forward_arrays time:  0.204489754000007906
+ save_forward_arrays time:  0.195739455999984102
+ iteration, start time:  120 236.053464409999975
+ save_forward_arrays time:  0.194044993999995086
+ save_forward_arrays time:  0.200233691000022418
+ iteration, start time:  120 237.165692218999993
+ iteration, start time:  120 237.142726875999983
+ iteration, start time:  119 237.243113865999987
+ iteration, start time:  120 237.389297290000002
+ save_forward_arrays time:  0.221694291999995130
+ save_forward_arrays time:  0.213104630000003681
+ iteration, start time:  120 237.327562837000016
+ iteration, start time:  120 237.488018646999990
+ save_forward_arrays time:  0.197643294000016567
+ save_forward_arrays time:  0.208143539000019473
+ iteration, start time:  121 237.481254080999975
+ iteration, start time:  120 237.530724402000004
+ save_forward_arrays time:  0.211351890999992520
+ save_forward_arrays time:  0.253070209999975759
+ iteration, start time:  120 237.649008627999990
+ save_forward_arrays time:  0.204029637000019193
+ iteration, start time:  121 237.970186415999990
+ save_forward_arrays time:  0.218442681999988508
+ save_forward_arrays time:  0.369340722999993432
+ save_forward_arrays time:  0.235205363000005718
+ iteration, start time:  121 239.105868125000001
+ iteration, start time:  121 239.071113127999979
+ iteration, start time:  120 239.153458112999999
+ iteration, start time:  121 239.316244303000019
+ save_forward_arrays time:  0.207063672000003862
+ save_forward_arrays time:  0.205201551000016025
+ iteration, start time:  121 239.409569991000012
+ save_forward_arrays time:  0.199307016000005888
+ iteration, start time:  121 239.293705971000009
+ save_forward_arrays time:  0.207068712999983973
+ iteration, start time:  122 239.394879898999989
+ save_forward_arrays time:  0.205222508999980846
+ save_forward_arrays time:  0.215807358000006388
+ iteration, start time:  121 239.606399885000002
+ iteration, start time:  121 239.580329817999996
+ save_forward_arrays time:  0.213980408999987048
+ save_forward_arrays time:  0.193835678999988659
+ save_forward_arrays time:  0.207252619000001914
+ iteration, start time:  122 239.919193385999989
+ save_forward_arrays time:  0.202109876999998050
+ iteration, start time:  122 241.034220435999998
+ iteration, start time:  122 240.989356746999988
+ iteration, start time:  121 241.071263248999998
+ iteration, start time:  122 241.243018814999999
+ save_forward_arrays time:  0.212766785000013670
+ save_forward_arrays time:  0.201907648000002382
+ iteration, start time:  122 241.337395551999975
+ iteration, start time:  122 241.213183495999999
+ save_forward_arrays time:  0.217231789999999592
+ save_forward_arrays time:  0.433311592999984896
+ iteration, start time:  123 241.322631384999994
+ save_forward_arrays time:  0.208395206000005828
+ save_forward_arrays time:  0.233914751000014576
+ iteration, start time:  122 241.488825406999979
+ iteration, start time:  122 241.522566310999991
+ save_forward_arrays time:  0.198752992999999378
+ save_forward_arrays time:  0.201721251000009261
+ iteration, start time:  123 241.835206158999995
+ save_forward_arrays time:  0.452116128000000117
+ save_forward_arrays time:  0.202112043999989055
+ iteration, start time:  123 242.917722060999978
+ iteration, start time:  122 242.986866330999987
+ iteration, start time:  123 243.179781206000001
+ iteration, start time:  123 243.186484592999989
+ save_forward_arrays time:  0.218069124999999531
+ save_forward_arrays time:  0.200107658000007405
+ iteration, start time:  123 243.135427386000003
+ iteration, start time:  123 243.282010985999989
+ save_forward_arrays time:  0.218268155000004072
+ save_forward_arrays time:  0.239347750999996833
+ save_forward_arrays time:  0.202161063000005470
+ save_forward_arrays time:  0.218283284999984062
+ iteration, start time:  123 243.431618558999986
+ iteration, start time:  123 243.401790356999982
+ iteration, start time:  124 243.485995279999997
+ save_forward_arrays time:  0.208040513000014471
+ save_forward_arrays time:  0.207404152999998814
+ iteration, start time:  124 243.750078078999991
+ save_forward_arrays time:  0.341254026999990856
+ save_forward_arrays time:  0.339919661999999789
+ iteration, start time:  124 244.850038787999978
+ iteration, start time:  123 244.909859240000003
+ iteration, start time:  124 245.116597468999998
+ iteration, start time:  124 245.144104981999988
+ save_forward_arrays time:  0.199447739999982332
+ iteration, start time:  124 245.052233340000015
+ iteration, start time:  124 245.210475431000020
+ save_forward_arrays time:  0.341672006999999667
+ iteration, start time:  124 245.346805209999985
+ iteration, start time:  124 245.322316489999992
+ save_forward_arrays time:  0.371851536999997734
+ save_forward_arrays time:  0.340605457000009437
+ save_forward_arrays time:  0.355895189999984041
+ save_forward_arrays time:  0.361046028999993496
+ iteration, start time:  125 245.537323948999983
+ save_forward_arrays time:  0.350369797000013250
+ iteration, start time:  125 245.803043498999983
+ save_forward_arrays time:  0.357893435999983467
+ save_forward_arrays time:  0.210047389000010298
+ save_forward_arrays time:  0.251853382999996711
+ iteration, start time:  124 246.819862303999997
+ iteration, start time:  125 246.905471283999987
+ iteration, start time:  125 247.209242435000021
+ iteration, start time:  125 247.205955944999999
+ save_forward_arrays time:  0.214077914000000646
+ save_forward_arrays time:  0.340436420000003181
+ iteration, start time:  125 247.126378595000006
+ iteration, start time:  125 247.284944780999979
+ save_forward_arrays time:  0.202775188999993361
+ save_forward_arrays time:  0.202869454999984100
+ save_forward_arrays time:  0.206472958999995626
+ save_forward_arrays time:  0.211665812000006781
+ iteration, start time:  125 247.412700514999983
+ iteration, start time:  125 247.407517285999973
+ iteration, start time:  126 247.472196922999984
+ save_forward_arrays time:  0.195348033000016130
+ save_forward_arrays time:  0.191249706000007791
+ iteration, start time:  126 247.777049611999985
+ save_forward_arrays time:  0.202981288000017912
+ save_forward_arrays time:  0.213395415000007915
+ iteration, start time:  126 248.840157152999979
+ iteration, start time:  125 248.877682735999997
+ iteration, start time:  126 249.132770687999994
+ iteration, start time:  126 249.135161630999988
+ save_forward_arrays time:  0.196585722000008900
+ save_forward_arrays time:  0.225306294000006346
+ iteration, start time:  126 249.052269646000013
+ iteration, start time:  126 249.209664997999994
+ save_forward_arrays time:  0.194025632000005999
+ save_forward_arrays time:  0.235850081000023692
+ save_forward_arrays time:  0.214509511999978031
+ iteration, start time:  126 249.317440560999984
+ save_forward_arrays time:  0.215361686999983704
+ iteration, start time:  126 249.317154323000011
+ iteration, start time:  127 249.388298422999981
+ save_forward_arrays time:  0.197848477999997385
+ save_forward_arrays time:  0.190521523999990450
+ iteration, start time:  127 249.703215285999988
+ save_forward_arrays time:  0.202334961000019575
+ save_forward_arrays time:  0.229814491000013277
+ iteration, start time:  126 250.790085290000007
+ iteration, start time:  127 250.773285002999984
+ iteration, start time:  127 251.047750516000008
+ iteration, start time:  127 251.081689296000008
+ save_forward_arrays time:  0.193349369999992859
+ save_forward_arrays time:  0.202880633999996007
+ iteration, start time:  127 250.972727528999997
+ iteration, start time:  127 251.132335435000016
+ save_forward_arrays time:  0.191055984000001899
+ save_forward_arrays time:  0.200325079000009509
+ save_forward_arrays time:  0.210293576000026405
+ iteration, start time:  127 251.221139011000020
+ iteration, start time:  127 251.218019298000002
+ save_forward_arrays time:  0.288574076000003288
+ iteration, start time:  128 251.300712721999986
+ save_forward_arrays time:  0.196024822999959270
+ save_forward_arrays time:  0.198627514999998311
+ save_forward_arrays time:  0.201863619999983257
+ iteration, start time:  128 251.641667930999972
+ save_forward_arrays time:  0.205191273000025376
+ iteration, start time:  127 252.738574963999980
+ iteration, start time:  128 252.739757520000012
+ iteration, start time:  128 253.017471537999995
+ save_forward_arrays time:  0.199130237000019861
+ iteration, start time:  128 253.048114658000031
+ save_forward_arrays time:  0.214463056999989021
+ iteration, start time:  128 252.946006583999974
+ save_forward_arrays time:  0.198772417999975914
+ iteration, start time:  128 253.189803215999973
+ save_forward_arrays time:  0.206711873999950058
+ iteration, start time:  128 253.172427318999979
+ save_forward_arrays time:  0.203758303000029173
+ iteration, start time:  128 253.177314093000007
+ iteration, start time:  129 253.265527891000005
+ save_forward_arrays time:  0.215335422999999082
+ save_forward_arrays time:  0.195841228000006140
+ save_forward_arrays time:  0.191004720000023553
+ save_forward_arrays time:  0.204197088999990228
+ iteration, start time:  129 253.613873296999998
+ save_forward_arrays time:  0.218291336999982377
+ iteration, start time:  128 254.649579909999972
+ iteration, start time:  129 254.663257844999976
+ iteration, start time:  129 254.937494528000002
+ save_forward_arrays time:  0.202155900000036581
+ iteration, start time:  129 254.973059395999996
+ save_forward_arrays time:  0.211942144000033750
+ iteration, start time:  129 254.860928853000019
+ save_forward_arrays time:  0.195048385000006874
+ iteration, start time:  129 255.111531738999986
+ save_forward_arrays time:  0.208669445999987602
+ iteration, start time:  129 255.073928133000010
+ save_forward_arrays time:  0.208865080999999009
+ iteration, start time:  129 255.077428115000032
+ iteration, start time:  130 255.175648373999962
+ save_forward_arrays time:  0.216108782999981486
+ save_forward_arrays time:  0.196984075999978359
+ save_forward_arrays time:  0.204415306999976565
+ save_forward_arrays time:  0.205158295000046564
+ iteration, start time:  130 255.539173452999989
+ save_forward_arrays time:  0.210740131000022757
+ iteration, start time:  129 256.562896484000021
+ iteration, start time:  130 256.583999119999987
+ iteration, start time:  130 256.848008789999994
+ save_forward_arrays time:  0.193232163000004675
+ iteration, start time:  130 256.895153100000016
+ save_forward_arrays time:  0.212653938000016751
+ iteration, start time:  130 256.775221627000008
+ save_forward_arrays time:  0.195801368999980241
+ iteration, start time:  130 257.037016394999966
+ iteration, start time:  130 256.976274149999995
+ save_forward_arrays time:  0.198781835999966461
+ save_forward_arrays time:  0.255515733999970962
+ iteration, start time:  130 256.991085644999998
+ iteration, start time:  131 257.090346048000015
+ save_forward_arrays time:  0.215198995000037030
+ save_forward_arrays time:  0.195132789000012963
+ save_forward_arrays time:  0.187931767999998556
+ iteration, start time:  131 257.457155225000008
+ save_forward_arrays time:  0.378995035000002645
+ save_forward_arrays time:  0.359194400999967911
+ iteration, start time:  130 258.467285355000001
+ iteration, start time:  131 258.504501935000008
+ iteration, start time:  131 258.760970963999966
+ iteration, start time:  131 258.684828250000010
+ iteration, start time:  131 258.863359845999980
+ save_forward_arrays time:  0.357007756000029985
+ iteration, start time:  131 258.958471105000001
+ iteration, start time:  131 258.876817548000020
+ save_forward_arrays time:  0.401732745000003888
+ iteration, start time:  131 258.891699023999990
+ save_forward_arrays time:  0.387537961000020914
+ save_forward_arrays time:  0.486681979000024967
+ save_forward_arrays time:  0.412473755999997138
+ iteration, start time:  132 259.178589294999995
+ save_forward_arrays time:  0.373320408999973097
+ save_forward_arrays time:  0.366097358999979861
+ save_forward_arrays time:  0.366041477000010218
+ save_forward_arrays time:  0.207258108000019092
+ iteration, start time:  132 259.529578302999994
+ save_forward_arrays time:  0.199813000000006014
+ iteration, start time:  131 260.635307151999996
+ iteration, start time:  132 260.735878134000018
+ save_forward_arrays time:  0.199560104999989107
+ iteration, start time:  132 260.913173068999981
+ iteration, start time:  132 261.076616575999992
+ iteration, start time:  132 261.078958499000009
+ save_forward_arrays time:  0.357797874000027605
+ iteration, start time:  132 261.069542030000036
+ iteration, start time:  132 261.162768986999993
+ iteration, start time:  132 261.092403515999990
+ save_forward_arrays time:  0.191358475000015460
+ save_forward_arrays time:  0.194562345000008463
+ save_forward_arrays time:  0.214909371000032934
+ iteration, start time:  133 261.209607634000008
+ save_forward_arrays time:  0.195269529999961833
+ save_forward_arrays time:  0.205709361000003810
+ save_forward_arrays time:  0.191763588000014806
+ save_forward_arrays time:  0.198791325999991386
+ iteration, start time:  133 261.552131819000010
+ save_forward_arrays time:  0.220306332000006933
+ iteration, start time:  133 262.651526386999990
+ iteration, start time:  132 262.698254595000037
+ save_forward_arrays time:  0.192221700000004603
+ iteration, start time:  133 262.991704678000019
+ iteration, start time:  133 262.994371808999972
+ iteration, start time:  133 262.843452312000011
+ iteration, start time:  133 262.972459422000043
+ iteration, start time:  133 263.075296527999967
+ iteration, start time:  133 262.997147030999997
+ save_forward_arrays time:  0.383061390000023039
+ save_forward_arrays time:  0.193586088000017753
+ save_forward_arrays time:  0.215018494999981158
+ save_forward_arrays time:  0.200176241999997728
+ save_forward_arrays time:  0.210709086999997908
+ save_forward_arrays time:  0.193534241999998358
+ save_forward_arrays time:  0.522780890999968051
+ iterations end time:  263.820784640999989
+ iterations end time:  264.347285494999994
+ iteration, start time:  133 264.635391791000018
+ save_forward_arrays time:  0.191463312999985646
+ iterations end time:  265.670896268999968
+ iterations end time:  265.797394914999984
+ iterations end time:  265.697860733000027
+ iterations end time:  265.743834766000020
+ iterations end time:  265.758114120000016
+ iterations end time:  266.006806591999975
+ iterations end time:  267.447684971000001
+ iterations end time:  267.561404459000016

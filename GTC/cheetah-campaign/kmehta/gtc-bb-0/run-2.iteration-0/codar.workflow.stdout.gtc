@@ -1,0 +1,102 @@
+ istep=            1
+ restart dest: /mnt/bb/kmehta/DATA_RESTART.bp
+ Step             1 , cr time:     133.8519576900000     
+ Step             1 , time:     136.4620200570000     
+ istep=            2
+ Step             2 , time:     1.769293980000015     
+ istep=            3
+ Step             3 , time:     1.984491090999995     
+ istep=            4
+ Step             4 , time:     1.798166621999997     
+ istep=            5
+ Step             5 , time:     2.042842285000006     
+ istep=            6
+ Step             6 , time:     1.806501297000011     
+ istep=            7
+ Step             7 , time:     1.808393487000018     
+ istep=            8
+ Step             8 , time:     1.572232126000017     
+ istep=            9
+ Step             9 , time:     1.858307196999988     
+ istep=           10
+ Step            10 , time:     1.762177186999992     
+ istep=           11
+ Step            11 , time:     1.670325040999984     
+ istep=           12
+ Step            12 , time:     1.771591804999986     
+ istep=           13
+ Step            13 , time:     1.821175562000008     
+ istep=           14
+ Step            14 , time:     1.564250817000016     
+ istep=           15
+ Step            15 , time:     1.926375231999998     
+ istep=           16
+ Step            16 , time:     1.533335665000010     
+ istep=           17
+ Step            17 , time:     1.465278805999986     
+ istep=           18
+ Step            18 , time:     1.747258160000001     
+ istep=           19
+ Step            19 , time:     1.612642194000017     
+ istep=           20
+ Step            20 , time:     1.559433218999999     
+ istep=           21
+ Step            21 , time:     1.586669532999991     
+ istep=           22
+ Step            22 , time:     1.746462600000001     
+ istep=           23
+ Step            23 , time:     1.627454701999994     
+ istep=           24
+ Step            24 , time:     1.559198576000000     
+ istep=           25
+ Step            25 , time:     1.794032213999998     
+ istep=           26
+ Step            26 , time:     1.667857303999995     
+ istep=           27
+ Step            27 , time:     1.624452432999988     
+ istep=           28
+ Step            28 , time:     1.662127666999993     
+ istep=           29
+ Step            29 , time:     1.629883702000001     
+ istep=           30
+ Step            30 , time:     1.671587150999983     
+ istep=           31
+ Step            31 , time:     1.764900337999990     
+ istep=           32
+ Step            32 , time:     1.390842112000001     
+ istep=           33
+ Step            33 , time:     1.391203375999993     
+ istep=           34
+ Step            34 , time:     1.355614970000005     
+ istep=           35
+ Step            35 , time:     1.426849976000000     
+ istep=           36
+ Step            36 , time:     1.388699626999994     
+ istep=           37
+ Step            37 , time:     1.392806721999989     
+ istep=           38
+ Step            38 , time:     1.377723581999987     
+ istep=           39
+ Step            39 , time:     1.361300231999991     
+ istep=           40
+ Step            40 , time:     1.411588418999997     
+ istep=           41
+ Step            41 , time:     1.406128433999982     
+ istep=           42
+ Step            42 , time:     1.391951042000017     
+ istep=           43
+ Step            43 , time:     1.372538214000002     
+ istep=           44
+ Step            44 , time:     1.371081882999988     
+ istep=           45
+ Step            45 , time:     1.413188147999989     
+ istep=           46
+ Step            46 , time:     1.398546479999993     
+ istep=           47
+ Step            47 , time:     1.381247182999999     
+ istep=           48
+ Step            48 , time:     1.374372730000005     
+ istep=           49
+ Step            49 , time:     1.370036163999998     
+ istep=           50
+ Step            50 , time:     1.408841406000022     

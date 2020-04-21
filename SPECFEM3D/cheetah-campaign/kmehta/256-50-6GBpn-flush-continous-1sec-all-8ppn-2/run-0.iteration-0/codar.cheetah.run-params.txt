@@ -1,0 +1,3 @@
+/autofs/nccs-svm1_proj/csc299/kmehta/specfem3d_globe/specfem3d_globe-devel-01.06.20/cheetah/bin/xspecfem3D bb
+/usr/bin/touch /mnt/bb/kmehta/DONE.txt
+/autofs/nccs-svm1_proj/csc299/kmehta/specfem3d_globe/specfem3d_globe-devel-01.06.20/cheetah/continuous-flush/bb-to-pfs.py -w 1 -s -1 -a 8

@@ -1,0 +1,2957 @@
+.
+|-- DATA
+|   |-- CMTSOLUTION
+|   |-- Par_file
+|   `-- STATIONS
+|-- DATABASES_MPI
+|   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|-- OUTPUT_FILES
+|   |-- addressing.txt
+|   |-- gpu_device_info.txt
+|   |-- gpu_device_mem_usage.txt
+|   |-- output_mesher.txt
+|   `-- values_from_mesher.h
+|-- adios_settings.txt
+|-- codar.cheetah.fob.json
+|-- codar.cheetah.run-params.json
+|-- codar.cheetah.run-params.txt
+|-- codar.cheetah.tau-forward
+|-- codar.workflow.return.forward
+|-- codar.workflow.stderr.forward
+|-- codar.workflow.stderr.post-process
+|-- codar.workflow.stdout.forward
+|-- codar.workflow.stdout.post-process
+|-- codar.workflow.walltime.forward
+|-- forward.erf_input
+|-- run0001
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0002
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0003
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0004
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0005
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0006
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0007
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0008
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0009
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+|-- run0010
+|   |-- DATA
+|   |   |-- CMTSOLUTION
+|   |   |-- STATIONS
+|   |   `-- STATIONS_ADJOINT
+|   |-- DATABASES_MPI
+|   |   |-- attenuation.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/attenuation.bp
+|   |   |-- boundary.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/boundary.bp
+|   |   |-- proc000000_reg1_topo.bin -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/proc000000_reg1_topo.bin
+|   |   |-- save_forward_arrays_undoatt.bp
+|   |   |   |-- data.0
+|   |   |   |-- data.1
+|   |   |   |-- data.10
+|   |   |   |-- data.100
+|   |   |   |-- data.101
+|   |   |   |-- data.102
+|   |   |   |-- data.103
+|   |   |   |-- data.104
+|   |   |   |-- data.105
+|   |   |   |-- data.106
+|   |   |   |-- data.107
+|   |   |   |-- data.108
+|   |   |   |-- data.109
+|   |   |   |-- data.11
+|   |   |   |-- data.110
+|   |   |   |-- data.111
+|   |   |   |-- data.112
+|   |   |   |-- data.113
+|   |   |   |-- data.114
+|   |   |   |-- data.115
+|   |   |   |-- data.116
+|   |   |   |-- data.117
+|   |   |   |-- data.118
+|   |   |   |-- data.119
+|   |   |   |-- data.12
+|   |   |   |-- data.120
+|   |   |   |-- data.121
+|   |   |   |-- data.122
+|   |   |   |-- data.123
+|   |   |   |-- data.124
+|   |   |   |-- data.125
+|   |   |   |-- data.126
+|   |   |   |-- data.127
+|   |   |   |-- data.13
+|   |   |   |-- data.14
+|   |   |   |-- data.15
+|   |   |   |-- data.16
+|   |   |   |-- data.17
+|   |   |   |-- data.18
+|   |   |   |-- data.19
+|   |   |   |-- data.2
+|   |   |   |-- data.20
+|   |   |   |-- data.21
+|   |   |   |-- data.22
+|   |   |   |-- data.23
+|   |   |   |-- data.24
+|   |   |   |-- data.25
+|   |   |   |-- data.26
+|   |   |   |-- data.27
+|   |   |   |-- data.28
+|   |   |   |-- data.29
+|   |   |   |-- data.3
+|   |   |   |-- data.30
+|   |   |   |-- data.31
+|   |   |   |-- data.32
+|   |   |   |-- data.33
+|   |   |   |-- data.34
+|   |   |   |-- data.35
+|   |   |   |-- data.36
+|   |   |   |-- data.37
+|   |   |   |-- data.38
+|   |   |   |-- data.39
+|   |   |   |-- data.4
+|   |   |   |-- data.40
+|   |   |   |-- data.41
+|   |   |   |-- data.42
+|   |   |   |-- data.43
+|   |   |   |-- data.44
+|   |   |   |-- data.45
+|   |   |   |-- data.46
+|   |   |   |-- data.47
+|   |   |   |-- data.48
+|   |   |   |-- data.49
+|   |   |   |-- data.5
+|   |   |   |-- data.50
+|   |   |   |-- data.51
+|   |   |   |-- data.52
+|   |   |   |-- data.53
+|   |   |   |-- data.54
+|   |   |   |-- data.55
+|   |   |   |-- data.56
+|   |   |   |-- data.57
+|   |   |   |-- data.58
+|   |   |   |-- data.59
+|   |   |   |-- data.6
+|   |   |   |-- data.60
+|   |   |   |-- data.61
+|   |   |   |-- data.62
+|   |   |   |-- data.63
+|   |   |   |-- data.64
+|   |   |   |-- data.65
+|   |   |   |-- data.66
+|   |   |   |-- data.67
+|   |   |   |-- data.68
+|   |   |   |-- data.69
+|   |   |   |-- data.7
+|   |   |   |-- data.70
+|   |   |   |-- data.71
+|   |   |   |-- data.72
+|   |   |   |-- data.73
+|   |   |   |-- data.74
+|   |   |   |-- data.75
+|   |   |   |-- data.76
+|   |   |   |-- data.77
+|   |   |   |-- data.78
+|   |   |   |-- data.79
+|   |   |   |-- data.8
+|   |   |   |-- data.80
+|   |   |   |-- data.81
+|   |   |   |-- data.82
+|   |   |   |-- data.83
+|   |   |   |-- data.84
+|   |   |   |-- data.85
+|   |   |   |-- data.86
+|   |   |   |-- data.87
+|   |   |   |-- data.88
+|   |   |   |-- data.89
+|   |   |   |-- data.9
+|   |   |   |-- data.90
+|   |   |   |-- data.91
+|   |   |   |-- data.92
+|   |   |   |-- data.93
+|   |   |   |-- data.94
+|   |   |   |-- data.95
+|   |   |   |-- data.96
+|   |   |   |-- data.97
+|   |   |   |-- data.98
+|   |   |   |-- data.99
+|   |   |   |-- md.0
+|   |   |   |-- md.idx
+|   |   |   `-- profiling.json
+|   |   |-- solver_data.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data.bp
+|   |   `-- solver_data_mpi.bp -> /gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/forward-simulations/256-mesher-data/DATABASES_MPI/solver_data_mpi.bp
+|   |-- OUTPUT_FILES
+|   |   |-- RECORDHEADERS
+|   |   |-- addressing.txt
+|   |   |-- output_list_stations.txt
+|   |   |-- output_mesher.txt
+|   |   |-- output_solver.txt
+|   |   |-- receiver.vtk
+|   |   |-- source.vtk
+|   |   |-- sr.vtk
+|   |   |-- starttimeloop.txt
+|   |   |-- synthetic.h5
+|   |   |-- timestamp_forward000005
+|   |   |-- timestamp_forward000500
+|   |   |-- timestamp_forward001000
+|   |   |-- timestamp_forward001500
+|   |   |-- timestamp_forward002000
+|   |   |-- timestamp_forward002500
+|   |   |-- timestamp_forward003000
+|   |   |-- timestamp_forward003500
+|   |   |-- timestamp_forward004000
+|   |   |-- timestamp_forward004500
+|   |   |-- timestamp_forward005000
+|   |   |-- timestamp_forward005500
+|   |   |-- timestamp_forward006000
+|   |   |-- timestamp_forward006500
+|   |   |-- timestamp_forward007000
+|   |   |-- timestamp_forward007500
+|   |   |-- timestamp_forward008000
+|   |   |-- timestamp_forward008500
+|   |   |-- timestamp_forward009000
+|   |   |-- timestamp_forward009500
+|   |   |-- timestamp_forward010000
+|   |   |-- timestamp_forward010500
+|   |   |-- timestamp_forward011000
+|   |   |-- timestamp_forward011500
+|   |   |-- timestamp_forward012000
+|   |   |-- timestamp_forward012500
+|   |   |-- timestamp_forward013000
+|   |   |-- timestamp_forward013500
+|   |   |-- timestamp_forward014000
+|   |   |-- timestamp_forward014500
+|   |   |-- timestamp_forward015000
+|   |   |-- timestamp_forward015500
+|   |   |-- timestamp_forward016000
+|   |   |-- timestamp_forward016500
+|   |   |-- timestamp_forward017000
+|   |   |-- timestamp_forward017500
+|   |   |-- timestamp_forward018000
+|   |   |-- timestamp_forward018500
+|   |   |-- timestamp_forward019000
+|   |   |-- timestamp_forward019500
+|   |   |-- timestamp_forward020000
+|   |   |-- timestamp_forward020500
+|   |   |-- timestamp_forward021000
+|   |   |-- timestamp_forward021500
+|   |   |-- timestamp_forward022000
+|   |   |-- timestamp_forward022500
+|   |   |-- timestamp_forward023000
+|   |   |-- timestamp_forward023500
+|   |   |-- timestamp_forward024000
+|   |   |-- timestamp_forward024500
+|   |   |-- timestamp_forward025000
+|   |   |-- timestamp_forward025500
+|   |   |-- timestamp_forward026000
+|   |   |-- timestamp_forward026500
+|   |   |-- timestamp_forward027000
+|   |   |-- timestamp_forward027500
+|   |   |-- timestamp_forward028000
+|   |   |-- timestamp_forward028500
+|   |   |-- timestamp_forward029000
+|   |   |-- timestamp_forward029500
+|   |   |-- timestamp_forward030000
+|   |   |-- timestamp_forward030500
+|   |   |-- timestamp_forward031000
+|   |   |-- timestamp_forward031500
+|   |   |-- timestamp_forward032000
+|   |   |-- timestamp_forward032500
+|   |   |-- timestamp_forward033000
+|   |   |-- timestamp_forward033500
+|   |   |-- timestamp_forward034000
+|   |   |-- timestamp_forward034500
+|   |   |-- timestamp_forward035000
+|   |   |-- timestamp_forward035500
+|   |   |-- timestamp_forward036000
+|   |   |-- timestamp_forward036500
+|   |   |-- timestamp_forward037000
+|   |   |-- timestamp_forward037500
+|   |   |-- timestamp_forward038000
+|   |   |-- timestamp_forward038500
+|   |   |-- timestamp_forward039000
+|   |   |-- timestamp_forward039500
+|   |   |-- timestamp_forward040000
+|   |   |-- timestamp_forward040500
+|   |   |-- timestamp_forward041000
+|   |   |-- timestamp_forward041500
+|   |   |-- timestamp_forward042000
+|   |   |-- timestamp_forward042500
+|   |   |-- timestamp_forward043000
+|   |   |-- timestamp_forward043500
+|   |   |-- timestamp_forward044000
+|   |   |-- timestamp_forward044500
+|   |   |-- timestamp_forward045000
+|   |   |-- timestamp_forward045500
+|   |   |-- timestamp_forward046000
+|   |   |-- timestamp_forward046500
+|   |   |-- timestamp_forward047000
+|   |   |-- timestamp_forward047500
+|   |   |-- timestamp_forward048000
+|   |   |-- timestamp_forward048500
+|   |   |-- timestamp_forward049000
+|   |   |-- timestamp_forward049500
+|   |   |-- timestamp_forward050000
+|   |   |-- timestamp_forward050500
+|   |   |-- timestamp_forward051000
+|   |   |-- timestamp_forward051500
+|   |   |-- timestamp_forward052000
+|   |   |-- timestamp_forward052500
+|   |   |-- timestamp_forward053000
+|   |   |-- timestamp_forward053500
+|   |   |-- timestamp_forward054000
+|   |   |-- timestamp_forward054500
+|   |   |-- timestamp_forward055000
+|   |   |-- timestamp_forward055500
+|   |   |-- timestamp_forward056000
+|   |   |-- timestamp_forward056500
+|   |   |-- timestamp_forward057000
+|   |   |-- timestamp_forward057500
+|   |   |-- timestamp_forward058000
+|   |   |-- timestamp_forward058500
+|   |   |-- timestamp_forward059000
+|   |   |-- timestamp_forward059500
+|   |   |-- timestamp_forward060000
+|   |   |-- timestamp_forward060500
+|   |   |-- timestamp_forward061000
+|   |   |-- timestamp_forward061500
+|   |   |-- timestamp_forward062000
+|   |   |-- timestamp_forward062500
+|   |   |-- timestamp_forward063000
+|   |   |-- timestamp_forward063500
+|   |   |-- timestamp_forward064000
+|   |   |-- timestamp_forward064500
+|   |   |-- timestamp_forward065000
+|   |   |-- timestamp_forward065500
+|   |   |-- timestamp_forward066000
+|   |   |-- timestamp_forward066500
+|   |   |-- timestamp_forward067000
+|   |   `-- values_from_mesher.h
+|   `-- SEM
+|       `-- adjoint.h5
+`-- tau.conf
+
+108 directories, 2841 files
+6.0K	DATABASES_MPI
+6.0K	DATABASES_MPI
+/mnt/bb/kmehta [error opening dir]
+
+0 directories, 0 files

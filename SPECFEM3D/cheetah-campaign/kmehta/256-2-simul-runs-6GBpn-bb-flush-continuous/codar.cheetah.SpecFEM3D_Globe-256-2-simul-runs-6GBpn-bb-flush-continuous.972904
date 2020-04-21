@@ -1,0 +1,47 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 972904: <codar.cheetah.SpecFEM3D_Globe-256-2-simul-runs-6GBpn-bb-flush-continuous> in cluster <summit> Done
+
+Job <codar.cheetah.SpecFEM3D_Globe-256-2-simul-runs-6GBpn-bb-flush-continuous> was submitted from host <login5> by user <kmehta> in cluster <summit> at Sun Mar 15 18:41:21 2020
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <kmehta> in cluster <summit> at Sun Mar 15 18:41:38 2020
+                            <42*b21n16>
+                            <42*b21n17>
+                            <42*b21n18>
+                            <42*b22n01>
+                            <42*b22n02>
+                            <42*b22n03>
+                            <42*b22n04>
+                            <42*b22n05>
+                            <42*b22n06>
+                            <42*b22n07>
+                            <42*b22n08>
+                            <42*b22n09>
+                            <42*b22n10>
+                            <42*b22n11>
+                            <42*b22n12>
+                            <42*b22n13>
+                            <42*b22n14>
+                            <42*b22n15>
+                            <42*b22n16>
+                            <42*b22n17>
+                            <42*b22n18>
+                            <42*b23n01>
+                            <42*b23n02>
+                            <42*b23n03>
+                            <42*b23n04>
+                            <42*b23n05>
+                            <42*b23n06>
+                            <42*b23n07>
+                            <42*b23n08>
+                            <42*b23n09>
+                            <42*b23n10>
+                            <42*b23n11>
+</ccs/home/kmehta> was used as the home directory.
+</gpfs/alpine/proj-shared/csc143/kmehta/specfem3d_globe/cheetah-campaign/kmehta/256-2-simul-runs-6GBpn-bb-flush-continuous> was used as the working directory.
+Started at Sun Mar 15 18:41:38 2020
+Terminated at Sun Mar 15 18:47:37 2020
+Results reported at Sun Mar 15 18:47:37 2020
+
+The output (if any) is above this job summary.
+
