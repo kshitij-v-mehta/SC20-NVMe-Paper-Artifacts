@@ -4,7 +4,8 @@ All artifacts created for the Supercomputing 2020 paper "Co-design Evaluation of
 In this repository, we have campaign data for experiments with the SPECFEM3D and GTC applications. They are placed under separate directories. Each sub-directory consists of the campaign directory and the source code used for flushing data from the node-local NVMe to the parallel file system. All experiments were run on the Summit supercomputer at ORNL.
 
 ## Source codes
-SPECFEM3D code version: git hash 907abeb5a2b89493f5fd73e7c44104a0686ccba4 in branch 'devel'. Additional instrumentation was performed by the authors to obtain performance information and diagnostics output.
+The [SPECFEM3D documentation portal](https://specfem3d-globe.readthedocs.io/en/latest) contains necessary information about obtaining the source code and inputs for SPECFEM3D. For our experiments, 
+SPECFEM3D code version: git hash 907abeb5a2b89493f5fd73e7c44104a0686ccba4 in branch 'devel' was used. Additional instrumentation was performed by the authors to obtain performance information and diagnostics output.
 
 The GTC source code is from the closed-source repository from the [research group led by Zhihong Lin at University of California, Irvine](http://phoenix.ps.uci.edu/zlin).
 
