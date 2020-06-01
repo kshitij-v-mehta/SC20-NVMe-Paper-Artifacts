@@ -24,3 +24,6 @@ In the campaign directory, there is a subdirectory for the members who ran exper
 There are several files inside an experiment workspace. The experiment configuration is stated in `codar.cheetah.run-params.*` file.
 `codar.workflow.stdout.*` is a stdout file for the applications run in the experiment.
 
+## DOI
+[![DOI](https://zenodo.org/badge/257544106.svg)](https://zenodo.org/badge/latestdoi/257544106)
+
